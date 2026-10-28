@@ -1,0 +1,44 @@
+# AI Transformation Playbook
+
+Een praktisch consultantdossier voor een **fictief accountancykantoor**. Je ontdekt procesproblemen, selecteert een verantwoorde AI-toepassing, maakt de businesscase, organiseert een pilot en helpt medewerkers ermee werken. De zes technische portfolio-repo's krijgen hiermee een bedrijfscontext.
+
+Dit is een uitgewerkte oefencase met invulbare werkdocumenten. Er heeft geen opdracht bij Titeca of een andere klant plaatsgevonden. Kosten, volumes, beschikbaarheid van stakeholders en beoogde effecten zijn expliciete scenarioaannames. Geen claim op gerealiseerde ROI, juridische conformiteit of persoonlijke beheersing.
+
+## Uitvoeren
+
+Geen externe dependencies; getest met Python 3.13.
+
+```bash
+python3 -m unittest discover -s tests -v
+python3 -m consulting.business_case
+```
+
+De CLI verwerkt [drie scenario's](data/scenarios.json) en [zes use-cases](data/use-cases.csv) tot [het reproduceerbare rapport](evidence/business-case.json). De berekening telt adoptie, procesdekking, herwerk, uurwaarde en gebruikskosten mee. Vrijgekomen capaciteit is geen automatisch gerealiseerde cashbesparing.
+
+## Werkvolgorde
+
+1. [Discovery, workshop en proces](docs/01-discovery-process.md)
+2. [Requirements, acceptatie en verantwoordelijkheden](docs/02-delivery-contract.md)
+3. [Businesscase, prioritering en keuzes](docs/03-business-case-decisions.md)
+4. [Privacy, security en risicobeoordeling](docs/04-risk-governance.md)
+5. [Pilot, opleiding, adoptie en beheer](docs/05-pilot-adoption.md)
+6. [Zes weken leren en 30 vaardigheden toetsen](docs/06-learning-roadmap.md)
+7. [Demo, interview en eerlijke positionering](docs/07-interview-evidence.md)
+8. [Actuele certificaatkeuzes](docs/08-certifications.md)
+
+## De zes repo's
+
+| Repo | Bewijs dat je ermee onderzoekt |
+|---|---|
+| [Accounting Copilot](https://github.com/phlppgdfry/enterprise-ai-accounting-copilot) | Factuurcontrole, menselijke review, betrouwbare integratie |
+| [Workflow Platform](https://github.com/phlppgdfry/agentic-workflow-platform) | Persistente stappen, toolcontracten, retries, goedkeuring |
+| [Evals & Governance](https://github.com/phlppgdfry/enterprise-ai-evals-governance) | Releasecriteria, negatieve controles, traceerbare resultaten |
+| [Knowledge Assistant](https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant) | Retrieval, toegangsfilters, bronnen en abstention |
+| [Copilot Studio Automation](https://github.com/phlppgdfry/microsoft-copilot-studio-automation) | Smalle agentconnector en afzonderlijk akkoord |
+| Deze repo | Businessanalyse, keuzes, adoptie en leren |
+
+De repo's zijn privé: reviewers hebben toegang nodig. Ze delen een casusthema maar zijn zelfstandig uitvoerbaar; er is geen bestaande gedeployde platformintegratie tussen alle zes.
+
+## Kwaliteitslat
+
+De kandidaat kan iedere claim herleiden naar een bestand, uitvoerbare demo, test en eigen oefening. Een tabel met gewenste KPI's is geen meting. Een geslaagde fixture-evaluatie is geen bewijs dat een echt model betrouwbaar is. De leertracker begint daarom op **niet getoetst**.

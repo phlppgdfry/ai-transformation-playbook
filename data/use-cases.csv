@@ -1,0 +1,7 @@
+id,name,impact,feasibility,data_readiness,adoption_readiness,risk
+UC-01,Factuurcontrole voorbereiden,5,4,4,4,3
+UC-02,Interne kennis zoeken,4,4,3,4,3
+UC-03,Ontbrekende dossierstukken signaleren,4,5,4,4,2
+UC-04,Autonoom betalingen uitvoeren,5,2,3,1,5
+UC-05,Personeel selecteren met AI,3,2,2,2,5
+UC-06,Interne opleidingen aanbevelen,3,4,4,3,2

@@ -1,0 +1,108 @@
+{
+  "scenario_results": {
+    "conservative": {
+      "assumptions": {
+        "monthly_volume": 1000,
+        "minutes_before": 8,
+        "minutes_after": 5,
+        "hourly_cost": 45,
+        "adoption": 0.4,
+        "automation_coverage": 0.6,
+        "monthly_run_cost": 350,
+        "implementation_cost": 9000,
+        "rework_rate": 0.15,
+        "rework_minutes": 4
+      },
+      "label": "Hypothetical capacity scenario; not realized cash savings",
+      "freed_hours_monthly": 9.6,
+      "capacity_value_monthly_eur": 432.0,
+      "net_capacity_value_monthly_eur": 82.0,
+      "payback_months": 109.76,
+      "first_year_net_capacity_value_eur": -8016.0
+    },
+    "base": {
+      "assumptions": {
+        "monthly_volume": 1000,
+        "minutes_before": 8,
+        "minutes_after": 3,
+        "hourly_cost": 45,
+        "adoption": 0.7,
+        "automation_coverage": 0.75,
+        "monthly_run_cost": 350,
+        "implementation_cost": 9000,
+        "rework_rate": 0.08,
+        "rework_minutes": 4
+      },
+      "label": "Hypothetical capacity scenario; not realized cash savings",
+      "freed_hours_monthly": 40.95,
+      "capacity_value_monthly_eur": 1842.75,
+      "net_capacity_value_monthly_eur": 1492.75,
+      "payback_months": 6.03,
+      "first_year_net_capacity_value_eur": 8913.0
+    },
+    "optimistic": {
+      "assumptions": {
+        "monthly_volume": 1000,
+        "minutes_before": 8,
+        "minutes_after": 2,
+        "hourly_cost": 45,
+        "adoption": 0.9,
+        "automation_coverage": 0.85,
+        "monthly_run_cost": 450,
+        "implementation_cost": 9000,
+        "rework_rate": 0.03,
+        "rework_minutes": 3
+      },
+      "label": "Hypothetical capacity scenario; not realized cash savings",
+      "freed_hours_monthly": 75.35,
+      "capacity_value_monthly_eur": 3390.86,
+      "net_capacity_value_monthly_eur": 2940.86,
+      "payback_months": 3.06,
+      "first_year_net_capacity_value_eur": 26290.35
+    }
+  },
+  "prioritization": [
+    {
+      "id": "UC-01",
+      "name": "Factuurcontrole voorbereiden",
+      "score": 4.35,
+      "gate": "discovery",
+      "risk": 3.0
+    },
+    {
+      "id": "UC-03",
+      "name": "Ontbrekende dossierstukken signaleren",
+      "score": 4.25,
+      "gate": "discovery",
+      "risk": 2.0
+    },
+    {
+      "id": "UC-02",
+      "name": "Interne kennis zoeken",
+      "score": 3.8,
+      "gate": "discovery",
+      "risk": 3.0
+    },
+    {
+      "id": "UC-06",
+      "name": "Interne opleidingen aanbevelen",
+      "score": 3.45,
+      "gate": "discovery",
+      "risk": 2.0
+    },
+    {
+      "id": "UC-04",
+      "name": "Autonoom betalingen uitvoeren",
+      "score": 3.05,
+      "gate": "specialist_review",
+      "risk": 5.0
+    },
+    {
+      "id": "UC-05",
+      "name": "Personeel selecteren met AI",
+      "score": 2.35,
+      "gate": "specialist_review",
+      "risk": 5.0
+    }
+  ]
+}

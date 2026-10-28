@@ -1,0 +1,5 @@
+{
+  "conservative": {"monthly_volume":1000,"minutes_before":8,"minutes_after":5,"hourly_cost":45,"adoption":0.4,"automation_coverage":0.6,"monthly_run_cost":350,"implementation_cost":9000,"rework_rate":0.15,"rework_minutes":4},
+  "base": {"monthly_volume":1000,"minutes_before":8,"minutes_after":3,"hourly_cost":45,"adoption":0.7,"automation_coverage":0.75,"monthly_run_cost":350,"implementation_cost":9000,"rework_rate":0.08,"rework_minutes":4},
+  "optimistic": {"monthly_volume":1000,"minutes_before":8,"minutes_after":2,"hourly_cost":45,"adoption":0.9,"automation_coverage":0.85,"monthly_run_cost":450,"implementation_cost":9000,"rework_rate":0.03,"rework_minutes":3}
+}

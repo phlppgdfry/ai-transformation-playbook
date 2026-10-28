@@ -1,0 +1,11 @@
+test_capacity_and_payback (test_business_case.BusinessCaseTests.test_capacity_and_payback) ... ok
+test_invalid_assumptions (test_business_case.BusinessCaseTests.test_invalid_assumptions) ... ok
+test_invalid_priority (test_business_case.BusinessCaseTests.test_invalid_priority) ... ok
+test_no_adoption_no_savings (test_business_case.BusinessCaseTests.test_no_adoption_no_savings) ... ok
+test_rework_can_reverse_benefits (test_business_case.BusinessCaseTests.test_rework_can_reverse_benefits) ... ok
+test_risk_cannot_be_scored_away (test_business_case.BusinessCaseTests.test_risk_cannot_be_scored_away) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK
