@@ -1,0 +1,90 @@
+name: Optional private portfolio integration
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch or tag available in all six repositories
+        required: true
+        default: main
+permissions:
+  contents: read
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Require explicitly configured private read access
+        env:
+          PORTFOLIO_TOKEN: ${{ secrets.PORTFOLIO_READ_TOKEN }}
+        run: test -n "$PORTFOLIO_TOKEN"
+      - uses: actions/checkout@v4
+        with:
+          repository: phlppgdfry/enterprise-ai-accounting-copilot
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
+          path: workspaces/enterprise-ai-accounting-copilot
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: phlppgdfry/agentic-workflow-platform
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
+          path: workspaces/agentic-workflow-platform
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: phlppgdfry/enterprise-ai-evals-governance
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
+          path: workspaces/enterprise-ai-evals-governance
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: phlppgdfry/azure-ai-rag-knowledge-assistant
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
+          path: workspaces/azure-ai-rag-knowledge-assistant
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: phlppgdfry/microsoft-copilot-studio-automation
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
+          path: workspaces/microsoft-copilot-studio-automation
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: phlppgdfry/ai-transformation-playbook
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
+          path: workspaces/ai-transformation-playbook
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install each independent environment
+        run: |
+          python -m venv workspaces/enterprise-ai-accounting-copilot/.venv
+          workspaces/enterprise-ai-accounting-copilot/.venv/bin/python -m pip install -r workspaces/enterprise-ai-accounting-copilot/requirements.lock
+          workspaces/enterprise-ai-accounting-copilot/.venv/bin/python -m pip install --no-deps -e workspaces/enterprise-ai-accounting-copilot
+          python -m venv workspaces/agentic-workflow-platform/.venv
+          workspaces/agentic-workflow-platform/.venv/bin/python -m pip install -r workspaces/agentic-workflow-platform/requirements.lock
+          workspaces/agentic-workflow-platform/.venv/bin/python -m pip install --no-deps -e workspaces/agentic-workflow-platform
+          python -m venv workspaces/enterprise-ai-evals-governance/.venv
+          workspaces/enterprise-ai-evals-governance/.venv/bin/python -m pip install -r workspaces/enterprise-ai-evals-governance/requirements.lock
+          workspaces/enterprise-ai-evals-governance/.venv/bin/python -m pip install --no-deps -e workspaces/enterprise-ai-evals-governance
+          python -m venv workspaces/azure-ai-rag-knowledge-assistant/.venv
+          workspaces/azure-ai-rag-knowledge-assistant/.venv/bin/python -m pip install -r workspaces/azure-ai-rag-knowledge-assistant/requirements.lock
+          workspaces/azure-ai-rag-knowledge-assistant/.venv/bin/python -m pip install --no-deps -e workspaces/azure-ai-rag-knowledge-assistant
+          python -m venv workspaces/microsoft-copilot-studio-automation/.venv
+          workspaces/microsoft-copilot-studio-automation/.venv/bin/python -m pip install -r workspaces/microsoft-copilot-studio-automation/requirements.lock
+          workspaces/microsoft-copilot-studio-automation/.venv/bin/python -m pip install --no-deps -e workspaces/microsoft-copilot-studio-automation
+      - name: Run actual local API integration without model calls
+        working-directory: workspaces/ai-transformation-playbook
+        run: python -m integration.scenario --root ..
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: portfolio-integration
+          path: workspaces/ai-transformation-playbook/portfolio/integration-result.json
+          retention-days: 14
