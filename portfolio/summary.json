@@ -1,0 +1,47 @@
+{
+  "repository_results": [
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "tests_passed": 35,
+      "checks_passed": true,
+      "license": "MIT License"
+    },
+    {
+      "repository": "agentic-workflow-platform",
+      "tests_passed": 44,
+      "checks_passed": true,
+      "license": "MIT License"
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "tests_passed": 29,
+      "checks_passed": true,
+      "license": "MIT License"
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "tests_passed": 21,
+      "checks_passed": true,
+      "license": "MIT License"
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "tests_passed": 17,
+      "checks_passed": true,
+      "license": "MIT License"
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "tests_passed": 9,
+      "checks_passed": true,
+      "license": "MIT License"
+    }
+  ],
+  "total_tests": 155,
+  "integration_checks_per_mode": 27,
+  "modes": [
+    "fixture",
+    "genuine-local-qwen"
+  ],
+  "browser_checks": 26
+}

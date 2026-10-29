@@ -1,0 +1,23 @@
+[
+  {
+    "service": "Azure CLI",
+    "exit_code": 0,
+    "authenticated_context_available": false,
+    "note": "Read-only authentication check; no tenant deployment or inference attempted",
+    "diagnostic": "Live inventory outside sandbox failed with SubscriptionNotFound for the selected subscription. Cached account state is not proof of usable infrastructure.",
+    "cached_context_exists": true,
+    "live_inventory_verified": false
+  },
+  {
+    "service": "Power Platform CLI",
+    "exit_code": 0,
+    "authenticated_context_available": true,
+    "note": "New isolated PhlppPortfolioApproval unmanaged solution; restricted connector has reserved example host. No existing solution changed, credentials copied, business writes or paid resource provisioning.",
+    "diagnostic": "Existing active development profile used; no account/profile change. Portfolio connector runtime has no approved HTTPS host.",
+    "cached_context_exists": true,
+    "live_connectivity": "VERIFIED: pac connector list outside sandbox connected successfully; no connectors found",
+    "connector_artifact_acceptance": "VERIFIED",
+    "solution_import_and_export": "VERIFIED",
+    "active_connector_connection": "NOT VERIFIED"
+  }
+]

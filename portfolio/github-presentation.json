@@ -1,0 +1,78 @@
+{
+  "enterprise-ai-accounting-copilot": {
+    "description": "Invoice review with Azure extraction adapters, independent approval and an idempotent mock ERP outbox. Tested synthetic portfolio case.",
+    "topics": [
+      "ai-consulting",
+      "azure-ai",
+      "document-intelligence",
+      "fastapi",
+      "human-in-the-loop",
+      "accounting"
+    ],
+    "visibility": "private",
+    "remote_applied": true
+  },
+  "agentic-workflow-platform": {
+    "description": "Durable AI tool proposals with scoped execution, checkpoints, retries and independent human approval.",
+    "topics": [
+      "agentic-ai",
+      "tool-calling",
+      "workflow-engine",
+      "human-in-the-loop",
+      "python",
+      "azure-openai"
+    ],
+    "visibility": "private",
+    "remote_applied": true
+  },
+  "enterprise-ai-evals-governance": {
+    "description": "Reproducible AI evaluation gates, security test cases and auditable release reports for enterprise AI applications.",
+    "topics": [
+      "llm-evaluation",
+      "ai-governance",
+      "ai-security",
+      "regression-testing",
+      "rag",
+      "python"
+    ],
+    "visibility": "private",
+    "remote_applied": true
+  },
+  "azure-ai-rag-knowledge-assistant": {
+    "description": "Tenant-scoped enterprise knowledge retrieval with source citations and optional Azure hybrid search.",
+    "topics": [
+      "rag",
+      "azure-ai-search",
+      "azure-openai",
+      "retrieval",
+      "access-control",
+      "python"
+    ],
+    "visibility": "private",
+    "remote_applied": true
+  },
+  "microsoft-copilot-studio-automation": {
+    "description": "Copilot Studio connector reference with separate proposal, human review and execution boundaries.",
+    "topics": [
+      "copilot-studio",
+      "power-automate",
+      "power-platform",
+      "custom-connector",
+      "human-in-the-loop"
+    ],
+    "visibility": "private",
+    "remote_applied": true
+  },
+  "ai-transformation-playbook": {
+    "description": "AI consulting case with traceable business scenarios, use-case prioritization, adoption and governance exercises.",
+    "topics": [
+      "ai-consulting",
+      "digital-transformation",
+      "business-analysis",
+      "change-management",
+      "ai-governance"
+    ],
+    "visibility": "private",
+    "remote_applied": true
+  }
+}

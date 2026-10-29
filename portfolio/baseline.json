@@ -1,0 +1,256 @@
+{
+  "executed_at": "2026-10-29T03:05:24.315193+00:00",
+  "repositories": [
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "git": {
+        "remotes": {
+          "command": "git remote -v",
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/enterprise-ai-accounting-copilot.git (fetch)\norigin\thttps://github.com/phlppgdfry/enterprise-ai-accounting-copilot.git (push)\n",
+          "stderr": ""
+        },
+        "branch": {
+          "command": "git branch --show-current",
+          "exit_code": 0,
+          "stdout": "main\n",
+          "stderr": ""
+        },
+        "status": {
+          "command": "git status --porcelain=v1",
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "commit": {
+          "command": "git rev-parse HEAD",
+          "exit_code": 0,
+          "stdout": "e0ec9989b0af9517ef53b1b4c1ce7d9472ae787c\n",
+          "stderr": ""
+        }
+      },
+      "baseline_tests": {
+        "command": ".venv/bin/python -m pytest -q",
+        "exit_code": 0,
+        "stdout": ".............................                                            [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n29 passed, 1 warning in 0.39s\n",
+        "stderr": ""
+      },
+      "checks": [
+        {
+          "command": ".venv/bin/python -m pip check",
+          "exit_code": 0,
+          "stdout": "No broken requirements found.\n",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "repository": "agentic-workflow-platform",
+      "git": {
+        "remotes": {
+          "command": "git remote -v",
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/agentic-workflow-platform.git (fetch)\norigin\thttps://github.com/phlppgdfry/agentic-workflow-platform.git (push)\n",
+          "stderr": ""
+        },
+        "branch": {
+          "command": "git branch --show-current",
+          "exit_code": 0,
+          "stdout": "main\n",
+          "stderr": ""
+        },
+        "status": {
+          "command": "git status --porcelain=v1",
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "commit": {
+          "command": "git rev-parse HEAD",
+          "exit_code": 0,
+          "stdout": "d48a3d3bd6c25491b504258b197caabcff7bb325\n",
+          "stderr": ""
+        }
+      },
+      "baseline_tests": {
+        "command": ".venv/bin/python -m pytest -q",
+        "exit_code": 0,
+        "stdout": ".........................                                                [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/agentic-workflow-platform/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n25 passed, 1 warning in 0.56s\n",
+        "stderr": ""
+      },
+      "checks": [
+        {
+          "command": ".venv/bin/python -m pip check",
+          "exit_code": 0,
+          "stdout": "No broken requirements found.\n",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "git": {
+        "remotes": {
+          "command": "git remote -v",
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/enterprise-ai-evals-governance.git (fetch)\norigin\thttps://github.com/phlppgdfry/enterprise-ai-evals-governance.git (push)\n",
+          "stderr": ""
+        },
+        "branch": {
+          "command": "git branch --show-current",
+          "exit_code": 0,
+          "stdout": "main\n",
+          "stderr": ""
+        },
+        "status": {
+          "command": "git status --porcelain=v1",
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "commit": {
+          "command": "git rev-parse HEAD",
+          "exit_code": 0,
+          "stdout": "7d48e4a15ee2681407c5517dc19b548741707ee4\n",
+          "stderr": ""
+        }
+      },
+      "baseline_tests": {
+        "command": ".venv/bin/python -m pytest -q",
+        "exit_code": 0,
+        "stdout": ".......................                                                  [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/enterprise-ai-evals-governance/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n23 passed, 1 warning in 0.33s\n",
+        "stderr": ""
+      },
+      "checks": [
+        {
+          "command": ".venv/bin/python -m pip check",
+          "exit_code": 0,
+          "stdout": "No broken requirements found.\n",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "git": {
+        "remotes": {
+          "command": "git remote -v",
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant.git (fetch)\norigin\thttps://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant.git (push)\n",
+          "stderr": ""
+        },
+        "branch": {
+          "command": "git branch --show-current",
+          "exit_code": 0,
+          "stdout": "main\n",
+          "stderr": ""
+        },
+        "status": {
+          "command": "git status --porcelain=v1",
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "commit": {
+          "command": "git rev-parse HEAD",
+          "exit_code": 0,
+          "stdout": "4c23677bd565a0628b611fb35abcfb42af305441\n",
+          "stderr": ""
+        }
+      },
+      "baseline_tests": {
+        "command": ".venv/bin/python -m pytest -q",
+        "exit_code": 0,
+        "stdout": "............                                                             [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n12 passed, 1 warning in 0.38s\n",
+        "stderr": ""
+      },
+      "checks": [
+        {
+          "command": ".venv/bin/python -m pip check",
+          "exit_code": 0,
+          "stdout": "No broken requirements found.\n",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "git": {
+        "remotes": {
+          "command": "git remote -v",
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/microsoft-copilot-studio-automation.git (fetch)\norigin\thttps://github.com/phlppgdfry/microsoft-copilot-studio-automation.git (push)\n",
+          "stderr": ""
+        },
+        "branch": {
+          "command": "git branch --show-current",
+          "exit_code": 0,
+          "stdout": "main\n",
+          "stderr": ""
+        },
+        "status": {
+          "command": "git status --porcelain=v1",
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "commit": {
+          "command": "git rev-parse HEAD",
+          "exit_code": 0,
+          "stdout": "5699e630f8288d3d8885f2f83905ff9ec4c8c540\n",
+          "stderr": ""
+        }
+      },
+      "baseline_tests": {
+        "command": ".venv/bin/python -m pytest -q",
+        "exit_code": 0,
+        "stdout": "......                                                                   [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n6 passed, 1 warning in 0.43s\n",
+        "stderr": ""
+      },
+      "checks": [
+        {
+          "command": ".venv/bin/python -m pip check",
+          "exit_code": 0,
+          "stdout": "No broken requirements found.\n",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "git": {
+        "remotes": {
+          "command": "git remote -v",
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/ai-transformation-playbook.git (fetch)\norigin\thttps://github.com/phlppgdfry/ai-transformation-playbook.git (push)\n",
+          "stderr": ""
+        },
+        "branch": {
+          "command": "git branch --show-current",
+          "exit_code": 0,
+          "stdout": "main\n",
+          "stderr": ""
+        },
+        "status": {
+          "command": "git status --porcelain=v1",
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "commit": {
+          "command": "git rev-parse HEAD",
+          "exit_code": 0,
+          "stdout": "21925968db25dfc1753080885e87a7aed888a009\n",
+          "stderr": ""
+        }
+      },
+      "baseline_tests": {
+        "command": "python3 -m unittest discover -s tests -v",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "test_capacity_and_payback (test_business_case.BusinessCaseTests.test_capacity_and_payback) ... ok\ntest_invalid_assumptions (test_business_case.BusinessCaseTests.test_invalid_assumptions) ... ok\ntest_invalid_priority (test_business_case.BusinessCaseTests.test_invalid_priority) ... ok\ntest_no_adoption_no_savings (test_business_case.BusinessCaseTests.test_no_adoption_no_savings) ... ok\ntest_rework_can_reverse_benefits (test_business_case.BusinessCaseTests.test_rework_can_reverse_benefits) ... ok\ntest_risk_cannot_be_scored_away (test_business_case.BusinessCaseTests.test_risk_cannot_be_scored_away) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+      },
+      "checks": []
+    }
+  ]
+}

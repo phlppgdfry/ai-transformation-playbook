@@ -1,0 +1,40 @@
+[
+  {
+    "wheel": "agentic_workflow_platform-0.1.0-py3-none-any.whl",
+    "sha256": "70c30f8b49c68836112aabacca28c46f66da6c3ad9524c7f354f8c7526defab4",
+    "console_assets": [
+      "workflow_platform/console.html"
+    ],
+    "local_model_module_present": true
+  },
+  {
+    "wheel": "azure_ai_rag_knowledge_assistant-0.1.0-py3-none-any.whl",
+    "sha256": "0464156c66b87f05c1fc2410170dd8d126d127a3b507dce3e358fd836d2db941",
+    "console_assets": [
+      "rag/console.html"
+    ],
+    "local_model_module_present": false
+  },
+  {
+    "wheel": "enterprise_ai_accounting_copilot-0.1.0-py3-none-any.whl",
+    "sha256": "0ea591b198eef501a57ed724ed12f0970a664ece1cef75b5a2889803f4ac4a0e",
+    "console_assets": [
+      "accounting_copilot/console.html"
+    ],
+    "local_model_module_present": false
+  },
+  {
+    "wheel": "enterprise_ai_evals_governance-0.1.0-py3-none-any.whl",
+    "sha256": "360abf482cec76255a3b17c1c2bb9335d65a2872be64c60770aa46f46165f970",
+    "console_assets": [
+      "evalgov/console.html"
+    ],
+    "local_model_module_present": false
+  },
+  {
+    "wheel": "microsoft_copilot_studio_automation-0.1.0-py3-none-any.whl",
+    "sha256": "0cc186c4438179698a665a4eb893db8d52f47d0bd532aebf84c39a5d13c1337c",
+    "console_assets": [],
+    "local_model_module_present": false
+  }
+]

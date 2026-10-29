@@ -2,6 +2,16 @@
 
 Een praktisch consultantdossier voor een **fictief accountancykantoor**. Je ontdekt procesproblemen, selecteert een verantwoorde AI-toepassing, maakt de businesscase, organiseert een pilot en helpt medewerkers ermee werken. De zes technische portfolio-repo's krijgen hiermee een bedrijfscontext.
 
+## Portfolio update — 29 October 2026
+
+Run `python3 -m consulting.server` and open <http://127.0.0.1:8086> for editable scenario assumptions, adoption sensitivity, risk-gated prioritization and a delivery roadmap. The calculator uses the tested Python model; every figure is hypothetical.
+
+Run `python3 -m integration.scenario --root ..` after independently installing the five sibling API repositories. It verifies the full local HTTP scenario using synthetic data, a fixture planner and mock sinks. The default uses no model. An [opt-in genuine local Qwen run](portfolio/integration-local-model-result.json) also passed all 27 checks; no paid cloud provisioning occurs.
+
+[Portfolio audit](portfolio/AUDIT.md) · [Completed work and evidence](portfolio/REPORT.md) · [Integration instructions](integration/README.md) · [Executive brief](portfolio/EXECUTIVE-BRIEF.md) · [Interview and learning exercises](portfolio/INTERVIEW.md)
+
+![Actual implemented workspace](evidence/screenshots/desktop.png)
+
 Dit is een uitgewerkte oefencase met invulbare werkdocumenten. Er heeft geen opdracht bij Titeca of een andere klant plaatsgevonden. Kosten, volumes, beschikbaarheid van stakeholders en beoogde effecten zijn expliciete scenarioaannames. Geen claim op gerealiseerde ROI, juridische conformiteit of persoonlijke beheersing.
 
 ## Uitvoeren
@@ -37,7 +47,7 @@ De CLI verwerkt [drie scenario's](data/scenarios.json) en [zes use-cases](data/u
 | [Copilot Studio Automation](https://github.com/phlppgdfry/microsoft-copilot-studio-automation) | Smalle agentconnector en afzonderlijk akkoord |
 | Deze repo | Businessanalyse, keuzes, adoptie en leren |
 
-De repo's zijn privé: reviewers hebben toegang nodig. Ze delen een casusthema maar zijn zelfstandig uitvoerbaar; er is geen bestaande gedeployde platformintegratie tussen alle zes.
+De repo's zijn privé: reviewers hebben toegang nodig. Ze delen een casusthema maar zijn zelfstandig uitvoerbaar; de optionele lokale integratierunner verbindt vijf API's met deze businesscase, zonder clouddeployment.
 
 ## Kwaliteitslat
 

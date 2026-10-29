@@ -1,0 +1,474 @@
+[
+  {
+    "executed_at": "2026-10-29T07:48:54.127836+00:00",
+    "repository": "enterprise-ai-accounting-copilot",
+    "checks": [
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/bin/python",
+          "--version"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "Python 3.13.18\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/bin/python",
+          "-m",
+          "pytest",
+          "-q",
+          "--junitxml=evidence/tests-2026-10-29.xml"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "...................................                                      [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n35 passed, 1 warning in 0.53s\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/bin/python",
+          "-m",
+          "pip",
+          "check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "No broken requirements found.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/bin/python",
+          "scripts/export_openapi.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/bin/ruff",
+          "check",
+          "src",
+          "tests"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "All checks passed!\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/bin/python",
+          "-m",
+          "accounting_copilot.demo"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "{\n  \"invoice\": \"55d86539-3cee-4d1e-a323-054e4b7e4379\",\n  \"approval\": \"approved\",\n  \"export\": {\n    \"exported\": [\n      \"55d86539-3cee-4d1e-a323-054e4b7e4379\"\n    ],\n    \"failed\": 0,\n    \"target\": \"local_mock_erp\"\n  },\n  \"retry\": {\n    \"exported\": [],\n    \"failed\": 0,\n    \"target\": \"local_mock_erp\"\n  },\n  \"audit\": [\n    {\n      \"sequence\": 1,\n      \"tenant\": \"demo\",\n      \"object\": \"55d86539-3cee-4d1e-a323-054e4b7e4379\",\n      \"action\": \"invoice.submitted\",\n      \"actor\": \"operator\",\n      \"timestamp\": \"2026-10-29T07:48:54.073409+00:00\",\n      \"detail\": \"{\\\"flags\\\": []}\"\n    },\n    {\n      \"sequence\": 2,\n      \"tenant\": \"demo\",\n      \"object\": \"55d86539-3cee-4d1e-a323-054e4b7e4379\",\n      \"action\": \"invoice.approved\",\n      \"actor\": \"reviewer\",\n      \"timestamp\": \"2026-10-29T07:48:54.077925+00:00\",\n      \"detail\": \"{\\\"reason\\\": \\\"Synthetic source and totals checked\\\"}\"\n    },\n    {\n      \"sequence\": 3,\n      \"tenant\": \"demo\",\n      \"object\": \"55d86539-3cee-4d1e-a323-054e4b7e4379\",\n      \"action\": \"export.mock_sent\",\n      \"actor\": \"exporter\",\n      \"timestamp\": \"2026-10-29T07:48:54.081453+00:00\",\n      \"detail\": \"{\\\"outbox\\\": \\\"81ad0d93-c8a9-47f9-ae18-954c32c6f753\\\"}\"\n    }\n  ]\n}\n",
+        "stderr": "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n  from starlette.testclient import TestClient as TestClient  # noqa\n"
+      }
+    ]
+  },
+  {
+    "executed_at": "2026-10-29T07:48:55.912849+00:00",
+    "repository": "agentic-workflow-platform",
+    "checks": [
+      {
+        "command": [
+          "/Users/philippegodfroy/agentic-workflow-platform/.venv/bin/python",
+          "--version"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "Python 3.13.18\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/agentic-workflow-platform/.venv/bin/python",
+          "-m",
+          "pytest",
+          "-q",
+          "--junitxml=evidence/tests-2026-10-29.xml"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "............................................                             [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/agentic-workflow-platform/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n44 passed, 1 warning in 0.64s\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/agentic-workflow-platform/.venv/bin/python",
+          "-m",
+          "pip",
+          "check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "No broken requirements found.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/agentic-workflow-platform/.venv/bin/python",
+          "scripts/export_openapi.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/agentic-workflow-platform/.venv/bin/python",
+          "-m",
+          "workflow_platform.cli"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "{\n  \"phase\": \"proposal\",\n  \"run_id\": \"fa26ecce-7e43-4895-9d2c-98c3b3c99a94\",\n  \"status\": \"waiting_approval\",\n  \"mode\": \"fixture\",\n  \"case_created\": false\n}\n{\n  \"phase\": \"after_approval\",\n  \"status\": \"completed\",\n  \"crm_case_id\": \"CASE-fa26ecce-7e43-4895-9d2c-98c3b3c99a94\",\n  \"metrics\": {\n    \"runs_by_status\": {\n      \"completed\": 1\n    },\n    \"retry_events\": 0,\n    \"mean_completed_seconds\": 0.017251253128051758,\n    \"measurement_note\": \"Wall time includes human waiting; synthetic local runs only\"\n  }\n}\n",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "executed_at": "2026-10-29T07:48:57.167818+00:00",
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "checks": [
+      {
+        "command": [
+          "/Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/bin/python",
+          "--version"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "Python 3.13.18\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/bin/python",
+          "-m",
+          "pytest",
+          "-q",
+          "--junitxml=evidence/tests-2026-10-29.xml"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": ".....................                                                    [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n21 passed, 1 warning in 0.29s\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/bin/python",
+          "-m",
+          "pip",
+          "check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "No broken requirements found.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/bin/python",
+          "scripts/export_openapi.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/bin/python",
+          "-m",
+          "rag.demo"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "{\n  \"mode\": \"local-extractive\",\n  \"answer\": \"Iedere factuur vereist goedkeuring van een andere medewerker dan de indiener. Een afwijkend rekeningnummer wordt eerst telefonisch gecontroleerd via een gekend contact. Automatische betaling is verboden in deze demo. [90d312a9c0054f323c29298d894d171d5816236bd76bb305d3addee05073936e]\",\n  \"abstained\": false,\n  \"citations\": [\n    {\n      \"id\": \"90d312a9c0054f323c29298d894d171d5816236bd76bb305d3addee05073936e\",\n      \"document_id\": \"invoice-policy\",\n      \"title\": \"Synthetisch factuurbeleid\",\n      \"text\": \"Iedere factuur vereist goedkeuring van een andere medewerker dan de indiener. Een afwijkend rekeningnummer wordt eerst telefonisch gecontroleerd via een gekend contact. Automatische betaling is verboden in deze demo.\",\n      \"score\": 1.252616\n    }\n  ]\n}\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/bin/python",
+          "-m",
+          "rag.evaluate"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "{\n  \"mode\": \"local-extractive\",\n  \"synthetic\": true,\n  \"k_definition\": \"unique documents; precision denominator is k\",\n  \"limitations\": \"Small authored lexical dataset, no LLM answer correctness or cloud benchmark\",\n  \"results\": [\n    {\n      \"id\": \"invoice\",\n      \"retrieved\": [\n        \"invoice-policy\"\n      ],\n      \"metrics\": {\n        \"precision_at_k\": 1.0,\n        \"recall_at_k\": 1.0,\n        \"reciprocal_rank\": 1.0,\n        \"ndcg_at_k\": 1.0\n      },\n      \"permission_pass\": true,\n      \"expected_abstention_pass\": true\n    },\n    {\n      \"id\": \"training\",\n      \"retrieved\": [\n        \"onboarding\"\n      ],\n      \"metrics\": {\n        \"precision_at_k\": 1.0,\n        \"recall_at_k\": 1.0,\n        \"reciprocal_rank\": 1.0,\n        \"ndcg_at_k\": 1.0\n      },\n      \"permission_pass\": true,\n      \"expected_abstention_pass\": true\n    },\n    {\n      \"id\": \"hr-budget\",\n      \"retrieved\": [\n        \"hr-confidential\"\n      ],\n      \"metrics\": {\n        \"precision_at_k\": 1.0,\n        \"recall_at_k\": 1.0,\n        \"reciprocal_rank\": 1.0,\n        \"ndcg_at_k\": 1.0\n      },\n      \"permission_pass\": true,\n      \"expected_abstention_pass\": true\n    },\n    {\n      \"id\": \"finance-budget-denied\",\n      \"retrieved\": [],\n      \"metrics\": {\n        \"precision_at_k\": 0.0,\n        \"recall_at_k\": null,\n        \"reciprocal_rank\": 0,\n        \"ndcg_at_k\": null\n      },\n      \"permission_pass\": true,\n      \"expected_abstention_pass\": true\n    },\n    {\n      \"id\": \"other-tenant\",\n      \"retrieved\": [],\n      \"metrics\": {\n        \"precision_at_k\": 0.0,\n        \"recall_at_k\": null,\n        \"reciprocal_rank\": 0,\n        \"ndcg_at_k\": null\n      },\n      \"permission_pass\": true,\n      \"expected_abstention_pass\": true\n    },\n    {\n      \"id\": \"no-membership\",\n      \"retrieved\": [],\n      \"metrics\": {\n        \"precision_at_k\": 0.0,\n        \"recall_at_k\": null,\n        \"reciprocal_rank\": 0,\n        \"ndcg_at_k\": null\n      },\n      \"permission_pass\": true,\n      \"expected_abstention_pass\": true\n    }\n  ]\n}\n",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "executed_at": "2026-10-29T07:48:58.835302+00:00",
+    "repository": "enterprise-ai-evals-governance",
+    "checks": [
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-evals-governance/.venv/bin/python",
+          "--version"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "Python 3.13.17\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-evals-governance/.venv/bin/python",
+          "-m",
+          "pytest",
+          "-q",
+          "--junitxml=evidence/tests-2026-10-29.xml"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": ".............................                                            [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/enterprise-ai-evals-governance/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n29 passed, 1 warning in 0.30s\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-evals-governance/.venv/bin/python",
+          "-m",
+          "pip",
+          "check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "No broken requirements found.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-evals-governance/.venv/bin/python",
+          "scripts/export_openapi.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-evals-governance/.venv/bin/python",
+          "-m",
+          "evalgov.cli",
+          "--fixture",
+          "good",
+          "--out",
+          "/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmp9pg_k5sm/good",
+          "--db",
+          "/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmp9pg_k5sm/eval.db"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "{\n  \"run_id\": \"184ecb57-6e9a-4de8-b71c-b8acfcd6133a\",\n  \"synthetic_target\": true,\n  \"cases\": 16,\n  \"pass_rate\": 1.0,\n  \"baseline_pass_rate\": null,\n  \"regression\": 0,\n  \"failed_checks\": {},\n  \"safety_failures\": 0,\n  \"budget_failures\": 0,\n  \"total_estimated_cost_usd\": 0.00288,\n  \"max_latency_ms\": 0.001,\n  \"passed\": true\n}\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/enterprise-ai-evals-governance/.venv/bin/python",
+          "-m",
+          "evalgov.cli",
+          "--fixture",
+          "unsafe",
+          "--baseline",
+          "/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmp9pg_k5sm/good/report.json",
+          "--out",
+          "/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmp9pg_k5sm/unsafe",
+          "--db",
+          "/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmp9pg_k5sm/eval.db"
+        ],
+        "exit_code": 1,
+        "expected_exit": 1,
+        "passed": true,
+        "stdout": "{\n  \"run_id\": \"073ac15b-f1af-4917-9ace-37e53c6a67ac\",\n  \"synthetic_target\": true,\n  \"cases\": 16,\n  \"pass_rate\": 0.5,\n  \"baseline_pass_rate\": 1.0,\n  \"regression\": 0.5,\n  \"failed_checks\": {\n    \"answer_terms\": 1,\n    \"citations\": 2,\n    \"refusal\": 2,\n    \"pii\": 2,\n    \"no_forbidden_terms\": 2,\n    \"tool_safety\": 3\n  },\n  \"safety_failures\": 11,\n  \"budget_failures\": 0,\n  \"total_estimated_cost_usd\": 0.00288,\n  \"max_latency_ms\": 0.001,\n  \"passed\": false\n}\n",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "executed_at": "2026-10-29T07:49:00.946480+00:00",
+    "repository": "microsoft-copilot-studio-automation",
+    "checks": [
+      {
+        "command": [
+          "/Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/bin/python",
+          "--version"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "Python 3.13.18\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/bin/python",
+          "-m",
+          "pytest",
+          "-q",
+          "--junitxml=evidence/tests-2026-10-29.xml"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": ".................                                                        [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n17 passed, 1 warning in 0.30s\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/bin/python",
+          "-m",
+          "pip",
+          "check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "No broken requirements found.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/bin/python",
+          "scripts/export_openapi.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/bin/python",
+          "scripts/export_connector.py",
+          "--check"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/bin/python",
+          "-m",
+          "automation.demo"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "{\n  \"initial\": {\n    \"id\": \"935c1701-b131-4745-a035-d75b8961a102\",\n    \"state\": \"pending\",\n    \"payload\": {\n      \"action\": \"request_missing_documents\",\n      \"description\": \"Vraag de ontbrekende synthetische dossierstukken op.\",\n      \"dossier\": \"SYN-001\"\n    },\n    \"reviewer\": null,\n    \"reason\": null,\n    \"execution_mode\": \"mock-local-task\"\n  },\n  \"without_approval_http\": 409,\n  \"final\": {\n    \"id\": \"935c1701-b131-4745-a035-d75b8961a102\",\n    \"state\": \"completed\",\n    \"payload\": {\n      \"action\": \"request_missing_documents\",\n      \"description\": \"Vraag de ontbrekende synthetische dossierstukken op.\",\n      \"dossier\": \"SYN-001\"\n    },\n    \"reviewer\": \"synthetic-reviewer\",\n    \"reason\": \"Synthetische bronnen gecontroleerd\",\n    \"execution_mode\": \"mock-local-task\"\n  },\n  \"audit\": [\n    {\n      \"seq\": 1,\n      \"actor\": \"synthetic-agent\",\n      \"action\": \"proposed\",\n      \"created\": \"2026-10-29 07:49:00\"\n    },\n    {\n      \"seq\": 2,\n      \"actor\": \"synthetic-reviewer\",\n      \"action\": \"approved\",\n      \"created\": \"2026-10-29 07:49:00\"\n    },\n    {\n      \"seq\": 3,\n      \"actor\": \"synthetic-executor\",\n      \"action\": \"mock-task-created\",\n      \"created\": \"2026-10-29 07:49:00\"\n    }\n  ],\n  \"external_calls\": 0\n}\n",
+        "stderr": "/Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n  from starlette.testclient import TestClient as TestClient  # noqa\n"
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/bin/python",
+          "scripts/package_connector.py",
+          "--origin",
+          "https://synthetic.example.com",
+          "--out",
+          "/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmp9pg_k5sm/connector"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "{\n  \"artifact_type\": \"pac-custom-connector-input\",\n  \"tenant_import_verified\": false,\n  \"solution_export\": false,\n  \"files_sha256\": {\n    \"apiDefinition.swagger.json\": \"bb97153bd52b0a6e01dbb399df8c539bca017a8fbc8160bbf3ad5dd9dfb4b2b9\",\n    \"apiProperties.json\": \"afdd61e5b5c559c23d7555c906935b3c08c81c5f19e47a2817d785eefb2dd7f8\"\n  },\n  \"permissions\": [\n    \"ProposeDossierTask\",\n    \"GetDossierTask\"\n  ],\n  \"credentials_included\": false\n}\n",
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "executed_at": "2026-10-29T07:49:01.118160+00:00",
+    "repository": "ai-transformation-playbook",
+    "checks": [
+      {
+        "command": [
+          "/Users/philippegodfroy/.venvs/py314/bin/python3",
+          "--version"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "Python 3.14.10\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/.venvs/py314/bin/python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "",
+        "stderr": "test_capacity_and_payback (test_business_case.BusinessCaseTests.test_capacity_and_payback) ... ok\ntest_invalid_assumptions (test_business_case.BusinessCaseTests.test_invalid_assumptions) ... ok\ntest_invalid_priority (test_business_case.BusinessCaseTests.test_invalid_priority) ... ok\ntest_no_adoption_no_savings (test_business_case.BusinessCaseTests.test_no_adoption_no_savings) ... ok\ntest_rework_can_reverse_benefits (test_business_case.BusinessCaseTests.test_rework_can_reverse_benefits) ... ok\ntest_risk_cannot_be_scored_away (test_business_case.BusinessCaseTests.test_risk_cannot_be_scored_away) ... ok\ntest_invalid_and_extra_values_rejected (test_workspace.WorkspaceTests.test_invalid_and_extra_values_rejected) ... ok\ntest_workspace_uses_existing_model (test_workspace.WorkspaceTests.test_workspace_uses_existing_model) ... ok\ntest_zero_adoption_remains_a_cost (test_workspace.WorkspaceTests.test_zero_adoption_remains_a_cost) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.001s\n\nOK\n"
+      },
+      {
+        "command": [
+          "/Users/philippegodfroy/.venvs/py314/bin/python3",
+          "-m",
+          "consulting.business_case",
+          "--output",
+          "/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmp9pg_k5sm/business-case.json"
+        ],
+        "exit_code": 0,
+        "expected_exit": 0,
+        "passed": true,
+        "stdout": "{\"report\": \"/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmp9pg_k5sm/business-case.json\", \"scenarios\": 3, \"use_cases\": 6}\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "compare",
+          "business-case.json"
+        ],
+        "passed": true
+      }
+    ]
+  }
+]
