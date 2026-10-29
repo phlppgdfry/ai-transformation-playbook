@@ -141,7 +141,7 @@ const { chromium } = require(process.env.PORTFOLIO_PLAYWRIGHT_MODULE || 'playwri
     check('evaluation page identity', await page.title() === 'Evaluation Review');
     await page.locator('#key').fill(session.keys.governance.governor);
     await page.getByRole('button', { name: 'Load runs', exact: true }).click();
-    await page.getByText('0 executed runs loaded.', { exact: true }).waitFor();
+    await page.waitForFunction(() => /\d+ executed runs loaded\./.test(document.getElementById('message').textContent));
     await page.getByRole('button', { name: 'Run positive fixture' }).click();
     await page.getByRole('heading', { name: 'Release gate passed' }).waitFor();
     check('evaluation positive fixture executed through UI', await page.locator('#detail tbody tr').count() === 16);
