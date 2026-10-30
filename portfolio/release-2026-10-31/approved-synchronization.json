@@ -1,0 +1,65 @@
+{
+  "authorization": "User explicitly approved six private release-branch pushes, on-push Actions usage and focused confirmed CI fixes; excluded main promotion, PRs, merges, visibility, tags, packages and cloud operations",
+  "repositories": [
+    {
+      "repository": "agentic-workflow-platform",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "local_and_fetched_remote_sha": "54e263f4ec834592ec294a9c7a21a85a9c87d8aa",
+      "destination": "https://github.com/phlppgdfry/agentic-workflow-platform.git",
+      "default_branch_sha_unchanged": "d48a3d3bd6c25491b504258b197caabcff7bb325",
+      "force_push": false,
+      "visibility_change": false,
+      "final_playbook_report_commit_follows": false
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "local_and_fetched_remote_sha": "23be5180b667786632fd1d7ddf598d5d491cc5bc",
+      "destination": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant.git",
+      "default_branch_sha_unchanged": "4c23677bd565a0628b611fb35abcfb42af305441",
+      "force_push": false,
+      "visibility_change": false,
+      "final_playbook_report_commit_follows": false
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "local_and_fetched_remote_sha": "f703d7b4a8a2eca222c3798f905838b5ab6b742b",
+      "destination": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation.git",
+      "default_branch_sha_unchanged": "5699e630f8288d3d8885f2f83905ff9ec4c8c540",
+      "force_push": false,
+      "visibility_change": false,
+      "final_playbook_report_commit_follows": false
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "local_and_fetched_remote_sha": "8f4b5425bd0a80c71b690e764663b3a612108599",
+      "destination": "https://github.com/phlppgdfry/enterprise-ai-evals-governance.git",
+      "default_branch_sha_unchanged": "7d48e4a15ee2681407c5517dc19b548741707ee4",
+      "force_push": false,
+      "visibility_change": false,
+      "final_playbook_report_commit_follows": false
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "local_and_fetched_remote_sha": "15aa403f5478dff3ef888deaeb3e88c996e9bb08",
+      "destination": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot.git",
+      "default_branch_sha_unchanged": "e0ec9989b0af9517ef53b1b4c1ce7d9472ae787c",
+      "force_push": false,
+      "visibility_change": false,
+      "final_playbook_report_commit_follows": false
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "local_and_fetched_remote_sha": "9e43e06a2ae714f5ef17441cf005272de0d20493",
+      "destination": "https://github.com/phlppgdfry/ai-transformation-playbook.git",
+      "default_branch_sha_unchanged": "21925968db25dfc1753080885e87a7aed888a009",
+      "force_push": false,
+      "visibility_change": false,
+      "final_playbook_report_commit_follows": true
+    }
+  ]
+}

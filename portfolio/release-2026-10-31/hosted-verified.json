@@ -1,0 +1,1230 @@
+{
+  "scope": "initial approved code/evidence release SHAs, before final status-only documentation commits",
+  "repositories": [
+    {
+      "repository": "agentic-workflow-platform",
+      "sha": "1e63389cacd963525e9d182c076ea2012170965c",
+      "command": [
+        "gh",
+        "run",
+        "list",
+        "--repo",
+        "phlppgdfry/agentic-workflow-platform",
+        "--branch",
+        "portfolio/enterprise-quality-2026-10-29",
+        "--commit",
+        "1e63389cacd963525e9d182c076ea2012170965c",
+        "--json",
+        "databaseId,headSha,headBranch,status,conclusion,url,name"
+      ],
+      "exit_code": 0,
+      "runs": [
+        {
+          "conclusion": "",
+          "databaseId": 41144149732,
+          "headBranch": "portfolio/enterprise-quality-2026-10-29",
+          "headSha": "1e63389cacd963525e9d182c076ea2012170965c",
+          "name": "verify",
+          "status": "in_progress",
+          "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41144149732"
+        }
+      ],
+      "error": "",
+      "inspection": {
+        "conclusion": "success",
+        "headSha": "1e63389cacd963525e9d182c076ea2012170965c",
+        "jobs": [
+          {
+            "completedAt": "2026-10-30T23:23:56Z",
+            "conclusion": "success",
+            "databaseId": 124365164047,
+            "name": "test (3.13)",
+            "startedAt": "2026-10-30T23:23:10Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-10-30T23:23:12Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-10-30T23:23:11Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:14Z",
+                "conclusion": "success",
+                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 2,
+                "startedAt": "2026-10-30T23:23:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:17Z",
+                "conclusion": "success",
+                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 3,
+                "startedAt": "2026-10-30T23:23:14Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:23Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install -r requirements.lock",
+                "number": 4,
+                "startedAt": "2026-10-30T23:23:17Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:25Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install -e . --no-deps",
+                "number": 5,
+                "startedAt": "2026-10-30T23:23:23Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:28Z",
+                "conclusion": "success",
+                "name": "Run python -m pytest -q",
+                "number": 6,
+                "startedAt": "2026-10-30T23:23:25Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:28Z",
+                "conclusion": "success",
+                "name": "Run python -m pip check",
+                "number": 7,
+                "startedAt": "2026-10-30T23:23:28Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:28Z",
+                "conclusion": "success",
+                "name": "Run python -m workflow_platform.cli",
+                "number": 8,
+                "startedAt": "2026-10-30T23:23:28Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:29Z",
+                "conclusion": "success",
+                "name": "Run python scripts/export_openapi.py --check",
+                "number": 9,
+                "startedAt": "2026-10-30T23:23:28Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:36Z",
+                "conclusion": "success",
+                "name": "Install isolated quality tools",
+                "number": 10,
+                "startedAt": "2026-10-30T23:23:29Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:36Z",
+                "conclusion": "success",
+                "name": "Lint application and tests",
+                "number": 11,
+                "startedAt": "2026-10-30T23:23:36Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:37Z",
+                "conclusion": "success",
+                "name": "Dependency vulnerability gate",
+                "number": 12,
+                "startedAt": "2026-10-30T23:23:36Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:49Z",
+                "conclusion": "success",
+                "name": "Clean wheel installation gate",
+                "number": 13,
+                "startedAt": "2026-10-30T23:23:37Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:51Z",
+                "conclusion": "success",
+                "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+                "number": 14,
+                "startedAt": "2026-10-30T23:23:49Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:53Z",
+                "conclusion": "success",
+                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 27,
+                "startedAt": "2026-10-30T23:23:51Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:53Z",
+                "conclusion": "success",
+                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 28,
+                "startedAt": "2026-10-30T23:23:53Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:54Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 29,
+                "startedAt": "2026-10-30T23:23:53Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41144149732/job/124365164047"
+          },
+          {
+            "completedAt": "2026-10-30T23:23:42Z",
+            "conclusion": "success",
+            "databaseId": 124365164362,
+            "name": "test (3.11)",
+            "startedAt": "2026-10-30T23:23:10Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-10-30T23:23:11Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-10-30T23:23:10Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:12Z",
+                "conclusion": "success",
+                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 2,
+                "startedAt": "2026-10-30T23:23:11Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:13Z",
+                "conclusion": "success",
+                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 3,
+                "startedAt": "2026-10-30T23:23:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:17Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install -r requirements.lock",
+                "number": 4,
+                "startedAt": "2026-10-30T23:23:13Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:18Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install -e . --no-deps",
+                "number": 5,
+                "startedAt": "2026-10-30T23:23:17Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:19Z",
+                "conclusion": "success",
+                "name": "Run python -m pytest -q",
+                "number": 6,
+                "startedAt": "2026-10-30T23:23:18Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:19Z",
+                "conclusion": "success",
+                "name": "Run python -m pip check",
+                "number": 7,
+                "startedAt": "2026-10-30T23:23:19Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:19Z",
+                "conclusion": "success",
+                "name": "Run python -m workflow_platform.cli",
+                "number": 8,
+                "startedAt": "2026-10-30T23:23:19Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:20Z",
+                "conclusion": "success",
+                "name": "Run python scripts/export_openapi.py --check",
+                "number": 9,
+                "startedAt": "2026-10-30T23:23:19Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:26Z",
+                "conclusion": "success",
+                "name": "Install isolated quality tools",
+                "number": 10,
+                "startedAt": "2026-10-30T23:23:20Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:26Z",
+                "conclusion": "success",
+                "name": "Lint application and tests",
+                "number": 11,
+                "startedAt": "2026-10-30T23:23:26Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:27Z",
+                "conclusion": "success",
+                "name": "Dependency vulnerability gate",
+                "number": 12,
+                "startedAt": "2026-10-30T23:23:26Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:37Z",
+                "conclusion": "success",
+                "name": "Clean wheel installation gate",
+                "number": 13,
+                "startedAt": "2026-10-30T23:23:27Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:38Z",
+                "conclusion": "success",
+                "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+                "number": 14,
+                "startedAt": "2026-10-30T23:23:37Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:39Z",
+                "conclusion": "success",
+                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 27,
+                "startedAt": "2026-10-30T23:23:38Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:40Z",
+                "conclusion": "success",
+                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 28,
+                "startedAt": "2026-10-30T23:23:39Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:40Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 29,
+                "startedAt": "2026-10-30T23:23:40Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41144149732/job/124365164362"
+          }
+        ],
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41144149732"
+      }
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "sha": "16432210b84135b22572440aa7b45559379cf56b",
+      "command": [
+        "gh",
+        "run",
+        "list",
+        "--repo",
+        "phlppgdfry/azure-ai-rag-knowledge-assistant",
+        "--branch",
+        "portfolio/enterprise-quality-2026-10-29",
+        "--commit",
+        "16432210b84135b22572440aa7b45559379cf56b",
+        "--json",
+        "databaseId,headSha,headBranch,status,conclusion,url,name"
+      ],
+      "exit_code": 0,
+      "runs": [
+        {
+          "conclusion": "",
+          "databaseId": 41144149168,
+          "headBranch": "portfolio/enterprise-quality-2026-10-29",
+          "headSha": "16432210b84135b22572440aa7b45559379cf56b",
+          "name": "Quality checks",
+          "status": "in_progress",
+          "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41144149168"
+        }
+      ],
+      "error": "",
+      "inspection": {
+        "conclusion": "success",
+        "headSha": "16432210b84135b22572440aa7b45559379cf56b",
+        "jobs": [
+          {
+            "completedAt": "2026-10-30T23:23:52Z",
+            "conclusion": "success",
+            "databaseId": 124365162167,
+            "name": "test",
+            "startedAt": "2026-10-30T23:23:10Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-10-30T23:23:12Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-10-30T23:23:11Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:13Z",
+                "conclusion": "success",
+                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 2,
+                "startedAt": "2026-10-30T23:23:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:15Z",
+                "conclusion": "success",
+                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 3,
+                "startedAt": "2026-10-30T23:23:13Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:20Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install -r requirements.lock",
+                "number": 4,
+                "startedAt": "2026-10-30T23:23:15Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:23Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install --no-deps -e .",
+                "number": 5,
+                "startedAt": "2026-10-30T23:23:20Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:25Z",
+                "conclusion": "success",
+                "name": "Run python -m pytest -q --junitxml=reports/tests.xml",
+                "number": 6,
+                "startedAt": "2026-10-30T23:23:23Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:25Z",
+                "conclusion": "success",
+                "name": "Run python -m rag.evaluate > reports/retrieval.json",
+                "number": 7,
+                "startedAt": "2026-10-30T23:23:25Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:25Z",
+                "conclusion": "success",
+                "name": "Run python -m pip check",
+                "number": 8,
+                "startedAt": "2026-10-30T23:23:25Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:26Z",
+                "conclusion": "success",
+                "name": "Run python scripts/export_openapi.py --check",
+                "number": 9,
+                "startedAt": "2026-10-30T23:23:25Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:33Z",
+                "conclusion": "success",
+                "name": "Install isolated quality tools",
+                "number": 10,
+                "startedAt": "2026-10-30T23:23:26Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:33Z",
+                "conclusion": "success",
+                "name": "Lint application and tests",
+                "number": 11,
+                "startedAt": "2026-10-30T23:23:33Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:34Z",
+                "conclusion": "success",
+                "name": "Dependency vulnerability gate",
+                "number": 12,
+                "startedAt": "2026-10-30T23:23:33Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:45Z",
+                "conclusion": "success",
+                "name": "Clean wheel installation gate",
+                "number": 13,
+                "startedAt": "2026-10-30T23:23:34Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:47Z",
+                "conclusion": "success",
+                "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+                "number": 14,
+                "startedAt": "2026-10-30T23:23:45Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:49Z",
+                "conclusion": "success",
+                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 27,
+                "startedAt": "2026-10-30T23:23:47Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:49Z",
+                "conclusion": "success",
+                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 28,
+                "startedAt": "2026-10-30T23:23:49Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:49Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 29,
+                "startedAt": "2026-10-30T23:23:49Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41144149168/job/124365162167"
+          }
+        ],
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41144149168"
+      }
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "sha": "6a624f85b7d3cdbc101acf77d49a3b87d0f784bf",
+      "command": [
+        "gh",
+        "run",
+        "list",
+        "--repo",
+        "phlppgdfry/microsoft-copilot-studio-automation",
+        "--branch",
+        "portfolio/enterprise-quality-2026-10-29",
+        "--commit",
+        "6a624f85b7d3cdbc101acf77d49a3b87d0f784bf",
+        "--json",
+        "databaseId,headSha,headBranch,status,conclusion,url,name"
+      ],
+      "exit_code": 0,
+      "runs": [
+        {
+          "conclusion": "",
+          "databaseId": 41144149099,
+          "headBranch": "portfolio/enterprise-quality-2026-10-29",
+          "headSha": "6a624f85b7d3cdbc101acf77d49a3b87d0f784bf",
+          "name": "Quality checks",
+          "status": "in_progress",
+          "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41144149099"
+        }
+      ],
+      "error": "",
+      "inspection": {
+        "conclusion": "success",
+        "headSha": "6a624f85b7d3cdbc101acf77d49a3b87d0f784bf",
+        "jobs": [
+          {
+            "completedAt": "2026-10-30T23:23:51Z",
+            "conclusion": "success",
+            "databaseId": 124365161884,
+            "name": "test",
+            "startedAt": "2026-10-30T23:23:12Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-10-30T23:23:24Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-10-30T23:23:23Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:25Z",
+                "conclusion": "success",
+                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 2,
+                "startedAt": "2026-10-30T23:23:24Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:27Z",
+                "conclusion": "success",
+                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 3,
+                "startedAt": "2026-10-30T23:23:25Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:29Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install -r requirements.lock",
+                "number": 4,
+                "startedAt": "2026-10-30T23:23:27Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:31Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install --no-deps -e .",
+                "number": 5,
+                "startedAt": "2026-10-30T23:23:29Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:32Z",
+                "conclusion": "success",
+                "name": "Run python -m pytest -q --junitxml=reports/tests.xml",
+                "number": 6,
+                "startedAt": "2026-10-30T23:23:31Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:32Z",
+                "conclusion": "success",
+                "name": "Run python scripts/export_connector.py --check",
+                "number": 7,
+                "startedAt": "2026-10-30T23:23:32Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:33Z",
+                "conclusion": "success",
+                "name": "Run python scripts/package_connector.py --origin https://synthetic.example.com --out reports/connector",
+                "number": 8,
+                "startedAt": "2026-10-30T23:23:32Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:33Z",
+                "conclusion": "success",
+                "name": "Run python -m pip check",
+                "number": 9,
+                "startedAt": "2026-10-30T23:23:33Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:33Z",
+                "conclusion": "success",
+                "name": "Run python scripts/export_openapi.py --check",
+                "number": 10,
+                "startedAt": "2026-10-30T23:23:33Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:38Z",
+                "conclusion": "success",
+                "name": "Install isolated quality tools",
+                "number": 11,
+                "startedAt": "2026-10-30T23:23:33Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:38Z",
+                "conclusion": "success",
+                "name": "Lint application and tests",
+                "number": 12,
+                "startedAt": "2026-10-30T23:23:38Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:39Z",
+                "conclusion": "success",
+                "name": "Dependency vulnerability gate",
+                "number": 13,
+                "startedAt": "2026-10-30T23:23:38Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:46Z",
+                "conclusion": "success",
+                "name": "Clean wheel installation gate",
+                "number": 14,
+                "startedAt": "2026-10-30T23:23:39Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:47Z",
+                "conclusion": "success",
+                "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+                "number": 15,
+                "startedAt": "2026-10-30T23:23:46Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:49Z",
+                "conclusion": "success",
+                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 29,
+                "startedAt": "2026-10-30T23:23:47Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:49Z",
+                "conclusion": "success",
+                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 30,
+                "startedAt": "2026-10-30T23:23:49Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:49Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 31,
+                "startedAt": "2026-10-30T23:23:49Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41144149099/job/124365161884"
+          }
+        ],
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41144149099"
+      }
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "sha": "a7e084838ab51389a6b25600ed2ccc13e4754298",
+      "command": [
+        "gh",
+        "run",
+        "list",
+        "--repo",
+        "phlppgdfry/enterprise-ai-evals-governance",
+        "--branch",
+        "portfolio/enterprise-quality-2026-10-29",
+        "--commit",
+        "a7e084838ab51389a6b25600ed2ccc13e4754298",
+        "--json",
+        "databaseId,headSha,headBranch,status,conclusion,url,name"
+      ],
+      "exit_code": 0,
+      "runs": [
+        {
+          "conclusion": "",
+          "databaseId": 41144148943,
+          "headBranch": "portfolio/enterprise-quality-2026-10-29",
+          "headSha": "a7e084838ab51389a6b25600ed2ccc13e4754298",
+          "name": "Evaluation quality gate",
+          "status": "in_progress",
+          "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41144148943"
+        }
+      ],
+      "error": "",
+      "inspection": {
+        "conclusion": "success",
+        "headSha": "a7e084838ab51389a6b25600ed2ccc13e4754298",
+        "jobs": [
+          {
+            "completedAt": "2026-10-30T23:23:49Z",
+            "conclusion": "success",
+            "databaseId": 124365161497,
+            "name": "tests",
+            "startedAt": "2026-10-30T23:23:09Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-10-30T23:23:11Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-10-30T23:23:10Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:12Z",
+                "conclusion": "success",
+                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 2,
+                "startedAt": "2026-10-30T23:23:11Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:15Z",
+                "conclusion": "success",
+                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 3,
+                "startedAt": "2026-10-30T23:23:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:20Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install -r requirements.lock",
+                "number": 4,
+                "startedAt": "2026-10-30T23:23:15Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:22Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install --no-deps -e .",
+                "number": 5,
+                "startedAt": "2026-10-30T23:23:20Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:24Z",
+                "conclusion": "success",
+                "name": "Run python -m pytest -q --junitxml=reports/tests.xml",
+                "number": 6,
+                "startedAt": "2026-10-30T23:23:22Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:24Z",
+                "conclusion": "success",
+                "name": "Run python -m pip check",
+                "number": 7,
+                "startedAt": "2026-10-30T23:23:24Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:24Z",
+                "conclusion": "success",
+                "name": "Run python scripts/export_openapi.py --check",
+                "number": 8,
+                "startedAt": "2026-10-30T23:23:24Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:25Z",
+                "conclusion": "success",
+                "name": "Positive control must pass",
+                "number": 9,
+                "startedAt": "2026-10-30T23:23:24Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:25Z",
+                "conclusion": "success",
+                "name": "Negative control must block release",
+                "number": 10,
+                "startedAt": "2026-10-30T23:23:25Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:32Z",
+                "conclusion": "success",
+                "name": "Install isolated quality tools",
+                "number": 11,
+                "startedAt": "2026-10-30T23:23:25Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:32Z",
+                "conclusion": "success",
+                "name": "Lint application and tests",
+                "number": 12,
+                "startedAt": "2026-10-30T23:23:32Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:33Z",
+                "conclusion": "success",
+                "name": "Dependency vulnerability gate",
+                "number": 13,
+                "startedAt": "2026-10-30T23:23:32Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:45Z",
+                "conclusion": "success",
+                "name": "Clean wheel installation gate",
+                "number": 14,
+                "startedAt": "2026-10-30T23:23:33Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:46Z",
+                "conclusion": "success",
+                "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+                "number": 15,
+                "startedAt": "2026-10-30T23:23:45Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:47Z",
+                "conclusion": "success",
+                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 29,
+                "startedAt": "2026-10-30T23:23:46Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:48Z",
+                "conclusion": "success",
+                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 30,
+                "startedAt": "2026-10-30T23:23:47Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:48Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 31,
+                "startedAt": "2026-10-30T23:23:48Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41144148943/job/124365161497"
+          }
+        ],
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41144148943"
+      }
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "sha": "e5c73b0f6e47f4f6c4d20667076586394c61a8b0",
+      "command": [
+        "gh",
+        "run",
+        "list",
+        "--repo",
+        "phlppgdfry/enterprise-ai-accounting-copilot",
+        "--branch",
+        "portfolio/enterprise-quality-2026-10-29",
+        "--commit",
+        "e5c73b0f6e47f4f6c4d20667076586394c61a8b0",
+        "--json",
+        "databaseId,headSha,headBranch,status,conclusion,url,name"
+      ],
+      "exit_code": 0,
+      "runs": [
+        {
+          "conclusion": "",
+          "databaseId": 41144149001,
+          "headBranch": "portfolio/enterprise-quality-2026-10-29",
+          "headSha": "e5c73b0f6e47f4f6c4d20667076586394c61a8b0",
+          "name": "accounting-quality",
+          "status": "in_progress",
+          "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41144149001"
+        }
+      ],
+      "error": "",
+      "inspection": {
+        "conclusion": "success",
+        "headSha": "e5c73b0f6e47f4f6c4d20667076586394c61a8b0",
+        "jobs": [
+          {
+            "completedAt": "2026-10-30T23:23:57Z",
+            "conclusion": "success",
+            "databaseId": 124365161864,
+            "name": "test",
+            "startedAt": "2026-10-30T23:23:10Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-10-30T23:23:12Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-10-30T23:23:11Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:13Z",
+                "conclusion": "success",
+                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 2,
+                "startedAt": "2026-10-30T23:23:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:17Z",
+                "conclusion": "success",
+                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 3,
+                "startedAt": "2026-10-30T23:23:13Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:23Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install -r requirements.lock",
+                "number": 4,
+                "startedAt": "2026-10-30T23:23:17Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:26Z",
+                "conclusion": "success",
+                "name": "Run python -m pip install --no-deps -e .",
+                "number": 5,
+                "startedAt": "2026-10-30T23:23:23Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:26Z",
+                "conclusion": "success",
+                "name": "Run ruff check src tests",
+                "number": 6,
+                "startedAt": "2026-10-30T23:23:26Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:28Z",
+                "conclusion": "success",
+                "name": "Run python -m pytest -q --junitxml=results.xml",
+                "number": 7,
+                "startedAt": "2026-10-30T23:23:26Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:28Z",
+                "conclusion": "success",
+                "name": "Run python -m pip check",
+                "number": 8,
+                "startedAt": "2026-10-30T23:23:28Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:29Z",
+                "conclusion": "success",
+                "name": "Run python scripts/export_openapi.py --check",
+                "number": 9,
+                "startedAt": "2026-10-30T23:23:28Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:29Z",
+                "conclusion": "success",
+                "name": "Run python -m accounting_copilot.demo",
+                "number": 10,
+                "startedAt": "2026-10-30T23:23:29Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:36Z",
+                "conclusion": "success",
+                "name": "Install isolated quality tools",
+                "number": 11,
+                "startedAt": "2026-10-30T23:23:29Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:36Z",
+                "conclusion": "success",
+                "name": "Lint application and tests",
+                "number": 12,
+                "startedAt": "2026-10-30T23:23:36Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:37Z",
+                "conclusion": "success",
+                "name": "Dependency vulnerability gate",
+                "number": 13,
+                "startedAt": "2026-10-30T23:23:36Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:50Z",
+                "conclusion": "success",
+                "name": "Clean wheel installation gate",
+                "number": 14,
+                "startedAt": "2026-10-30T23:23:37Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:52Z",
+                "conclusion": "success",
+                "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+                "number": 15,
+                "startedAt": "2026-10-30T23:23:50Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:54Z",
+                "conclusion": "success",
+                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 29,
+                "startedAt": "2026-10-30T23:23:52Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:55Z",
+                "conclusion": "success",
+                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 30,
+                "startedAt": "2026-10-30T23:23:54Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:55Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 31,
+                "startedAt": "2026-10-30T23:23:55Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41144149001/job/124365161864"
+          }
+        ],
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41144149001"
+      }
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "sha": "9e43e06a2ae714f5ef17441cf005272de0d20493",
+      "command": [
+        "gh",
+        "run",
+        "list",
+        "--repo",
+        "phlppgdfry/ai-transformation-playbook",
+        "--branch",
+        "portfolio/enterprise-quality-2026-10-29",
+        "--commit",
+        "9e43e06a2ae714f5ef17441cf005272de0d20493",
+        "--json",
+        "databaseId,headSha,headBranch,status,conclusion,url,name"
+      ],
+      "exit_code": 0,
+      "runs": [
+        {
+          "conclusion": "success",
+          "databaseId": 41144150649,
+          "headBranch": "portfolio/enterprise-quality-2026-10-29",
+          "headSha": "9e43e06a2ae714f5ef17441cf005272de0d20493",
+          "name": "Business case verification",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41144150649"
+        }
+      ],
+      "error": "",
+      "inspection": {
+        "conclusion": "success",
+        "headSha": "9e43e06a2ae714f5ef17441cf005272de0d20493",
+        "jobs": [
+          {
+            "completedAt": "2026-10-30T23:23:21Z",
+            "conclusion": "success",
+            "databaseId": 124365166739,
+            "name": "verify",
+            "startedAt": "2026-10-30T23:23:10Z",
+            "status": "completed",
+            "steps": [
+              {
+                "completedAt": "2026-10-30T23:23:12Z",
+                "conclusion": "success",
+                "name": "Set up job",
+                "number": 1,
+                "startedAt": "2026-10-30T23:23:11Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:13Z",
+                "conclusion": "success",
+                "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 2,
+                "startedAt": "2026-10-30T23:23:12Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:13Z",
+                "conclusion": "success",
+                "name": "Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 3,
+                "startedAt": "2026-10-30T23:23:13Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:14Z",
+                "conclusion": "success",
+                "name": "Run python -m unittest discover -s tests -v",
+                "number": 4,
+                "startedAt": "2026-10-30T23:23:13Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:14Z",
+                "conclusion": "success",
+                "name": "Run python -m consulting.business_case --output /tmp/business-case.json",
+                "number": 5,
+                "startedAt": "2026-10-30T23:23:14Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:14Z",
+                "conclusion": "success",
+                "name": "Run diff evidence/business-case.json /tmp/business-case.json",
+                "number": 6,
+                "startedAt": "2026-10-30T23:23:14Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:18Z",
+                "conclusion": "success",
+                "name": "Isolated lint tools",
+                "number": 7,
+                "startedAt": "2026-10-30T23:23:14Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:19Z",
+                "conclusion": "success",
+                "name": "Post Run actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+                "number": 13,
+                "startedAt": "2026-10-30T23:23:18Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:19Z",
+                "conclusion": "success",
+                "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+                "number": 14,
+                "startedAt": "2026-10-30T23:23:19Z",
+                "status": "completed"
+              },
+              {
+                "completedAt": "2026-10-30T23:23:19Z",
+                "conclusion": "success",
+                "name": "Complete job",
+                "number": 15,
+                "startedAt": "2026-10-30T23:23:19Z",
+                "status": "completed"
+              }
+            ],
+            "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41144150649/job/124365166739"
+          }
+        ],
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41144150649"
+      }
+    }
+  ]
+}

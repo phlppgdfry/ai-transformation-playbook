@@ -4,7 +4,7 @@ One fictional accounting practice, six independently runnable engineering compon
 
 **Start here:** [case study and architecture](portfolio/SHOWCASE.md) · [current release decision](portfolio/release-2026-10-31/REPORT.md) · [recruiter and interview handover](portfolio/release-2026-10-31/HANDOVER.md) · [hands-on ownership exercises](portfolio/release-2026-10-30/LEARNING.md).
 
-This is a synthetic consulting demonstration. Local evidence is available; hosted verification and publication have separate approval gates. Azure inference/OCR and full Copilot Studio runtime are not verified. Personal proficiency and client outcomes are not established by these repositories.
+This is a synthetic consulting demonstration. Local and hosted release checks passed on the private review branches; default-branch promotion and publication still require separate approval. Azure inference/OCR and full Copilot Studio runtime are not verified. Personal proficiency and client outcomes are not established by these repositories.
 
 Een praktisch consultantdossier voor een **fictief accountancykantoor**. Je ontdekt procesproblemen, selecteert een verantwoorde AI-toepassing, maakt de businesscase, organiseert een pilot en helpt medewerkers ermee werken. De zes technische portfolio-repo's krijgen hiermee een bedrijfscontext.
 

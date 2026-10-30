@@ -15,7 +15,7 @@ Discover the process → agree requirements and acceptance → build controlled 
 | Evals & Governance | Observe API behavior, apply explicit gates and retain positive/negative evidence | [Repository](https://github.com/phlppgdfry/enterprise-ai-evals-governance) · [review branch](https://github.com/phlppgdfry/enterprise-ai-evals-governance/tree/portfolio/enterprise-quality-2026-10-29) |
 | Microsoft Automation | Restrict an agent connector to proposals/status; separate review and execution | [Repository](https://github.com/phlppgdfry/microsoft-copilot-studio-automation) · [review branch](https://github.com/phlppgdfry/microsoft-copilot-studio-automation/tree/portfolio/enterprise-quality-2026-10-29) |
 
-The repositories are private until separately authorized otherwise. Review-branch links become available after an approved push. Their default `main` branches do not yet represent this release; promoting the release is a separate authorization step.
+The repositories are private until separately authorized otherwise. Review-branch links are available after approved pushes and successful hosted checks. Their default `main` branches do not yet represent this release; promoting the release is a separate authorization step.
 
 ## Working architecture
 

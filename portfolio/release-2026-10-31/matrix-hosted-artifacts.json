@@ -1,0 +1,45 @@
+{
+  "total_count": 2,
+  "artifacts": [
+    {
+      "id": 13019823963,
+      "node_id": "MDg6QXJ0aWZhY3QxMzAxOTgyMzk2Mw==",
+      "name": "release-evidence-3.13",
+      "size_in_bytes": 30113,
+      "url": "https://api.github.com/repos/phlppgdfry/agentic-workflow-platform/actions/artifacts/13019823963",
+      "archive_download_url": "https://api.github.com/repos/phlppgdfry/agentic-workflow-platform/actions/artifacts/13019823963/zip",
+      "expired": false,
+      "digest": "sha256:a89e4aac36b8ad1fe1e3a029280cfacd05b03ead5734ac0257e0bf5c131d8293",
+      "created_at": "2026-10-30T23:23:51Z",
+      "updated_at": "2026-10-30T23:23:51Z",
+      "expires_at": "2026-11-13T23:23:50Z",
+      "workflow_run": {
+        "id": 41144149732,
+        "repository_id": 1437517739,
+        "head_repository_id": 1437517739,
+        "head_branch": "portfolio/enterprise-quality-2026-10-29",
+        "head_sha": "1e63389cacd963525e9d182c076ea2012170965c"
+      }
+    },
+    {
+      "id": 13019464284,
+      "node_id": "MDg6QXJ0aWZhY3QxMzAxOTQ2NDI4NA==",
+      "name": "release-evidence-3.11",
+      "size_in_bytes": 30235,
+      "url": "https://api.github.com/repos/phlppgdfry/agentic-workflow-platform/actions/artifacts/13019464284",
+      "archive_download_url": "https://api.github.com/repos/phlppgdfry/agentic-workflow-platform/actions/artifacts/13019464284/zip",
+      "expired": false,
+      "digest": "sha256:0c9325bd8d5cc45206a0dd1e3ef17a321ec5a39e3214b5842c76af95a36476f8",
+      "created_at": "2026-10-30T23:23:38Z",
+      "updated_at": "2026-10-30T23:23:38Z",
+      "expires_at": "2026-11-13T23:23:37Z",
+      "workflow_run": {
+        "id": 41144149732,
+        "repository_id": 1437517739,
+        "head_repository_id": 1437517739,
+        "head_branch": "portfolio/enterprise-quality-2026-10-29",
+        "head_sha": "1e63389cacd963525e9d182c076ea2012170965c"
+      }
+    }
+  ]
+}
