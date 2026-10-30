@@ -1,0 +1,62 @@
+[
+  {
+    "repo": "enterprise-ai-accounting-copilot",
+    "command": [
+      "/Users/philippegodfroy/.local/bin/agent-tools",
+      "run",
+      "actionlint"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "repo": "agentic-workflow-platform",
+    "command": [
+      "/Users/philippegodfroy/.local/bin/agent-tools",
+      "run",
+      "actionlint"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "repo": "azure-ai-rag-knowledge-assistant",
+    "command": [
+      "/Users/philippegodfroy/.local/bin/agent-tools",
+      "run",
+      "actionlint"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "repo": "enterprise-ai-evals-governance",
+    "command": [
+      "/Users/philippegodfroy/.local/bin/agent-tools",
+      "run",
+      "actionlint"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "repo": "microsoft-copilot-studio-automation",
+    "command": [
+      "/Users/philippegodfroy/.local/bin/agent-tools",
+      "run",
+      "actionlint"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  {
+    "repo": "ai-transformation-playbook",
+    "command": [
+      "/Users/philippegodfroy/.local/bin/agent-tools",
+      "run",
+      "actionlint"
+    ],
+    "exit_code": 0,
+    "output": ""
+  }
+]

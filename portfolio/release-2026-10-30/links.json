@@ -1,0 +1,4 @@
+{
+  "scope": "local Markdown file targets; remote HTTP targets and fragment anchors not fetched",
+  "broken": []
+}

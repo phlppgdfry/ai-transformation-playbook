@@ -1,0 +1,6 @@
+{
+  "artifact": "azure_ai_rag_knowledge_assistant-0.1.0-py3-none-any.whl",
+  "sha256": "0464156c66b87f05c1fc2410170dd8d126d127a3b507dce3e358fd836d2db941",
+  "packaged_json": [],
+  "conclusion": "Prior wheel has no synthetic JSON corpus; prior demo/evaluate read external fixtures."
+}

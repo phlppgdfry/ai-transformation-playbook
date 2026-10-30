@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "isPrivate": true,
+    "nameWithOwner": "phlppgdfry/enterprise-ai-accounting-copilot"
+  },
+  {
+    "repository": "agentic-workflow-platform",
+    "isPrivate": true,
+    "nameWithOwner": "phlppgdfry/agentic-workflow-platform"
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "isPrivate": true,
+    "nameWithOwner": "phlppgdfry/azure-ai-rag-knowledge-assistant"
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "isPrivate": true,
+    "nameWithOwner": "phlppgdfry/enterprise-ai-evals-governance"
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "isPrivate": true,
+    "nameWithOwner": "phlppgdfry/microsoft-copilot-studio-automation"
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "isPrivate": true,
+    "nameWithOwner": "phlppgdfry/ai-transformation-playbook"
+  }
+]

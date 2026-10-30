@@ -1,5 +1,7 @@
 # AI Transformation Playbook
 
+Start with the [portfolio narrative and demo](portfolio/release-2026-10-30/STORY.md), [final readiness report](portfolio/release-2026-10-30/REPORT.md), and [practical ownership exercises](portfolio/release-2026-10-30/LEARNING.md). All publishing operations still require explicit approval.
+
 Een praktisch consultantdossier voor een **fictief accountancykantoor**. Je ontdekt procesproblemen, selecteert een verantwoorde AI-toepassing, maakt de businesscase, organiseert een pilot en helpt medewerkers ermee werken. De zes technische portfolio-repo's krijgen hiermee een bedrijfscontext.
 
 ## Portfolio update — 29 October 2026

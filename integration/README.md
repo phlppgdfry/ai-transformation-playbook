@@ -7,7 +7,7 @@ cd ai-transformation-playbook
 python3 -m integration.scenario --root ..
 ```
 
-The command starts five real Uvicorn APIs on random **loopback** ports, seeds temporary databases, generates ephemeral role keys, runs 27 assertions, evaluates the actual RAG/workflow APIs, writes `portfolio/integration-result.json`, and shuts down its own processes. It never reads your `.env` files or provisions cloud resources. Environment variables may exist on the host, but provider mode is explicitly pinned to local/disabled/fixture for this run. Use Python 3.11+ and independently installed service virtualenvs.
+The command starts five real Uvicorn APIs on random **loopback** ports, seeds temporary databases, generates ephemeral role keys, runs 27 assertions, evaluates the actual RAG/workflow APIs, writes `reports/integration-fixture.json`, and shuts down its own processes. It never reads your `.env` files or provisions cloud resources. Environment variables may exist on the host, but provider mode is explicitly pinned to local/disabled/fixture for this run. Use Python 3.11+ and independently installed service virtualenvs.
 
 The scenario uses explicit synthetic invoice fields, not OCR. The bounded planner is a deterministic fixture, knowledge answers are local extracts, and CRM/ERP/tasks are local mocks. Scripted reviewer identities test approval boundaries; they do not represent a real human UAT session. Four-eye checks are enforced independently by each application. Approval in one service grants no rights in another.
 
@@ -22,7 +22,7 @@ The runner prints temporary API URLs; append `/console` for accounting, workflow
 
 ## Optional browser verification
 
-Browser QA uses an existing Playwright installation and installed Chrome; it does not install dependencies automatically. Set `PORTFOLIO_PLAYWRIGHT_MODULE` to an existing module path if Playwright is not resolvable normally. `PORTFOLIO_BROWSER_CHANNEL` can select another installed channel.
+Browser QA uses the pinned Playwright dependency and installed Chrome. Run `npm ci --ignore-scripts` in `integration/` first; this downloads no browser. It does not install a browser automatically. Set `PORTFOLIO_PLAYWRIGHT_MODULE` to an existing module path if Playwright is not resolvable normally. `PORTFOLIO_BROWSER_CHANNEL` can select another installed channel.
 
 ```bash
 node integration/browser-qa.cjs /tmp/portfolio-session.json /tmp/portfolio-browser-evidence
@@ -43,3 +43,7 @@ There is no shared database, distributed transaction or claim of remote exactly-
 ## Opt-in genuine local inference
 
 The default remains model-free. To use an already installed local Qwen model, run `python3 -m integration.scenario --root .. --planner ollama --model qwen3:8b --output portfolio/integration-local-model-result.json`. This makes a real local model request; it still creates no paid cloud resources or external business effects. The local model report is separate from the default deterministic evidence.
+
+## Preserve historical evidence
+
+`integration.verify` now writes a unique timestamped directory under `reports/` by default. Use `--output YOUR_NEW_EVIDENCE_DIRECTORY` to select another destination. It never writes the October 29 evidence paths implicitly. The scenario defaults to `reports/integration-fixture.json` or `reports/integration-ollama.json`; use explicit new evidence paths for retained release records. Browser checks can use another calculator origin through `PORTFOLIO_PLAYBOOK_ORIGIN`.

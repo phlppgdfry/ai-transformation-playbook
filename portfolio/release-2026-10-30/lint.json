@@ -1,0 +1,104 @@
+[
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "command": [
+      "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.quality-venv/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--select",
+      "E4,E7,E9,F",
+      "src",
+      "tests",
+      "scripts"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "repository": "agentic-workflow-platform",
+    "command": [
+      "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.quality-venv/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--select",
+      "E4,E7,E9,F",
+      "src",
+      "tests",
+      "scripts"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "command": [
+      "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.quality-venv/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--select",
+      "E4,E7,E9,F",
+      "rag",
+      "tests",
+      "scripts"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "command": [
+      "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.quality-venv/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--select",
+      "E4,E7,E9,F",
+      "evalgov",
+      "tests",
+      "scripts"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "command": [
+      "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.quality-venv/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--select",
+      "E4,E7,E9,F",
+      "automation",
+      "tests",
+      "scripts"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "command": [
+      "/Users/philippegodfroy/enterprise-ai-accounting-copilot/.quality-venv/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--select",
+      "E4,E7,E9,F",
+      "consulting",
+      "integration",
+      "tests"
+    ],
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  }
+]

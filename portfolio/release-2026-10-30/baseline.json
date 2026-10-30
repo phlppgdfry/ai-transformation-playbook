@@ -1,0 +1,344 @@
+{
+  "at": "2026-10-30T01:13:01.858530+00:00",
+  "repositories": [
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "git": {
+        "status": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain=v1"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "branch": {
+          "command": [
+            "git",
+            "branch",
+            "--show-current"
+          ],
+          "exit_code": 0,
+          "stdout": "portfolio/enterprise-quality-2026-10-29\n",
+          "stderr": ""
+        },
+        "remotes": {
+          "command": [
+            "git",
+            "remote",
+            "-v"
+          ],
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/enterprise-ai-accounting-copilot.git (fetch)\norigin\thttps://github.com/phlppgdfry/enterprise-ai-accounting-copilot.git (push)\n",
+          "stderr": ""
+        },
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "40c6b243b35f7e5779266f7b27085fadb40b5b65\n",
+          "stderr": ""
+        }
+      },
+      "baseline": {
+        "command": [
+          ".venv/bin/python",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "exit_code": 0,
+        "stdout": "...................................                                      [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/enterprise-ai-accounting-copilot/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n35 passed, 1 warning in 0.37s\n",
+        "stderr": ""
+      }
+    },
+    {
+      "repository": "agentic-workflow-platform",
+      "git": {
+        "status": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain=v1"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "branch": {
+          "command": [
+            "git",
+            "branch",
+            "--show-current"
+          ],
+          "exit_code": 0,
+          "stdout": "portfolio/enterprise-quality-2026-10-29\n",
+          "stderr": ""
+        },
+        "remotes": {
+          "command": [
+            "git",
+            "remote",
+            "-v"
+          ],
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/agentic-workflow-platform.git (fetch)\norigin\thttps://github.com/phlppgdfry/agentic-workflow-platform.git (push)\n",
+          "stderr": ""
+        },
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "3b146abc4a1973637e08063f4f2512b75116c42d\n",
+          "stderr": ""
+        }
+      },
+      "baseline": {
+        "command": [
+          ".venv/bin/python",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "exit_code": 0,
+        "stdout": "............................................                             [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/agentic-workflow-platform/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n44 passed, 1 warning in 0.60s\n",
+        "stderr": ""
+      }
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "git": {
+        "status": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain=v1"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "branch": {
+          "command": [
+            "git",
+            "branch",
+            "--show-current"
+          ],
+          "exit_code": 0,
+          "stdout": "portfolio/enterprise-quality-2026-10-29\n",
+          "stderr": ""
+        },
+        "remotes": {
+          "command": [
+            "git",
+            "remote",
+            "-v"
+          ],
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant.git (fetch)\norigin\thttps://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant.git (push)\n",
+          "stderr": ""
+        },
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "9d498c8b3d62112676d56bb03836dbaeb2cdf975\n",
+          "stderr": ""
+        }
+      },
+      "baseline": {
+        "command": [
+          ".venv/bin/python",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "exit_code": 0,
+        "stdout": ".....................                                                    [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/azure-ai-rag-knowledge-assistant/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n21 passed, 1 warning in 0.35s\n",
+        "stderr": ""
+      }
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "git": {
+        "status": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain=v1"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "branch": {
+          "command": [
+            "git",
+            "branch",
+            "--show-current"
+          ],
+          "exit_code": 0,
+          "stdout": "portfolio/enterprise-quality-2026-10-29\n",
+          "stderr": ""
+        },
+        "remotes": {
+          "command": [
+            "git",
+            "remote",
+            "-v"
+          ],
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/enterprise-ai-evals-governance.git (fetch)\norigin\thttps://github.com/phlppgdfry/enterprise-ai-evals-governance.git (push)\n",
+          "stderr": ""
+        },
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "0ef001ff6f8059ee436ee3be12ed282916c73d5b\n",
+          "stderr": ""
+        }
+      },
+      "baseline": {
+        "command": [
+          ".venv/bin/python",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "exit_code": 0,
+        "stdout": ".............................                                            [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/enterprise-ai-evals-governance/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n29 passed, 1 warning in 0.38s\n",
+        "stderr": ""
+      }
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "git": {
+        "status": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain=v1"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "branch": {
+          "command": [
+            "git",
+            "branch",
+            "--show-current"
+          ],
+          "exit_code": 0,
+          "stdout": "portfolio/enterprise-quality-2026-10-29\n",
+          "stderr": ""
+        },
+        "remotes": {
+          "command": [
+            "git",
+            "remote",
+            "-v"
+          ],
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/microsoft-copilot-studio-automation.git (fetch)\norigin\thttps://github.com/phlppgdfry/microsoft-copilot-studio-automation.git (push)\n",
+          "stderr": ""
+        },
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "95405ac970ae09161431ac62b90e20bc32243f3a\n",
+          "stderr": ""
+        }
+      },
+      "baseline": {
+        "command": [
+          ".venv/bin/python",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "exit_code": 0,
+        "stdout": ".................                                                        [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.13/site-packages/fastapi/testclient.py:1\n  /Users/philippegodfroy/microsoft-copilot-studio-automation/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n17 passed, 1 warning in 0.36s\n",
+        "stderr": ""
+      }
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "git": {
+        "status": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain=v1"
+          ],
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "branch": {
+          "command": [
+            "git",
+            "branch",
+            "--show-current"
+          ],
+          "exit_code": 0,
+          "stdout": "portfolio/enterprise-quality-2026-10-29\n",
+          "stderr": ""
+        },
+        "remotes": {
+          "command": [
+            "git",
+            "remote",
+            "-v"
+          ],
+          "exit_code": 0,
+          "stdout": "origin\thttps://github.com/phlppgdfry/ai-transformation-playbook.git (fetch)\norigin\thttps://github.com/phlppgdfry/ai-transformation-playbook.git (push)\n",
+          "stderr": ""
+        },
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "stdout": "10a83d49ba1886722b1045f324da637aec13fe52\n",
+          "stderr": ""
+        }
+      },
+      "baseline": {
+        "command": [
+          "python3",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "test_capacity_and_payback (test_business_case.BusinessCaseTests.test_capacity_and_payback) ... ok\ntest_invalid_assumptions (test_business_case.BusinessCaseTests.test_invalid_assumptions) ... ok\ntest_invalid_priority (test_business_case.BusinessCaseTests.test_invalid_priority) ... ok\ntest_no_adoption_no_savings (test_business_case.BusinessCaseTests.test_no_adoption_no_savings) ... ok\ntest_rework_can_reverse_benefits (test_business_case.BusinessCaseTests.test_rework_can_reverse_benefits) ... ok\ntest_risk_cannot_be_scored_away (test_business_case.BusinessCaseTests.test_risk_cannot_be_scored_away) ... ok\ntest_invalid_and_extra_values_rejected (test_workspace.WorkspaceTests.test_invalid_and_extra_values_rejected) ... ok\ntest_workspace_uses_existing_model (test_workspace.WorkspaceTests.test_workspace_uses_existing_model) ... ok\ntest_zero_adoption_remains_a_cost (test_workspace.WorkspaceTests.test_zero_adoption_remains_a_cost) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.001s\n\nOK\n"
+      }
+    }
+  ]
+}

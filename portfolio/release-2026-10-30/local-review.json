@@ -1,0 +1,90 @@
+{
+  "at": "2026-10-30T04:20:13.522308+00:00",
+  "scope": "code commits before final playbook presentation/evidence commit",
+  "session_file_removed": true,
+  "repositories": [
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "baseline_commit": "40c6b24",
+      "code_commit": "5b2da9d336bcc99a040a5dad205bd682d04391a4",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot.git",
+      "new_commits": [
+        "5b2da9d Verify clean packages and prepare pinned local release gates",
+        "4657a31 Harden request admission and body deadlines with privacy regressions"
+      ],
+      "historical_evidence_modified": [],
+      "tracked_local_data": [],
+      "reachable_history_secret_findings": 0
+    },
+    {
+      "repository": "agentic-workflow-platform",
+      "baseline_commit": "3b146ab",
+      "code_commit": "3a87a9dbb4d95762be6cdab33efb6a527ecdcf96",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/agentic-workflow-platform.git",
+      "new_commits": [
+        "3a87a9d Verify clean packages and prepare pinned local release gates",
+        "b9cbd6f Harden request admission and body deadlines with privacy regressions"
+      ],
+      "historical_evidence_modified": [],
+      "tracked_local_data": [],
+      "reachable_history_secret_findings": 0
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "baseline_commit": "9d498c8",
+      "code_commit": "5290bf37862f05d765f3f97bec81b8302f114beb",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant.git",
+      "new_commits": [
+        "5290bf3 Verify clean packages and prepare pinned local release gates",
+        "a9e203c Harden request admission and body deadlines with privacy regressions"
+      ],
+      "historical_evidence_modified": [],
+      "tracked_local_data": [],
+      "reachable_history_secret_findings": 0
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "baseline_commit": "0ef001f",
+      "code_commit": "34cb181cd141525bd1094fd33a2ea95b3d2fc426",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/enterprise-ai-evals-governance.git",
+      "new_commits": [
+        "34cb181 Verify clean packages and prepare pinned local release gates",
+        "3fa31c2 Harden request admission and body deadlines with privacy regressions"
+      ],
+      "historical_evidence_modified": [],
+      "tracked_local_data": [],
+      "reachable_history_secret_findings": 0
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "baseline_commit": "95405ac",
+      "code_commit": "2dc63b0c3f007750c9bd157f07b433e39ebbb8a8",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation.git",
+      "new_commits": [
+        "2dc63b0 Verify clean packages and prepare pinned local release gates",
+        "ddc5c99 Harden request admission and body deadlines with privacy regressions"
+      ],
+      "historical_evidence_modified": [],
+      "tracked_local_data": [],
+      "reachable_history_secret_findings": 0
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "baseline_commit": "10a83d4",
+      "code_commit": "c0b9dda72d121ded503898741a40e4dc0c8cf887",
+      "branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/ai-transformation-playbook.git",
+      "new_commits": [
+        "c0b9dda Make portfolio verification repeatable and preserve historical evidence"
+      ],
+      "historical_evidence_modified": [],
+      "tracked_local_data": [],
+      "reachable_history_secret_findings": 0
+    }
+  ]
+}

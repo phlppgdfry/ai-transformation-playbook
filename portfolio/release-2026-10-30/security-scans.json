@@ -1,0 +1,42 @@
+{
+  "tool": "gitleaks 8.30.1",
+  "scope": "all reachable local Git refs, before final release commits; findings redacted",
+  "repositories": [
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "tracked_local_data": [],
+      "history_findings": 0,
+      "staged_content_findings": 0
+    },
+    {
+      "repository": "agentic-workflow-platform",
+      "tracked_local_data": [],
+      "history_findings": 0,
+      "staged_content_findings": 0
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "tracked_local_data": [],
+      "history_findings": 0,
+      "staged_content_findings": 0
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "tracked_local_data": [],
+      "history_findings": 0,
+      "staged_content_findings": 0
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "tracked_local_data": [],
+      "history_findings": 0,
+      "staged_content_findings": 0
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "tracked_local_data": [],
+      "history_findings": 0,
+      "staged_content_findings": 0
+    }
+  ]
+}
