@@ -1,6 +1,10 @@
 # AI Transformation Playbook
 
-Start with the [portfolio narrative and demo](portfolio/release-2026-10-30/STORY.md), [final readiness report](portfolio/release-2026-10-30/REPORT.md), and [practical ownership exercises](portfolio/release-2026-10-30/LEARNING.md). All publishing operations still require explicit approval.
+One fictional accounting practice, six independently runnable engineering components. Follow the case from process discovery and a transparent business case to invoice review, controlled AI tool proposals, authorized knowledge access, evaluation and a restricted Microsoft connector artifact.
+
+**Start here:** [case study and architecture](portfolio/SHOWCASE.md) · [current release decision](portfolio/release-2026-10-31/REPORT.md) · [recruiter and interview handover](portfolio/release-2026-10-31/HANDOVER.md) · [hands-on ownership exercises](portfolio/release-2026-10-30/LEARNING.md).
+
+This is a synthetic consulting demonstration. Local evidence is available; hosted verification and publication have separate approval gates. Azure inference/OCR and full Copilot Studio runtime are not verified. Personal proficiency and client outcomes are not established by these repositories.
 
 Een praktisch consultantdossier voor een **fictief accountancykantoor**. Je ontdekt procesproblemen, selecteert een verantwoorde AI-toepassing, maakt de businesscase, organiseert een pilot en helpt medewerkers ermee werken. De zes technische portfolio-repo's krijgen hiermee een bedrijfscontext.
 

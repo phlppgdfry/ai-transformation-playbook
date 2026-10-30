@@ -1,0 +1,213 @@
+{
+  "at": "2026-10-30T23:22:07.256454+00:00",
+  "scope": "local Markdown targets, staged content, preservation, known local-data patterns and exact pre-push code state; playbook report commit follows snapshot",
+  "session_removed": true,
+  "repositories": [
+    {
+      "repository": "agentic-workflow-platform",
+      "pre_handover_commit": "3a87a9dbb4d95762be6cdab33efb6a527ecdcf96",
+      "release_branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/agentic-workflow-platform.git",
+      "license_present": true,
+      "accidental_local_data": [],
+      "broken_local_markdown_targets": [],
+      "historical_evidence_modified": [],
+      "staged_secret_findings": 0,
+      "outgoing_commits": [
+        "3a87a9d Verify clean packages and prepare pinned local release gates",
+        "b9cbd6f Harden request admission and body deadlines with privacy regressions",
+        "3b146ab Document verified portfolio behavior, limits and reproducible evidence",
+        "e94a38b Add opt-in genuine local tool calling and measured model usage",
+        "f549aa5 Strengthen application boundaries and implement verifiable portfolio capabilities"
+      ],
+      "staged_files": [
+        ".github/workflows/ci.yml",
+        "README.md",
+        "evidence/release-2026-10-31/dependency-audit.json",
+        "evidence/release-2026-10-31/dependency-licenses.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/release-2026-10-31/tests.xml",
+        "evidence/release-2026-10-31/wheel.json"
+      ],
+      "release_commit": "1e63389cacd963525e9d182c076ea2012170965c",
+      "worktree_clean": true
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "pre_handover_commit": "5290bf37862f05d765f3f97bec81b8302f114beb",
+      "release_branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant.git",
+      "license_present": true,
+      "accidental_local_data": [],
+      "broken_local_markdown_targets": [],
+      "historical_evidence_modified": [],
+      "staged_secret_findings": 0,
+      "outgoing_commits": [
+        "5290bf3 Verify clean packages and prepare pinned local release gates",
+        "a9e203c Harden request admission and body deadlines with privacy regressions",
+        "9d498c8 Document verified portfolio behavior, limits and reproducible evidence",
+        "41c2928 Strengthen application boundaries and implement verifiable portfolio capabilities"
+      ],
+      "staged_files": [
+        "README.md",
+        "evidence/release-2026-10-31/dependency-audit.json",
+        "evidence/release-2026-10-31/dependency-licenses.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/release-2026-10-31/tests.xml",
+        "evidence/release-2026-10-31/wheel.json"
+      ],
+      "release_commit": "16432210b84135b22572440aa7b45559379cf56b",
+      "worktree_clean": true
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "pre_handover_commit": "2dc63b0c3f007750c9bd157f07b433e39ebbb8a8",
+      "release_branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation.git",
+      "license_present": true,
+      "accidental_local_data": [],
+      "broken_local_markdown_targets": [],
+      "historical_evidence_modified": [],
+      "staged_secret_findings": 0,
+      "outgoing_commits": [
+        "2dc63b0 Verify clean packages and prepare pinned local release gates",
+        "ddc5c99 Harden request admission and body deadlines with privacy regressions",
+        "95405ac Document verified portfolio behavior, limits and reproducible evidence",
+        "105f01e Harden approval API and add verified Microsoft connector solution artifacts"
+      ],
+      "staged_files": [
+        "README.md",
+        "evidence/release-2026-10-31/dependency-audit.json",
+        "evidence/release-2026-10-31/dependency-licenses.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/release-2026-10-31/tests.xml",
+        "evidence/release-2026-10-31/wheel.json"
+      ],
+      "release_commit": "6a624f85b7d3cdbc101acf77d49a3b87d0f784bf",
+      "worktree_clean": true
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "pre_handover_commit": "34cb181cd141525bd1094fd33a2ea95b3d2fc426",
+      "release_branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/enterprise-ai-evals-governance.git",
+      "license_present": true,
+      "accidental_local_data": [],
+      "broken_local_markdown_targets": [],
+      "historical_evidence_modified": [],
+      "staged_secret_findings": 0,
+      "outgoing_commits": [
+        "34cb181 Verify clean packages and prepare pinned local release gates",
+        "3fa31c2 Harden request admission and body deadlines with privacy regressions",
+        "0ef001f Document verified portfolio behavior, limits and reproducible evidence",
+        "b651480 Strengthen application boundaries and implement verifiable portfolio capabilities"
+      ],
+      "staged_files": [
+        "README.md",
+        "evidence/release-2026-10-31/dependency-audit.json",
+        "evidence/release-2026-10-31/dependency-licenses.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/release-2026-10-31/tests.xml",
+        "evidence/release-2026-10-31/wheel.json"
+      ],
+      "release_commit": "a7e084838ab51389a6b25600ed2ccc13e4754298",
+      "worktree_clean": true
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "pre_handover_commit": "5b2da9d336bcc99a040a5dad205bd682d04391a4",
+      "release_branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot.git",
+      "license_present": true,
+      "accidental_local_data": [],
+      "broken_local_markdown_targets": [],
+      "historical_evidence_modified": [],
+      "staged_secret_findings": 0,
+      "outgoing_commits": [
+        "5b2da9d Verify clean packages and prepare pinned local release gates",
+        "4657a31 Harden request admission and body deadlines with privacy regressions",
+        "40c6b24 Document verified portfolio behavior, limits and reproducible evidence",
+        "e8bff48 Strengthen application boundaries and implement verifiable portfolio capabilities"
+      ],
+      "staged_files": [
+        "README.md",
+        "evidence/release-2026-10-31/dependency-audit.json",
+        "evidence/release-2026-10-31/dependency-licenses.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/release-2026-10-31/tests.xml",
+        "evidence/release-2026-10-31/wheel.json"
+      ],
+      "release_commit": "e5c73b0f6e47f4f6c4d20667076586394c61a8b0",
+      "worktree_clean": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "pre_handover_commit": "78458d429516ab5ed63bd66d4dfd328dce8a3f28",
+      "release_branch": "portfolio/enterprise-quality-2026-10-29",
+      "remote": "https://github.com/phlppgdfry/ai-transformation-playbook.git",
+      "license_present": true,
+      "accidental_local_data": [],
+      "broken_local_markdown_targets": [],
+      "historical_evidence_modified": [],
+      "staged_secret_findings": 0,
+      "outgoing_commits": [
+        "78458d4 Record final portfolio readiness evidence and practical walkthroughs",
+        "c0b9dda Make portfolio verification repeatable and preserve historical evidence",
+        "10a83d4 Document verified portfolio behavior, limits and reproducible evidence",
+        "c420fcc Make browser QA repeatable against persisted evaluation runs",
+        "74035ca Add interactive consulting workspace and reproducible portfolio integration"
+      ],
+      "staged_files": [
+        "README.md",
+        "portfolio/SHOWCASE.md",
+        "portfolio/release-2026-10-31/HANDOVER.md",
+        "portfolio/release-2026-10-31/REPORT.md",
+        "portfolio/release-2026-10-31/agentic-workflow-platform-history-secrets.json",
+        "portfolio/release-2026-10-31/agentic-workflow-platform-outgoing-secrets.json",
+        "portfolio/release-2026-10-31/ai-transformation-playbook-history-secrets.json",
+        "portfolio/release-2026-10-31/azure-ai-rag-knowledge-assistant-history-secrets.json",
+        "portfolio/release-2026-10-31/azure-ai-rag-knowledge-assistant-outgoing-secrets.json",
+        "portfolio/release-2026-10-31/browser-scenario.json",
+        "portfolio/release-2026-10-31/browser/accounting-desktop.png",
+        "portfolio/release-2026-10-31/browser/accounting-mobile.png",
+        "portfolio/release-2026-10-31/browser/browser-qa.json",
+        "portfolio/release-2026-10-31/browser/governance-desktop.png",
+        "portfolio/release-2026-10-31/browser/governance-mobile.png",
+        "portfolio/release-2026-10-31/browser/playbook-desktop.png",
+        "portfolio/release-2026-10-31/browser/playbook-mobile.png",
+        "portfolio/release-2026-10-31/browser/rag-desktop.png",
+        "portfolio/release-2026-10-31/browser/rag-mobile.png",
+        "portfolio/release-2026-10-31/browser/workflow-desktop.png",
+        "portfolio/release-2026-10-31/browser/workflow-mobile.png",
+        "portfolio/release-2026-10-31/deterministic.json",
+        "portfolio/release-2026-10-31/enterprise-ai-accounting-copilot-history-secrets.json",
+        "portfolio/release-2026-10-31/enterprise-ai-accounting-copilot-outgoing-secrets.json",
+        "portfolio/release-2026-10-31/enterprise-ai-evals-governance-history-secrets.json",
+        "portfolio/release-2026-10-31/enterprise-ai-evals-governance-outgoing-secrets.json",
+        "portfolio/release-2026-10-31/final-review.json",
+        "portfolio/release-2026-10-31/git-baseline.json",
+        "portfolio/release-2026-10-31/github-presentation.json",
+        "portfolio/release-2026-10-31/hosted-before-push.json",
+        "portfolio/release-2026-10-31/local-inference.json",
+        "portfolio/release-2026-10-31/matrix-artifacts.json",
+        "portfolio/release-2026-10-31/microsoft-copilot-studio-automation-history-secrets.json",
+        "portfolio/release-2026-10-31/microsoft-copilot-studio-automation-outgoing-secrets.json",
+        "portfolio/release-2026-10-31/npm-audit.json",
+        "portfolio/release-2026-10-31/quality-security.json",
+        "portfolio/release-2026-10-31/remote-metadata.json",
+        "portfolio/release-2026-10-31/repository-checks/agentic-workflow-platform-tests.xml",
+        "portfolio/release-2026-10-31/repository-checks/agentic-workflow-platform.json",
+        "portfolio/release-2026-10-31/repository-checks/ai-transformation-playbook.json",
+        "portfolio/release-2026-10-31/repository-checks/azure-ai-rag-knowledge-assistant-tests.xml",
+        "portfolio/release-2026-10-31/repository-checks/azure-ai-rag-knowledge-assistant.json",
+        "portfolio/release-2026-10-31/repository-checks/enterprise-ai-accounting-copilot-tests.xml",
+        "portfolio/release-2026-10-31/repository-checks/enterprise-ai-accounting-copilot.json",
+        "portfolio/release-2026-10-31/repository-checks/enterprise-ai-evals-governance-tests.xml",
+        "portfolio/release-2026-10-31/repository-checks/enterprise-ai-evals-governance.json",
+        "portfolio/release-2026-10-31/repository-checks/microsoft-copilot-studio-automation-tests.xml",
+        "portfolio/release-2026-10-31/repository-checks/microsoft-copilot-studio-automation.json",
+        "portfolio/release-2026-10-31/repository-checks/verification.json"
+      ]
+    }
+  ]
+}

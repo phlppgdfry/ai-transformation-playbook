@@ -1,0 +1,134 @@
+{
+  "browser": "Playwright Chromium",
+  "browser_version": "156.0.8078.74",
+  "node_version": "v24.22.2",
+  "screenshot_mode": "viewport",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "browser_plugin": "not available; existing Playwright used",
+  "checks": [
+    {
+      "check": "playbook page identity",
+      "passed": true
+    },
+    {
+      "check": "zero adoption has no positive payback",
+      "passed": true
+    },
+    {
+      "check": "scenario evidence download",
+      "passed": true
+    },
+    {
+      "check": "playbook has no mobile page overflow",
+      "passed": true
+    },
+    {
+      "check": "accounting page identity",
+      "passed": true
+    },
+    {
+      "check": "JSON source import preserves explicit fields without AI claim",
+      "passed": true
+    },
+    {
+      "check": "accounting browser cannot approve as operator",
+      "passed": true
+    },
+    {
+      "check": "accounting reviewer approval updates real state",
+      "passed": true
+    },
+    {
+      "check": "accounting has no mobile page overflow",
+      "passed": true
+    },
+    {
+      "check": "accounting UI delivers approved invoice to local mock",
+      "passed": true
+    },
+    {
+      "check": "accounting clears source and invoice data on disconnect",
+      "passed": true
+    },
+    {
+      "check": "workflow page identity",
+      "passed": true
+    },
+    {
+      "check": "workflow exposes actual accounting and RAG receipts",
+      "passed": true
+    },
+    {
+      "check": "workflow self approval blocked in browser",
+      "passed": true
+    },
+    {
+      "check": "workflow has no mobile page overflow",
+      "passed": true
+    },
+    {
+      "check": "workflow reviewer advances approval state",
+      "passed": true
+    },
+    {
+      "check": "workflow browser completes approved mock case",
+      "passed": true
+    },
+    {
+      "check": "RAG page identity",
+      "passed": true
+    },
+    {
+      "check": "RAG shows actual authorized source",
+      "passed": true
+    },
+    {
+      "check": "RAG HR canary withheld from finance UI",
+      "passed": true
+    },
+    {
+      "check": "rag has no mobile page overflow",
+      "passed": true
+    },
+    {
+      "check": "evaluation page identity",
+      "passed": true
+    },
+    {
+      "check": "evaluation positive fixture executed through UI",
+      "passed": true
+    },
+    {
+      "check": "evaluation negative control blocks gate in UI",
+      "passed": true
+    },
+    {
+      "check": "governance has no mobile page overflow",
+      "passed": true
+    },
+    {
+      "check": "no browser runtime or console errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "expectedDenials": [
+    "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+    "Failed to load resource: the server responded with a status of 403 (Forbidden)"
+  ],
+  "screenshots": [
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/playbook-desktop.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/playbook-mobile.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/accounting-desktop.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/accounting-mobile.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/workflow-desktop.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/workflow-mobile.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/rag-desktop.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/rag-mobile.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/governance-desktop.png",
+    "/Users/philippegodfroy/ai-transformation-playbook/portfolio/release-2026-10-31/browser/governance-mobile.png"
+  ]
+}

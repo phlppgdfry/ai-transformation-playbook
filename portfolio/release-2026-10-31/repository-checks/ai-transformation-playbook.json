@@ -1,0 +1,54 @@
+{
+  "executed_at": "2026-10-30T23:14:05.894846+00:00",
+  "repository": "ai-transformation-playbook",
+  "checks": [
+    {
+      "command": [
+        "/Users/philippegodfroy/.venvs/py314/bin/python3",
+        "--version"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout": "Python 3.14.10\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/philippegodfroy/.venvs/py314/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout": "",
+      "stderr": "test_capacity_and_payback (test_business_case.BusinessCaseTests.test_capacity_and_payback) ... ok\ntest_invalid_assumptions (test_business_case.BusinessCaseTests.test_invalid_assumptions) ... ok\ntest_invalid_priority (test_business_case.BusinessCaseTests.test_invalid_priority) ... ok\ntest_no_adoption_no_savings (test_business_case.BusinessCaseTests.test_no_adoption_no_savings) ... ok\ntest_rework_can_reverse_benefits (test_business_case.BusinessCaseTests.test_rework_can_reverse_benefits) ... ok\ntest_risk_cannot_be_scored_away (test_business_case.BusinessCaseTests.test_risk_cannot_be_scored_away) ... ok\ntest_invalid_and_extra_values_rejected (test_workspace.WorkspaceTests.test_invalid_and_extra_values_rejected) ... ok\ntest_workspace_uses_existing_model (test_workspace.WorkspaceTests.test_workspace_uses_existing_model) ... ok\ntest_zero_adoption_remains_a_cost (test_workspace.WorkspaceTests.test_zero_adoption_remains_a_cost) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.003s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/Users/philippegodfroy/.venvs/py314/bin/python3",
+        "-m",
+        "consulting.business_case",
+        "--output",
+        "/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmpvnxiijvk/business-case.json"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout": "{\"report\": \"/var/folders/0t/_2j7v2495074t2z4ghq8jx3h0000gn/T/tmpvnxiijvk/business-case.json\", \"scenarios\": 3, \"use_cases\": 6}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "compare",
+        "business-case.json"
+      ],
+      "passed": true
+    }
+  ]
+}

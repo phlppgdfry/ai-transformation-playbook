@@ -1,0 +1,14 @@
+{
+  "repository": "agentic-workflow-platform",
+  "workflow": ".github/workflows/ci.yml",
+  "finding": "P1 upload-artifact v4 matrix artifact-name collision",
+  "fix": "release-evidence-${{ matrix.python-version }}",
+  "expanded_names": [
+    "release-evidence-3.11",
+    "release-evidence-3.13"
+  ],
+  "actionlint_exit_code": 0,
+  "hosted_upload": "UNVERIFIED",
+  "official_source": "https://github.com/actions/upload-artifact/blob/v4/README.md#not-uploading-to-the-same-artifact",
+  "docs_method": "Context7 library resolve then /actions/upload-artifact/v4 docs"
+}

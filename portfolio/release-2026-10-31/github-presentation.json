@@ -1,0 +1,194 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "exit_code": 0,
+    "data": {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Durable AI tool proposals with scoped execution, checkpoints, retries and independent human approval.",
+      "isPrivate": true,
+      "nameWithOwner": "phlppgdfry/agentic-workflow-platform",
+      "repositoryTopics": [
+        {
+          "name": "agentic-ai"
+        },
+        {
+          "name": "azure-openai"
+        },
+        {
+          "name": "human-in-the-loop"
+        },
+        {
+          "name": "python"
+        },
+        {
+          "name": "tool-calling"
+        },
+        {
+          "name": "workflow-engine"
+        }
+      ]
+    },
+    "error": ""
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "exit_code": 0,
+    "data": {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Tenant-scoped enterprise knowledge retrieval with source citations and optional Azure hybrid search.",
+      "isPrivate": true,
+      "nameWithOwner": "phlppgdfry/azure-ai-rag-knowledge-assistant",
+      "repositoryTopics": [
+        {
+          "name": "access-control"
+        },
+        {
+          "name": "azure-ai-search"
+        },
+        {
+          "name": "azure-openai"
+        },
+        {
+          "name": "python"
+        },
+        {
+          "name": "rag"
+        },
+        {
+          "name": "retrieval"
+        }
+      ]
+    },
+    "error": ""
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "exit_code": 0,
+    "data": {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Copilot Studio connector reference with separate proposal, human review and execution boundaries.",
+      "isPrivate": true,
+      "nameWithOwner": "phlppgdfry/microsoft-copilot-studio-automation",
+      "repositoryTopics": [
+        {
+          "name": "copilot-studio"
+        },
+        {
+          "name": "custom-connector"
+        },
+        {
+          "name": "human-in-the-loop"
+        },
+        {
+          "name": "power-automate"
+        },
+        {
+          "name": "power-platform"
+        }
+      ]
+    },
+    "error": ""
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "exit_code": 0,
+    "data": {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Reproducible AI evaluation gates, security test cases and auditable release reports for enterprise AI applications.",
+      "isPrivate": true,
+      "nameWithOwner": "phlppgdfry/enterprise-ai-evals-governance",
+      "repositoryTopics": [
+        {
+          "name": "ai-governance"
+        },
+        {
+          "name": "ai-security"
+        },
+        {
+          "name": "llm-evaluation"
+        },
+        {
+          "name": "python"
+        },
+        {
+          "name": "rag"
+        },
+        {
+          "name": "regression-testing"
+        }
+      ]
+    },
+    "error": ""
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "exit_code": 0,
+    "data": {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Invoice review with Azure extraction adapters, independent approval and an idempotent mock ERP outbox. Tested synthetic portfolio case.",
+      "isPrivate": true,
+      "nameWithOwner": "phlppgdfry/enterprise-ai-accounting-copilot",
+      "repositoryTopics": [
+        {
+          "name": "accounting"
+        },
+        {
+          "name": "ai-consulting"
+        },
+        {
+          "name": "azure-ai"
+        },
+        {
+          "name": "document-intelligence"
+        },
+        {
+          "name": "fastapi"
+        },
+        {
+          "name": "human-in-the-loop"
+        }
+      ]
+    },
+    "error": ""
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "exit_code": 0,
+    "data": {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "AI consulting case with traceable business scenarios, use-case prioritization, adoption and governance exercises.",
+      "isPrivate": true,
+      "nameWithOwner": "phlppgdfry/ai-transformation-playbook",
+      "repositoryTopics": [
+        {
+          "name": "ai-consulting"
+        },
+        {
+          "name": "ai-governance"
+        },
+        {
+          "name": "business-analysis"
+        },
+        {
+          "name": "change-management"
+        },
+        {
+          "name": "digital-transformation"
+        }
+      ]
+    },
+    "error": ""
+  }
+]
