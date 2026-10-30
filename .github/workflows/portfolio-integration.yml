@@ -17,49 +17,49 @@ jobs:
         env:
           PORTFOLIO_TOKEN: ${{ secrets.PORTFOLIO_READ_TOKEN }}
         run: test -n "$PORTFOLIO_TOKEN"
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: phlppgdfry/enterprise-ai-accounting-copilot
           ref: ${{ inputs.ref }}
           token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
           path: workspaces/enterprise-ai-accounting-copilot
           persist-credentials: false
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: phlppgdfry/agentic-workflow-platform
           ref: ${{ inputs.ref }}
           token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
           path: workspaces/agentic-workflow-platform
           persist-credentials: false
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: phlppgdfry/enterprise-ai-evals-governance
           ref: ${{ inputs.ref }}
           token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
           path: workspaces/enterprise-ai-evals-governance
           persist-credentials: false
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: phlppgdfry/azure-ai-rag-knowledge-assistant
           ref: ${{ inputs.ref }}
           token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
           path: workspaces/azure-ai-rag-knowledge-assistant
           persist-credentials: false
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: phlppgdfry/microsoft-copilot-studio-automation
           ref: ${{ inputs.ref }}
           token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
           path: workspaces/microsoft-copilot-studio-automation
           persist-credentials: false
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: phlppgdfry/ai-transformation-playbook
           ref: ${{ inputs.ref }}
           token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
           path: workspaces/ai-transformation-playbook
           persist-credentials: false
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.13'
       - name: Install each independent environment
@@ -79,12 +79,28 @@ jobs:
           python -m venv workspaces/microsoft-copilot-studio-automation/.venv
           workspaces/microsoft-copilot-studio-automation/.venv/bin/python -m pip install -r workspaces/microsoft-copilot-studio-automation/requirements.lock
           workspaces/microsoft-copilot-studio-automation/.venv/bin/python -m pip install --no-deps -e workspaces/microsoft-copilot-studio-automation
-      - name: Run actual local API integration without model calls
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Install locked browser test library without browser download
+        working-directory: workspaces/ai-transformation-playbook/integration
+        run: npm ci --ignore-scripts
+      - name: Actual API integration and browser verification
         working-directory: workspaces/ai-transformation-playbook
-        run: python -m integration.scenario --root ..
-      - uses: actions/upload-artifact@v4
+        env:
+          PORTFOLIO_PLAYBOOK_ORIGIN: http://127.0.0.1:18086
+        run: |
+          mkdir -p reports
+          python -m consulting.server --port 18086 > reports/calculator.log 2>&1 &
+          calculator_pid=$!
+          python -m integration.scenario --root .. --serve --session-file /tmp/portfolio-ci-session.json --output reports/integration-fixture.json > reports/scenario.log 2>&1 &
+          scenario_pid=$!
+          trap 'kill "$scenario_pid" "$calculator_pid" 2>/dev/null || true; wait || true' EXIT
+          python -c "import pathlib,time; p=pathlib.Path('/tmp/portfolio-ci-session.json'); deadline=time.monotonic()+90; exec('while not p.exists() and time.monotonic()<deadline: time.sleep(0.2)'); assert p.exists(), 'Integration did not become ready'"
+          node integration/browser-qa.cjs /tmp/portfolio-ci-session.json reports/browser
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         if: always()
         with:
           name: portfolio-integration
-          path: workspaces/ai-transformation-playbook/portfolio/integration-result.json
+          path: workspaces/ai-transformation-playbook/reports/
           retention-days: 14

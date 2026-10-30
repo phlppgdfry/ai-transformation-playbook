@@ -2,3 +2,7 @@ __pycache__/
 .DS_Store
 .venv/
 .env
+
+reports/
+node_modules/
+.quality-venv/

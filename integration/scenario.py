@@ -218,12 +218,14 @@ class Scenario:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[2])
-    parser.add_argument('--output', type=Path, default=Path('portfolio/integration-result.json'))
+    parser.add_argument('--output', type=Path, default=None)
     parser.add_argument('--serve', action='store_true', help='Keep the seeded demo APIs running until interrupted')
     parser.add_argument('--planner', choices=['fixture', 'ollama'], default='fixture', help='Local inference is explicit and optional')
     parser.add_argument('--model', help='Already installed local model name, required with --planner ollama')
     parser.add_argument('--session-file', type=Path, help='Optional private temporary browser-QA session; contains ephemeral credentials')
     args = parser.parse_args()
+    if args.output is None:
+        args.output = Path('reports') / ('integration-' + args.planner + '.json')
     if args.planner == 'ollama' and not args.model:
         parser.error('--model is required for opt-in genuine local inference')
     with tempfile.TemporaryDirectory(prefix='ai-portfolio-') as folder:

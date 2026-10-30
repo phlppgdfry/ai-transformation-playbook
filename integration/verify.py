@@ -1,5 +1,6 @@
 """Repeat the final repository-level checks and preserve exact local evidence."""
 import json
+import argparse
 from pathlib import Path
 import subprocess
 import sys
@@ -10,14 +11,19 @@ from .scenario import REPOS
 
 
 def main():
-    root = Path(__file__).resolve().parents[2]
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[2])
+    parser.add_argument('--output', type=Path, default=Path('reports') / ('verify-' + datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')))
+    args = parser.parse_args()
+    root, destination = args.root.resolve(), args.output.resolve()
+    destination.mkdir(parents=True, exist_ok=True)
     all_results = []
     with tempfile.TemporaryDirectory() as folder:
         for service, name in {**REPOS, 'playbook': 'ai-transformation-playbook'}.items():
             repo = root / name
             python = str(repo / '.venv/bin/python') if service != 'playbook' else sys.executable
             commands = [[python, '--version'], [python, '-m', 'unittest', 'discover', '-s', 'tests', '-v']] if service == 'playbook' else [
-                [python, '--version'], [python, '-m', 'pytest', '-q', '--junitxml=evidence/tests-2026-10-29.xml'],
+                [python, '--version'], [python, '-m', 'pytest', '-q', '--junitxml=' + str(destination / (name + '-tests.xml'))],
                 [python, '-m', 'pip', 'check'], [python, 'scripts/export_openapi.py', '--check']]
             if service == 'accounting':
                 commands += [[str(repo / '.venv/bin/ruff'), 'check', 'src', 'tests'], [python, '-m', 'accounting_copilot.demo']]
@@ -45,11 +51,10 @@ def main():
                 saved = json.loads((repo / 'evidence/business-case.json').read_text())
                 results.append({'command': ['compare', 'business-case.json'], 'passed': actual == saved})
             data = {'executed_at': datetime.now(timezone.utc).isoformat(), 'repository': name, 'checks': results}
-            (repo / 'evidence/verification-2026-10-29.json').write_text(json.dumps(data, indent=2) + '\n')
+            (destination / (name + '.json')).write_text(json.dumps(data, indent=2) + '\n')
             all_results.append(data)
             print(name + ': ' + ('PASS' if all(r['passed'] for r in results) else 'FAIL'), flush=True)
-        destination = root / 'ai-transformation-playbook/portfolio/verification.json'
-        destination.write_text(json.dumps(all_results, indent=2) + '\n')
+        (destination / 'verification.json').write_text(json.dumps(all_results, indent=2) + '\n')
     return 0 if all(r['passed'] for repo in all_results for r in repo['checks']) else 1
 
 

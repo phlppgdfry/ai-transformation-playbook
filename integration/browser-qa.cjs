@@ -6,24 +6,28 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const { chromium } = require(process.env.PORTFOLIO_PLAYWRIGHT_MODULE || 'playwright');
 
+const redactions = [];
+function sanitized(value) { let text = String(value); for (const key of redactions) text = text.replaceAll(key, '[REDACTED]'); return text; }
+
 (async () => {
   const session = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
+  for (const roles of Object.values(session.keys)) redactions.push(...Object.values(roles).filter(key => typeof key === 'string' && key.length > 0));
   const output = path.resolve(process.argv[3] || '/tmp/portfolio-browser-evidence');
   fs.mkdirSync(output, { recursive: true });
   const browser = await chromium.launch({ headless: true, channel: process.env.PORTFOLIO_BROWSER_CHANNEL || 'chrome' });
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   page.setDefaultTimeout(12000);
   const errors = [], expectedDenials = [], checks = [], screenshots = [];
-  page.on('pageerror', error => errors.push(error.message));
+  page.on('pageerror', error => errors.push(sanitized(error.message)));
   page.on('console', message => {
     if (message.type() !== 'error') return;
-    if (message.text().includes('status of 403')) expectedDenials.push(message.text());
-    else errors.push(message.text());
+    if (message.text().includes('status of 403')) expectedDenials.push(sanitized(message.text()));
+    else errors.push(sanitized(message.text()));
   });
   const check = (label, condition) => { assert(condition, label); checks.push({ check: label, passed: true }); };
   async function capture(name) {
     const file = path.join(output, name + '.png');
-    await page.screenshot({ path: file, fullPage: true });
+    await page.screenshot({ path: file, fullPage: false });
     screenshots.push(file);
   }
   async function responsive(name) {
@@ -33,7 +37,7 @@ const { chromium } = require(process.env.PORTFOLIO_PLAYWRIGHT_MODULE || 'playwri
     await page.setViewportSize({ width: 1440, height: 1000 });
   }
   try {
-    await page.goto('http://127.0.0.1:8086');
+    await page.goto(process.env.PORTFOLIO_PLAYBOOK_ORIGIN || 'http://127.0.0.1:8086');
     await page.getByText('6.03 months', { exact: true }).waitFor();
     check('playbook page identity', await page.title() === 'AI Transformation Studio');
     await capture('playbook-desktop');
@@ -152,13 +156,13 @@ const { chromium } = require(process.env.PORTFOLIO_PLAYWRIGHT_MODULE || 'playwri
     await responsive('governance');
     check('no browser runtime or console errors', errors.length === 0);
     fs.writeFileSync(path.join(output, 'browser-qa.json'), JSON.stringify({ browser: 'Playwright Chromium',
-      viewports: ['1440x1000', '390x844'], browser_plugin: 'not available; existing Playwright used', checks, errors, expectedDenials, screenshots }, null, 2));
+      browser_version:browser.version(),node_version:process.version,screenshot_mode:'viewport',viewports: ['1440x1000', '390x844'], browser_plugin: 'not available; existing Playwright used', checks, errors, expectedDenials, screenshots }, null, 2));
     console.log(JSON.stringify({ passed: checks.length, errors, evidence: output }));
   } catch (error) {
-    await page.screenshot({path: path.join(output, 'failure.png'), fullPage: true});
-    fs.writeFileSync(path.join(output, 'failure.json'), JSON.stringify({error:error.message, checks, errors, url:page.url()},null,2));
+    await page.screenshot({path: path.join(output, 'failure.png'), fullPage: false});
+    fs.writeFileSync(path.join(output, 'failure.json'), JSON.stringify({error:sanitized(error.message), checks, errors, url:page.url()},null,2));
     throw error;
   } finally {
     await browser.close();
   }
-})().catch(error => { console.error(error.message); process.exitCode = 1; });
+})().catch(error => { console.error(sanitized(error.message)); process.exitCode = 1; });
