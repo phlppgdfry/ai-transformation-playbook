@@ -1,0 +1,663 @@
+{
+  "at": "2026-10-31T04:27:05.341228+00:00",
+  "repositories": [
+    {
+      "repository": "agentic-workflow-platform",
+      "head": "54e263f4ec834592ec294a9c7a21a85a9c87d8aa",
+      "main": "d48a3d3bd6c25491b504258b197caabcff7bb325",
+      "release_remote": "54e263f4ec834592ec294a9c7a21a85a9c87d8aa",
+      "main_release_counts": "0\t7",
+      "status": "",
+      "api": {
+        "metadata": {
+          "exit_code": 0,
+          "body": {
+            "full_name": "phlppgdfry/agentic-workflow-platform",
+            "private": true,
+            "visibility": "private",
+            "default_branch": "main",
+            "description": "Durable AI tool proposals with scoped execution, checkpoints, retries and independent human approval.",
+            "topics": [
+              "agentic-ai",
+              "azure-openai",
+              "human-in-the-loop",
+              "python",
+              "tool-calling",
+              "workflow-engine"
+            ],
+            "homepage": null,
+            "license": {
+              "key": "mit",
+              "name": "MIT License",
+              "spdx_id": "MIT",
+              "url": "https://api.github.com/licenses/mit",
+              "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "permissions": {
+              "admin": true,
+              "maintain": true,
+              "push": true,
+              "triage": true,
+              "pull": true
+            },
+            "html_url": "https://github.com/phlppgdfry/agentic-workflow-platform",
+            "has_wiki": false,
+            "has_discussions": false
+          },
+          "stderr": ""
+        },
+        "main": {
+          "exit_code": 0,
+          "body": {
+            "name": "main",
+            "protected": false,
+            "commit": {
+              "sha": "d48a3d3bd6c25491b504258b197caabcff7bb325"
+            }
+          },
+          "stderr": ""
+        },
+        "protection": {
+          "exit_code": 1,
+          "body": {
+            "message": "Branch not protected",
+            "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+            "status": "404"
+          },
+          "stderr": "gh: Branch not protected (HTTP 404)\n"
+        },
+        "rulesets": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "pulls": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "releases": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "tags": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "runs": {
+          "exit_code": 0,
+          "body": {
+            "total_count": 1,
+            "workflow_runs": [
+              {
+                "id": 41144511697,
+                "name": "verify",
+                "status": "completed",
+                "conclusion": "success",
+                "head_sha": "54e263f4ec834592ec294a9c7a21a85a9c87d8aa",
+                "head_branch": "portfolio/enterprise-quality-2026-10-29",
+                "html_url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41144511697",
+                "event": "push",
+                "path": ".github/workflows/ci.yml",
+                "run_attempt": 1,
+                "created_at": "2026-10-30T23:26:45Z",
+                "updated_at": "2026-10-30T23:27:32Z"
+              }
+            ]
+          },
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "head": "23be5180b667786632fd1d7ddf598d5d491cc5bc",
+      "main": "4c23677bd565a0628b611fb35abcfb42af305441",
+      "release_remote": "23be5180b667786632fd1d7ddf598d5d491cc5bc",
+      "main_release_counts": "0\t6",
+      "status": "",
+      "api": {
+        "metadata": {
+          "exit_code": 0,
+          "body": {
+            "full_name": "phlppgdfry/azure-ai-rag-knowledge-assistant",
+            "private": true,
+            "visibility": "private",
+            "default_branch": "main",
+            "description": "Tenant-scoped enterprise knowledge retrieval with source citations and optional Azure hybrid search.",
+            "topics": [
+              "access-control",
+              "azure-ai-search",
+              "azure-openai",
+              "python",
+              "rag",
+              "retrieval"
+            ],
+            "homepage": null,
+            "license": {
+              "key": "mit",
+              "name": "MIT License",
+              "spdx_id": "MIT",
+              "url": "https://api.github.com/licenses/mit",
+              "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "permissions": {
+              "admin": true,
+              "maintain": true,
+              "push": true,
+              "triage": true,
+              "pull": true
+            },
+            "html_url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant",
+            "has_wiki": false,
+            "has_discussions": false
+          },
+          "stderr": ""
+        },
+        "main": {
+          "exit_code": 0,
+          "body": {
+            "name": "main",
+            "protected": false,
+            "commit": {
+              "sha": "4c23677bd565a0628b611fb35abcfb42af305441"
+            }
+          },
+          "stderr": ""
+        },
+        "protection": {
+          "exit_code": 1,
+          "body": {
+            "message": "Branch not protected",
+            "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+            "status": "404"
+          },
+          "stderr": "gh: Branch not protected (HTTP 404)\n"
+        },
+        "rulesets": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "pulls": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "releases": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "tags": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "runs": {
+          "exit_code": 0,
+          "body": {
+            "total_count": 1,
+            "workflow_runs": [
+              {
+                "id": 41144511648,
+                "name": "Quality checks",
+                "status": "completed",
+                "conclusion": "success",
+                "head_sha": "23be5180b667786632fd1d7ddf598d5d491cc5bc",
+                "head_branch": "portfolio/enterprise-quality-2026-10-29",
+                "html_url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41144511648",
+                "event": "push",
+                "path": ".github/workflows/ci.yml",
+                "run_attempt": 1,
+                "created_at": "2026-10-30T23:26:45Z",
+                "updated_at": "2026-10-30T23:27:26Z"
+              }
+            ]
+          },
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "head": "f703d7b4a8a2eca222c3798f905838b5ab6b742b",
+      "main": "5699e630f8288d3d8885f2f83905ff9ec4c8c540",
+      "release_remote": "f703d7b4a8a2eca222c3798f905838b5ab6b742b",
+      "main_release_counts": "0\t6",
+      "status": "",
+      "api": {
+        "metadata": {
+          "exit_code": 0,
+          "body": {
+            "full_name": "phlppgdfry/microsoft-copilot-studio-automation",
+            "private": true,
+            "visibility": "private",
+            "default_branch": "main",
+            "description": "Copilot Studio connector reference with separate proposal, human review and execution boundaries.",
+            "topics": [
+              "copilot-studio",
+              "custom-connector",
+              "human-in-the-loop",
+              "power-automate",
+              "power-platform"
+            ],
+            "homepage": null,
+            "license": {
+              "key": "mit",
+              "name": "MIT License",
+              "spdx_id": "MIT",
+              "url": "https://api.github.com/licenses/mit",
+              "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "permissions": {
+              "admin": true,
+              "maintain": true,
+              "push": true,
+              "triage": true,
+              "pull": true
+            },
+            "html_url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation",
+            "has_wiki": false,
+            "has_discussions": false
+          },
+          "stderr": ""
+        },
+        "main": {
+          "exit_code": 0,
+          "body": {
+            "name": "main",
+            "protected": false,
+            "commit": {
+              "sha": "5699e630f8288d3d8885f2f83905ff9ec4c8c540"
+            }
+          },
+          "stderr": ""
+        },
+        "protection": {
+          "exit_code": 1,
+          "body": {
+            "message": "Branch not protected",
+            "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+            "status": "404"
+          },
+          "stderr": "gh: Branch not protected (HTTP 404)\n"
+        },
+        "rulesets": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "pulls": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "releases": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "tags": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "runs": {
+          "exit_code": 0,
+          "body": {
+            "total_count": 1,
+            "workflow_runs": [
+              {
+                "id": 41144511400,
+                "name": "Quality checks",
+                "status": "completed",
+                "conclusion": "success",
+                "head_sha": "f703d7b4a8a2eca222c3798f905838b5ab6b742b",
+                "head_branch": "portfolio/enterprise-quality-2026-10-29",
+                "html_url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41144511400",
+                "event": "push",
+                "path": ".github/workflows/ci.yml",
+                "run_attempt": 1,
+                "created_at": "2026-10-30T23:26:45Z",
+                "updated_at": "2026-10-30T23:27:28Z"
+              }
+            ]
+          },
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "head": "8f4b5425bd0a80c71b690e764663b3a612108599",
+      "main": "7d48e4a15ee2681407c5517dc19b548741707ee4",
+      "release_remote": "8f4b5425bd0a80c71b690e764663b3a612108599",
+      "main_release_counts": "0\t6",
+      "status": "",
+      "api": {
+        "metadata": {
+          "exit_code": 0,
+          "body": {
+            "full_name": "phlppgdfry/enterprise-ai-evals-governance",
+            "private": true,
+            "visibility": "private",
+            "default_branch": "main",
+            "description": "Reproducible AI evaluation gates, security test cases and auditable release reports for enterprise AI applications.",
+            "topics": [
+              "ai-governance",
+              "ai-security",
+              "llm-evaluation",
+              "python",
+              "rag",
+              "regression-testing"
+            ],
+            "homepage": null,
+            "license": {
+              "key": "mit",
+              "name": "MIT License",
+              "spdx_id": "MIT",
+              "url": "https://api.github.com/licenses/mit",
+              "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "permissions": {
+              "admin": true,
+              "maintain": true,
+              "push": true,
+              "triage": true,
+              "pull": true
+            },
+            "html_url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance",
+            "has_wiki": false,
+            "has_discussions": false
+          },
+          "stderr": ""
+        },
+        "main": {
+          "exit_code": 0,
+          "body": {
+            "name": "main",
+            "protected": false,
+            "commit": {
+              "sha": "7d48e4a15ee2681407c5517dc19b548741707ee4"
+            }
+          },
+          "stderr": ""
+        },
+        "protection": {
+          "exit_code": 1,
+          "body": {
+            "message": "Branch not protected",
+            "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+            "status": "404"
+          },
+          "stderr": "gh: Branch not protected (HTTP 404)\n"
+        },
+        "rulesets": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "pulls": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "releases": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "tags": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "runs": {
+          "exit_code": 0,
+          "body": {
+            "total_count": 1,
+            "workflow_runs": [
+              {
+                "id": 41144511499,
+                "name": "Evaluation quality gate",
+                "status": "completed",
+                "conclusion": "success",
+                "head_sha": "8f4b5425bd0a80c71b690e764663b3a612108599",
+                "head_branch": "portfolio/enterprise-quality-2026-10-29",
+                "html_url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41144511499",
+                "event": "push",
+                "path": ".github/workflows/quality.yml",
+                "run_attempt": 1,
+                "created_at": "2026-10-30T23:26:45Z",
+                "updated_at": "2026-10-30T23:27:26Z"
+              }
+            ]
+          },
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "head": "15aa403f5478dff3ef888deaeb3e88c996e9bb08",
+      "main": "e0ec9989b0af9517ef53b1b4c1ce7d9472ae787c",
+      "release_remote": "15aa403f5478dff3ef888deaeb3e88c996e9bb08",
+      "main_release_counts": "0\t6",
+      "status": "",
+      "api": {
+        "metadata": {
+          "exit_code": 0,
+          "body": {
+            "full_name": "phlppgdfry/enterprise-ai-accounting-copilot",
+            "private": true,
+            "visibility": "private",
+            "default_branch": "main",
+            "description": "Invoice review with Azure extraction adapters, independent approval and an idempotent mock ERP outbox. Tested synthetic portfolio case.",
+            "topics": [
+              "accounting",
+              "ai-consulting",
+              "azure-ai",
+              "document-intelligence",
+              "fastapi",
+              "human-in-the-loop"
+            ],
+            "homepage": null,
+            "license": {
+              "key": "mit",
+              "name": "MIT License",
+              "spdx_id": "MIT",
+              "url": "https://api.github.com/licenses/mit",
+              "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "permissions": {
+              "admin": true,
+              "maintain": true,
+              "push": true,
+              "triage": true,
+              "pull": true
+            },
+            "html_url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot",
+            "has_wiki": false,
+            "has_discussions": false
+          },
+          "stderr": ""
+        },
+        "main": {
+          "exit_code": 0,
+          "body": {
+            "name": "main",
+            "protected": false,
+            "commit": {
+              "sha": "e0ec9989b0af9517ef53b1b4c1ce7d9472ae787c"
+            }
+          },
+          "stderr": ""
+        },
+        "protection": {
+          "exit_code": 1,
+          "body": {
+            "message": "Branch not protected",
+            "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+            "status": "404"
+          },
+          "stderr": "gh: Branch not protected (HTTP 404)\n"
+        },
+        "rulesets": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "pulls": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "releases": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "tags": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "runs": {
+          "exit_code": 0,
+          "body": {
+            "total_count": 1,
+            "workflow_runs": [
+              {
+                "id": 41144511426,
+                "name": "accounting-quality",
+                "status": "completed",
+                "conclusion": "success",
+                "head_sha": "15aa403f5478dff3ef888deaeb3e88c996e9bb08",
+                "head_branch": "portfolio/enterprise-quality-2026-10-29",
+                "html_url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41144511426",
+                "event": "push",
+                "path": ".github/workflows/ci.yml",
+                "run_attempt": 1,
+                "created_at": "2026-10-30T23:26:45Z",
+                "updated_at": "2026-10-30T23:27:28Z"
+              }
+            ]
+          },
+          "stderr": ""
+        }
+      }
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "head": "2beb0cbbfdbffa124c6705e90ce83f35cfe2e72b",
+      "main": "21925968db25dfc1753080885e87a7aed888a009",
+      "release_remote": "2beb0cbbfdbffa124c6705e90ce83f35cfe2e72b",
+      "main_release_counts": "0\t7",
+      "status": "",
+      "api": {
+        "metadata": {
+          "exit_code": 0,
+          "body": {
+            "full_name": "phlppgdfry/ai-transformation-playbook",
+            "private": true,
+            "visibility": "private",
+            "default_branch": "main",
+            "description": "AI consulting case with traceable business scenarios, use-case prioritization, adoption and governance exercises.",
+            "topics": [
+              "ai-consulting",
+              "ai-governance",
+              "business-analysis",
+              "change-management",
+              "digital-transformation"
+            ],
+            "homepage": null,
+            "license": {
+              "key": "mit",
+              "name": "MIT License",
+              "spdx_id": "MIT",
+              "url": "https://api.github.com/licenses/mit",
+              "node_id": "MDc6TGljZW5zZTEz"
+            },
+            "permissions": {
+              "admin": true,
+              "maintain": true,
+              "push": true,
+              "triage": true,
+              "pull": true
+            },
+            "html_url": "https://github.com/phlppgdfry/ai-transformation-playbook",
+            "has_wiki": false,
+            "has_discussions": false
+          },
+          "stderr": ""
+        },
+        "main": {
+          "exit_code": 0,
+          "body": {
+            "name": "main",
+            "protected": false,
+            "commit": {
+              "sha": "21925968db25dfc1753080885e87a7aed888a009"
+            }
+          },
+          "stderr": ""
+        },
+        "protection": {
+          "exit_code": 1,
+          "body": {
+            "message": "Branch not protected",
+            "documentation_url": "https://docs.github.com/rest/branches/branch-protection#get-branch-protection",
+            "status": "404"
+          },
+          "stderr": "gh: Branch not protected (HTTP 404)\n"
+        },
+        "rulesets": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "pulls": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "releases": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "tags": {
+          "exit_code": 0,
+          "body": [],
+          "stderr": ""
+        },
+        "runs": {
+          "exit_code": 0,
+          "body": {
+            "total_count": 1,
+            "workflow_runs": [
+              {
+                "id": 41144751249,
+                "name": "Business case verification",
+                "status": "completed",
+                "conclusion": "success",
+                "head_sha": "2beb0cbbfdbffa124c6705e90ce83f35cfe2e72b",
+                "head_branch": "portfolio/enterprise-quality-2026-10-29",
+                "html_url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41144751249",
+                "event": "push",
+                "path": ".github/workflows/ci.yml",
+                "run_attempt": 1,
+                "created_at": "2026-10-30T23:29:16Z",
+                "updated_at": "2026-10-30T23:29:28Z"
+              }
+            ]
+          },
+          "stderr": ""
+        }
+      }
+    }
+  ]
+}

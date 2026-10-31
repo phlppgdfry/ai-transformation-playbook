@@ -1,0 +1,14 @@
+[
+  {
+    "run_id": 41144511400,
+    "artifact_id": 13020169192,
+    "all_flagged_values_equal_archived_api_properties_sha256": true,
+    "classification": "RESOLVED FALSE POSITIVE: public manifest checksum; not a credential"
+  },
+  {
+    "run_id": 41144149099,
+    "artifact_id": 13019258322,
+    "all_flagged_values_equal_archived_api_properties_sha256": true,
+    "classification": "RESOLVED FALSE POSITIVE: public manifest checksum; not a credential"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "repositories": [
+    {
+      "repository": "agentic-workflow-platform",
+      "markdown_files": 16,
+      "broken_file_targets": [],
+      "license_present": true
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "markdown_files": 12,
+      "broken_file_targets": [],
+      "license_present": true
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "markdown_files": 14,
+      "broken_file_targets": [],
+      "license_present": true
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "markdown_files": 16,
+      "broken_file_targets": [],
+      "license_present": true
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "markdown_files": 14,
+      "broken_file_targets": [],
+      "license_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "markdown_files": 26,
+      "broken_file_targets": [],
+      "license_present": true
+    }
+  ],
+  "landing_external_urls": [
+    "http://127.0.0.1:8000/console",
+    "http://127.0.0.1:8000/docs",
+    "https://github.com/phlppgdfry/agentic-workflow-platform",
+    "https://github.com/phlppgdfry/agentic-workflow-platform/tree/portfolio/enterprise-quality-2026-10-29",
+    "https://github.com/phlppgdfry/ai-transformation-playbook",
+    "https://github.com/phlppgdfry/ai-transformation-playbook/blob/portfolio/enterprise-quality-2026-10-29/portfolio/release-2026-10-31/REPORT.md",
+    "https://github.com/phlppgdfry/ai-transformation-playbook/tree/portfolio/enterprise-quality-2026-10-29",
+    "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant",
+    "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/tree/portfolio/enterprise-quality-2026-10-29",
+    "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot",
+    "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/tree/portfolio/enterprise-quality-2026-10-29",
+    "https://github.com/phlppgdfry/enterprise-ai-evals-governance",
+    "https://github.com/phlppgdfry/enterprise-ai-evals-governance/tree/portfolio/enterprise-quality-2026-10-29",
+    "https://github.com/phlppgdfry/microsoft-copilot-studio-automation",
+    "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/tree/portfolio/enterprise-quality-2026-10-29"
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "unique_history_objects": 135,
+    "metadata_file_counts": {
+      "personal_home_path": 4,
+      "private_tmp_path": 6
+    },
+    "sample_paths": {
+      "personal_home_path": [
+        "evidence/pytest.txt",
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/verification-2026-10-29.json"
+      ],
+      "private_tmp_path": [
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-30/tests.xml",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/release-2026-10-31/tests.xml",
+        "evidence/tests-2026-10-29.xml",
+        "tests/test_portfolio_tools.py"
+      ]
+    },
+    "content_email_values": [],
+    "accidental_local_files": [],
+    "gitleaks_exit": 0,
+    "gitleaks_findings": 0
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "unique_history_objects": 118,
+    "metadata_file_counts": {
+      "personal_home_path": 4,
+      "private_tmp_path": 2
+    },
+    "sample_paths": {
+      "personal_home_path": [
+        "evidence/pytest.txt",
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/verification-2026-10-29.json"
+      ],
+      "private_tmp_path": [
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json"
+      ]
+    },
+    "content_email_values": [],
+    "accidental_local_files": [],
+    "gitleaks_exit": 0,
+    "gitleaks_findings": 0
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "unique_history_objects": 129,
+    "metadata_file_counts": {
+      "personal_home_path": 4,
+      "private_tmp_path": 3
+    },
+    "sample_paths": {
+      "personal_home_path": [
+        "evidence/pytest.txt",
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/verification-2026-10-29.json"
+      ],
+      "private_tmp_path": [
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/verification-2026-10-29.json"
+      ]
+    },
+    "content_email_values": [],
+    "accidental_local_files": [],
+    "gitleaks_exit": 0,
+    "gitleaks_findings": 0
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "unique_history_objects": 129,
+    "metadata_file_counts": {
+      "email": 9,
+      "personal_home_path": 3,
+      "private_tmp_path": 3
+    },
+    "sample_paths": {
+      "email": [
+        "evalgov/datasets/responses-unsafe.json",
+        "evalgov/datasets/synthetic-v1.jsonl",
+        "evidence/release-2026-10-30/tests.xml",
+        "evidence/release-2026-10-31/tests.xml",
+        "evidence/tests-2026-10-29.xml",
+        "evidence/tests.xml",
+        "scripts/build_synthetic_dataset.py",
+        "tests/test_engine.py"
+      ],
+      "personal_home_path": [
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/verification-2026-10-29.json"
+      ],
+      "private_tmp_path": [
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/verification-2026-10-29.json"
+      ]
+    },
+    "content_email_values": [
+      "attacker@synthetic.invalid",
+      "p@example.com",
+      "private.person@synthetic.invalid"
+    ],
+    "accidental_local_files": [],
+    "gitleaks_exit": 0,
+    "gitleaks_findings": 0
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "unique_history_objects": 115,
+    "metadata_file_counts": {
+      "personal_home_path": 3,
+      "private_tmp_path": 2
+    },
+    "sample_paths": {
+      "personal_home_path": [
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json",
+        "evidence/verification-2026-10-29.json"
+      ],
+      "private_tmp_path": [
+        "evidence/release-2026-10-30/installation.json",
+        "evidence/release-2026-10-31/installation.json"
+      ]
+    },
+    "content_email_values": [],
+    "accidental_local_files": [],
+    "gitleaks_exit": 0,
+    "gitleaks_findings": 0
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "unique_history_objects": 182,
+    "metadata_file_counts": {
+      "private_tmp_path": 24,
+      "personal_home_path": 24,
+      "email": 2
+    },
+    "sample_paths": {
+      "private_tmp_path": [
+        ".github/workflows/ci.yml",
+        ".github/workflows/portfolio-integration.yml",
+        "evidence/verification-2026-10-29.json",
+        "integration/README.md",
+        "integration/browser-qa.cjs",
+        "portfolio/REPORT.md",
+        "portfolio/release-2026-10-30/REPORT.md",
+        "portfolio/release-2026-10-30/repository-checks/agentic-workflow-platform-tests.xml"
+      ],
+      "personal_home_path": [
+        "evidence/verification-2026-10-29.json",
+        "portfolio/REPORT.md",
+        "portfolio/baseline.json",
+        "portfolio/release-2026-10-30/actionlint.json",
+        "portfolio/release-2026-10-30/baseline.json",
+        "portfolio/release-2026-10-30/browser/browser-qa.json",
+        "portfolio/release-2026-10-30/lint.json",
+        "portfolio/release-2026-10-30/repository-checks/agentic-workflow-platform.json"
+      ],
+      "email": [
+        "portfolio/release-2026-10-30/repository-checks/enterprise-ai-evals-governance-tests.xml",
+        "portfolio/release-2026-10-31/repository-checks/enterprise-ai-evals-governance-tests.xml"
+      ]
+    },
+    "content_email_values": [
+      "p@example.com"
+    ],
+    "accidental_local_files": [],
+    "gitleaks_exit": 0,
+    "gitleaks_findings": 0
+  }
+]

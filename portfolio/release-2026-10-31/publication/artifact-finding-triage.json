@@ -1,0 +1,28 @@
+[
+  {
+    "artifact_id": 13020169192,
+    "finding": "generic-api-key matching manifest checksum",
+    "occurrences": [
+      {
+        "artifact_member": "connector/manifest.json",
+        "value_is_sha256_hex": true,
+        "matching_checksum_members": [
+          "connector/apiProperties.json"
+        ]
+      }
+    ]
+  },
+  {
+    "artifact_id": 13019258322,
+    "finding": "generic-api-key matching manifest checksum",
+    "occurrences": [
+      {
+        "artifact_member": "connector/manifest.json",
+        "value_is_sha256_hex": true,
+        "matching_checksum_members": [
+          "connector/apiProperties.json"
+        ]
+      }
+    ]
+  }
+]

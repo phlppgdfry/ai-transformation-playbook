@@ -2,6 +2,8 @@
 
 A fictional accounting practice wants to reduce invoice-review friction while preserving human authority and traceable decisions. This portfolio connects business analysis to working local software. It is a demonstration case, with synthetic records and hypothetical capacity estimates, not client delivery or measured savings.
 
+[Business case](../docs/03-business-case-decisions.md) → [Architecture](#working-architecture) → [Demo](#see-it-and-reproduce-it) → [Components](#follow-the-case) → [Verification and publication](release-2026-10-31/FINAL-HANDOVER.md) → [Limitations](#what-this-demonstrates)
+
 ## Follow the case
 
 Discover the process → agree requirements and acceptance → build controlled automation → retrieve authorized policy evidence → obtain independent approval → evaluate behavior → plan adoption and measure a pilot.

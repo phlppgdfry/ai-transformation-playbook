@@ -1,0 +1,245 @@
+{
+  "method": "installed local Tesseract plus selected visual inspection; OCR is not exhaustive proof",
+  "screenshots": [
+    {
+      "repository": "agentic-workflow-platform",
+      "file": "evidence/screenshots/desktop.png",
+      "sha256": "22daa5ae533bff3a292d9c3ef1232f4a49e87fcff0e60f5faa960567cd15ea13",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "agentic-workflow-platform",
+      "file": "evidence/screenshots/mobile.png",
+      "sha256": "4fc361cb55ad59687f5dae72670957f2571c5defc1bd9d11925c610dd82b2ccc",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "file": "evidence/screenshots/desktop.png",
+      "sha256": "eaefcdae3e730a091af117cf282711732e020fe28c50a934eea0dc2ad74eb725",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "file": "evidence/screenshots/mobile.png",
+      "sha256": "6fbab1f9cc58a094277105b551f2a9f6fe6daf36336d8cc0d2ef3fbd38f6e10e",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": false
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "file": "evidence/screenshots/desktop.png",
+      "sha256": "19d1e5f94749473ce7bb31c9ffe9520b9163b6baa0e30567e81ee4c5cbd29752",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "file": "evidence/screenshots/mobile.png",
+      "sha256": "a5009be3ea60c78b93b9835fd8eb3164743b7c77afb8bee6815838bdeb6c9202",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "file": "evidence/screenshots/desktop.png",
+      "sha256": "0dca93e1badd7493ff6c57289dfde9e74d3ca681f84856934a1740bde9ffd28b",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "file": "evidence/screenshots/mobile.png",
+      "sha256": "087608c17cf73437f561775b78a38393ac42cff4607a02459aedb6604fc2a2b5",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "evidence/screenshots/desktop.png",
+      "sha256": "4b9741a25d17cf0fb6f25cc015f48f5baedafb0ab3bafc88539d8640e70ac9af",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "evidence/screenshots/mobile.png",
+      "sha256": "67c02f815b32b33966e9ebf6ee752666b2d4d0ade533b701fb5ed185bfb99edf",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/accounting-desktop.png",
+      "sha256": "9fe703db7e0fa89755273bc788f47e12d111ec9c3f85af124209f35a2a5d94f8",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/accounting-mobile.png",
+      "sha256": "31f5c3cec8fffc505d4cd759518417121f13b35e7a9513619316a9a55c41fea4",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/governance-desktop.png",
+      "sha256": "acf3a6ea7f6bf130b1368bc6dc5752e222ac97cdd73ebe9e2dae90e2af7677e5",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/governance-mobile.png",
+      "sha256": "1e8f97443e3890694845fe83467d10444ecabca5ba9f8e8b4e5c7d2e4d757a01",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/playbook-desktop.png",
+      "sha256": "25c4fb8ee2822e2d7f29e1139077aad0113ca3bd88018670eaea1be6cef20698",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/playbook-mobile.png",
+      "sha256": "8e8088407c6dd6a6c7b948795acc50ab93ea2f8382fa5e003b5d18b3476b63f8",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/rag-desktop.png",
+      "sha256": "019fe749442ef9ce3f898f14339ee790f94abe61254cf266433fec09797497e8",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/rag-mobile.png",
+      "sha256": "8ceb65e5d23c9223c3870236827b4dd2632f570775df9a0e6764ea9316db9393",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": false
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/workflow-desktop.png",
+      "sha256": "0b3b5d5f2ad5f9b46934dbfcdbdf352d648d00882735e25d98fc926592190ff6",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-30/browser/workflow-mobile.png",
+      "sha256": "332b10208f0199e0693a7c1cc7cba60eb81942862035e581aec48452022b059e",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/accounting-desktop.png",
+      "sha256": "e97b54721ba23676493dc17ea81310ef18910fc796556a57b3f34da3b9715587",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/accounting-mobile.png",
+      "sha256": "6740549516821f95a7e8805154c31e62080f01246c1a9713e2dfd9929ab1fa32",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/governance-desktop.png",
+      "sha256": "7988c932cb03b57594041c768556257110d953ed4fe592b90f747f1bfecd449b",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/governance-mobile.png",
+      "sha256": "1e8f97443e3890694845fe83467d10444ecabca5ba9f8e8b4e5c7d2e4d757a01",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/playbook-desktop.png",
+      "sha256": "25c4fb8ee2822e2d7f29e1139077aad0113ca3bd88018670eaea1be6cef20698",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/playbook-mobile.png",
+      "sha256": "8e8088407c6dd6a6c7b948795acc50ab93ea2f8382fa5e003b5d18b3476b63f8",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/rag-desktop.png",
+      "sha256": "019fe749442ef9ce3f898f14339ee790f94abe61254cf266433fec09797497e8",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/rag-mobile.png",
+      "sha256": "8ceb65e5d23c9223c3870236827b4dd2632f570775df9a0e6764ea9316db9393",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": false
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/workflow-desktop.png",
+      "sha256": "6e06d8bc941d61a2c9144e45581c622ec3a9f93752f7ddd361895ba4a11484ec",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "file": "portfolio/release-2026-10-31/browser/workflow-mobile.png",
+      "sha256": "e5278cbfd37f1393f58039112d787d8781c17b930edfd59ed4e7ab2f2ea9c345",
+      "ocr_exit": 0,
+      "review_flags": [],
+      "synthetic_labels_present": true
+    }
+  ]
+}

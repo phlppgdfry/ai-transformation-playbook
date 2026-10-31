@@ -1,0 +1,391 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "artifacts": [
+      {
+        "id": 13019959223,
+        "name": "release-evidence-3.11",
+        "size_in_bytes": 30229,
+        "expired": false,
+        "created_at": "2026-10-30T23:27:30Z",
+        "expires_at": "2026-11-13T23:27:29Z",
+        "run_id": 41144511697,
+        "sha256": "ca53256ec519c6eacb5ba671a9765760dd70d52635cf3e43941d77628846664c",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "release/agentic_workflow_platform-0.1.0-py3-none-any.whl",
+          "release/dependency-licenses.json",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 13019823963,
+        "name": "release-evidence-3.13",
+        "size_in_bytes": 30113,
+        "expired": false,
+        "created_at": "2026-10-30T23:23:51Z",
+        "expires_at": "2026-11-13T23:23:50Z",
+        "run_id": 41144149732,
+        "sha256": "a89e4aac36b8ad1fe1e3a029280cfacd05b03ead5734ac0257e0bf5c131d8293",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "release/agentic_workflow_platform-0.1.0-py3-none-any.whl",
+          "release/dependency-licenses.json",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 13019464284,
+        "name": "release-evidence-3.11",
+        "size_in_bytes": 30235,
+        "expired": false,
+        "created_at": "2026-10-30T23:23:38Z",
+        "expires_at": "2026-11-13T23:23:37Z",
+        "run_id": 41144149732,
+        "sha256": "0c9325bd8d5cc45206a0dd1e3ef17a321ec5a39e3214b5842c76af95a36476f8",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "release/agentic_workflow_platform-0.1.0-py3-none-any.whl",
+          "release/dependency-licenses.json",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 13019258824,
+        "name": "release-evidence-3.13",
+        "size_in_bytes": 30117,
+        "expired": false,
+        "created_at": "2026-10-30T23:27:30Z",
+        "expires_at": "2026-11-13T23:27:29Z",
+        "run_id": 41144511697,
+        "sha256": "98c751e4fa285d9b57fb34ef052d4579c39278d8009120242c9f8e0f2868d1c3",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "release/agentic_workflow_platform-0.1.0-py3-none-any.whl",
+          "release/dependency-licenses.json",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      }
+    ]
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "artifacts": [
+      {
+        "id": 13020268530,
+        "name": "release-evidence",
+        "size_in_bytes": 23980,
+        "expired": false,
+        "created_at": "2026-10-30T23:23:46Z",
+        "expires_at": "2026-11-13T23:23:45Z",
+        "run_id": 41144149168,
+        "sha256": "7d6470ca87376b11f93dc9baffa5ecc0ec0bd3847931a8662d991c1f56f31915",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "release/azure_ai_rag_knowledge_assistant-0.1.0-py3-none-any.whl",
+          "release/dependency-licenses.json",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json",
+          "retrieval.json",
+          "tests.xml"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 13019208790,
+        "name": "release-evidence",
+        "size_in_bytes": 23977,
+        "expired": false,
+        "created_at": "2026-10-30T23:27:22Z",
+        "expires_at": "2026-11-13T23:27:22Z",
+        "run_id": 41144511648,
+        "sha256": "1fc792c9f1a171e64694a1cc9a216ce5484c55854b74ae10fcdae6cdbbb563dc",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "release/azure_ai_rag_knowledge_assistant-0.1.0-py3-none-any.whl",
+          "release/dependency-licenses.json",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json",
+          "retrieval.json",
+          "tests.xml"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 12843811639,
+        "name": "test-evidence",
+        "size_in_bytes": 594,
+        "expired": false,
+        "created_at": "2026-10-28T19:06:47Z",
+        "expires_at": "2027-01-26T19:06:30Z",
+        "run_id": 40751288633,
+        "sha256": "e233677faf2163498322e60559147ec444e80ac51b5fbc243af786bb50505c50",
+        "status": "REVIEWED",
+        "members": [
+          "tests.xml"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      }
+    ]
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "artifacts": [
+      {
+        "id": 13020169192,
+        "name": "release-evidence",
+        "size_in_bytes": 16218,
+        "expired": false,
+        "created_at": "2026-10-30T23:27:24Z",
+        "expires_at": "2026-11-13T23:27:23Z",
+        "run_id": 41144511400,
+        "sha256": "da8dc58e577ac3a9b51d4dd3a402da44d9834838e639a04951bd4924821829c2",
+        "status": "REVIEWED: checksum false positive resolved",
+        "members": [
+          "connector/apiProperties.json",
+          "connector/manifest.json",
+          "dependency-audit.json",
+          "connector/apiDefinition.swagger.json",
+          "release/dependency-licenses.json",
+          "release/installation.json",
+          "release/microsoft_copilot_studio_automation-0.1.0-py3-none-any.whl",
+          "release/tests.xml",
+          "release/wheel.json",
+          "tests.xml"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 1,
+        "secret_findings": 1,
+        "confirmed_secrets": 0
+      },
+      {
+        "id": 13019258322,
+        "name": "release-evidence",
+        "size_in_bytes": 16206,
+        "expired": false,
+        "created_at": "2026-10-30T23:23:47Z",
+        "expires_at": "2026-11-13T23:23:46Z",
+        "run_id": 41144149099,
+        "sha256": "629e5df8d73cc7e6ed9246ad186428f56e4bfdd7389b57b065ef73cb5d1956b0",
+        "status": "REVIEWED: checksum false positive resolved",
+        "members": [
+          "connector/apiDefinition.swagger.json",
+          "connector/apiProperties.json",
+          "connector/manifest.json",
+          "dependency-audit.json",
+          "release/dependency-licenses.json",
+          "release/installation.json",
+          "release/microsoft_copilot_studio_automation-0.1.0-py3-none-any.whl",
+          "release/tests.xml",
+          "release/wheel.json",
+          "tests.xml"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 1,
+        "secret_findings": 1,
+        "confirmed_secrets": 0
+      },
+      {
+        "id": 12843886377,
+        "name": "test-evidence",
+        "size_in_bytes": 471,
+        "expired": false,
+        "created_at": "2026-10-28T19:06:47Z",
+        "expires_at": "2027-01-26T19:06:30Z",
+        "run_id": 40751288647,
+        "sha256": "ba331047200fee3bdfc634a17c9a0eaaafaa562bf0e441e653c155c078d6cb78",
+        "status": "REVIEWED",
+        "members": [
+          "tests.xml"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      }
+    ]
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "artifacts": [
+      {
+        "id": 13020480162,
+        "name": "release-evidence",
+        "size_in_bytes": 33016,
+        "expired": false,
+        "created_at": "2026-10-30T23:27:22Z",
+        "expires_at": "2026-11-13T23:27:21Z",
+        "run_id": 41144511499,
+        "sha256": "4267d5355ea15dfe1f16377743328d4655e5a6fc0dcf2da5840a1601d5556773",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "good/report.html",
+          "good/report.json",
+          "release/dependency-licenses.json",
+          "release/enterprise_ai_evals_governance-0.1.0-py3-none-any.whl",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json",
+          "tests.xml",
+          "unsafe/report.html",
+          "unsafe/report.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 13020273342,
+        "name": "release-evidence",
+        "size_in_bytes": 33050,
+        "expired": false,
+        "created_at": "2026-10-30T23:23:45Z",
+        "expires_at": "2026-11-13T23:23:45Z",
+        "run_id": 41144148943,
+        "sha256": "ad19fe1753802a12153bf9f3ec6bdbed7baf1a32c697864656181e818e84225a",
+        "status": "REVIEWED",
+        "members": [
+          "good/report.html",
+          "good/report.json",
+          "dependency-audit.json",
+          "release/dependency-licenses.json",
+          "release/enterprise_ai_evals_governance-0.1.0-py3-none-any.whl",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json",
+          "tests.xml",
+          "unsafe/report.html",
+          "unsafe/report.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 12843148746,
+        "name": "evaluation-evidence",
+        "size_in_bytes": 4991,
+        "expired": false,
+        "created_at": "2026-10-28T19:06:46Z",
+        "expires_at": "2026-11-11T19:06:45Z",
+        "run_id": 40751287689,
+        "sha256": "12f192a27131d5f5a57626c52040a536b8b78afb7a85f81383d62f08b1180500",
+        "status": "REVIEWED",
+        "members": [
+          "good/report.html",
+          "good/report.json",
+          "tests.xml",
+          "unsafe/report.html",
+          "unsafe/report.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      }
+    ]
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "artifacts": [
+      {
+        "id": 13019824608,
+        "name": "release-evidence",
+        "size_in_bytes": 28365,
+        "expired": false,
+        "created_at": "2026-10-30T23:27:25Z",
+        "expires_at": "2026-11-13T23:27:24Z",
+        "run_id": 41144511426,
+        "sha256": "8c2c2b9da43d99ce9965b52edb114d1a529d28110e7b5c285b0a67a9080de9de",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "release/dependency-licenses.json",
+          "release/enterprise_ai_accounting_copilot-0.1.0-py3-none-any.whl",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 13019358333,
+        "name": "release-evidence",
+        "size_in_bytes": 28380,
+        "expired": false,
+        "created_at": "2026-10-30T23:23:52Z",
+        "expires_at": "2026-11-13T23:23:51Z",
+        "run_id": 41144149001,
+        "sha256": "a661ada1be6751ef5f940c8d3c582ffe800e8b99dda887756bbe036486e555a3",
+        "status": "REVIEWED",
+        "members": [
+          "dependency-audit.json",
+          "release/dependency-licenses.json",
+          "release/enterprise_ai_accounting_copilot-0.1.0-py3-none-any.whl",
+          "release/installation.json",
+          "release/tests.xml",
+          "release/wheel.json"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      },
+      {
+        "id": 12844725149,
+        "name": "accounting-test-results",
+        "size_in_bytes": 870,
+        "expired": false,
+        "created_at": "2026-10-28T19:06:59Z",
+        "expires_at": "2027-01-26T19:06:31Z",
+        "run_id": 40751291437,
+        "sha256": "dfc6bff7c4724aba8ce2aebc50e57a197d18d2138eb0558871f87d05554cd466",
+        "status": "REVIEWED",
+        "members": [
+          "results.xml"
+        ],
+        "personal_home_path_files": [],
+        "secret_scan_exit": 0,
+        "secret_findings": 0
+      }
+    ]
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "artifacts": []
+  }
+]
