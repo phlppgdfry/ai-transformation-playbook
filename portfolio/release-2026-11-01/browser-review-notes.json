@@ -3,5 +3,6 @@
   "confirmed_finding": "Microsoft automation sequence diagram semicolon was a Mermaid statement separator; documentation corrected on main without moving the immutable milestone tag",
   "corrected_run": "browser-final/anonymous-browser.json: 14 checks passed, including all six diagrams and explicit absence of parser errors",
   "console_404s": "All 14 captured 404 responses were https://github.com/_global-navigation/payloads.json, a GitHub logged-out navigation endpoint; repository pages, diagram content and navigation checks passed",
-  "scope": "fresh unauthenticated Chrome 156; 1440x1000 and 390x844; installed Playwright, no dependency/browser installation"
+  "scope": "fresh unauthenticated Chrome 156; 1440x1000 and 390x844; installed Playwright, no dependency/browser installation",
+  "final_public_status_run": "browser-frozen/anonymous-browser.json: 15 checks passed after canonical public landing updates, including explicit public-status text"
 }

@@ -1,0 +1,92 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41358462166",
+    "status": 200,
+    "anonymous": true,
+    "title": "Prepare audited portfolio v1.0 milestone publication \u00b7 phlppgdfry/agentic-workflow-platform@0967b61 \u00b7 GitHub"
+  },
+  {
+    "repository": "agentic-workflow-platform",
+    "url": "https://api.github.com/repos/phlppgdfry/agentic-workflow-platform/actions/runs/41358462166",
+    "status": 200,
+    "anonymous": true,
+    "conclusion": "success",
+    "head_sha": "0967b610b47062eaf6ead67b7db3df3b2694a37c"
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41358461506",
+    "status": 200,
+    "anonymous": true,
+    "title": "Prepare audited portfolio v1.0 milestone publication \u00b7 phlppgdfry/azure-ai-rag-knowledge-assistant@9651e00 \u00b7 GitHub"
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "url": "https://api.github.com/repos/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41358461506",
+    "status": 200,
+    "anonymous": true,
+    "conclusion": "success",
+    "head_sha": "9651e0028cefad24ccd308780f16082b4023a926"
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41359134627",
+    "status": 200,
+    "anonymous": true,
+    "title": "Correct Mermaid sequence message rendering after public verification \u00b7 phlppgdfry/microsoft-copilot-studio-automation@3bfb478 \u00b7 GitHub"
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "url": "https://api.github.com/repos/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41359134627",
+    "status": 200,
+    "anonymous": true,
+    "conclusion": "success",
+    "head_sha": "3bfb47822b3bacf68ef90bbc571db4e88cdb3552"
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41358461932",
+    "status": 200,
+    "anonymous": true,
+    "title": "Prepare audited portfolio v1.0 milestone publication \u00b7 phlppgdfry/enterprise-ai-evals-governance@a300fc0 \u00b7 GitHub"
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "url": "https://api.github.com/repos/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41358461932",
+    "status": 200,
+    "anonymous": true,
+    "conclusion": "success",
+    "head_sha": "a300fc0262e4245648d177779249b483a4fa4cd6"
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41358461384",
+    "status": 200,
+    "anonymous": true,
+    "title": "Prepare audited portfolio v1.0 milestone publication \u00b7 phlppgdfry/enterprise-ai-accounting-copilot@c88630e \u00b7 GitHub"
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "url": "https://api.github.com/repos/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41358461384",
+    "status": 200,
+    "anonymous": true,
+    "conclusion": "success",
+    "head_sha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb"
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41359610605",
+    "status": 200,
+    "anonymous": true,
+    "title": "Record authorized public portfolio releases and final handover \u00b7 phlppgdfry/ai-transformation-playbook@02cd8cc \u00b7 GitHub"
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "url": "https://api.github.com/repos/phlppgdfry/ai-transformation-playbook/actions/runs/41359610605",
+    "status": 200,
+    "anonymous": true,
+    "conclusion": "success",
+    "head_sha": "02cd8cc770cdaad9df5ac3262f72739dafc09e70"
+  }
+]

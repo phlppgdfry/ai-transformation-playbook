@@ -1,0 +1,15 @@
+{
+  "repository": "ai-transformation-playbook",
+  "sha": "02cd8cc770cdaad9df5ac3262f72739dafc09e70",
+  "runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 41359610605,
+      "headBranch": "main",
+      "headSha": "02cd8cc770cdaad9df5ac3262f72739dafc09e70",
+      "name": "Business case verification",
+      "status": "completed",
+      "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41359610605"
+    }
+  ]
+}

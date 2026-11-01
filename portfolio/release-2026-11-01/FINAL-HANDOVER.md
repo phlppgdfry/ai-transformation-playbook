@@ -1,4 +1,6 @@
-# Portfolio v1.0 — final handover, 1 November 2026
+# Portfolio v1.0 — final handover, 2 November 2026
+
+Publication started 1 November; final freeze recorded 2 November. Evidence remains in the original publication directory.
 
 ## 1. Executive summary
 
@@ -30,8 +32,8 @@ Default branch is `main` for all six. All release branches remain retained. Each
 | Main promotion | VERIFIED: normal fast-forwards only, no merge commits; expected source SHAs reached default main. [Main CI and job/step evidence](main-ci.json). |
 | Milestone tags and releases | VERIFIED: annotated tags, exact object targets, published release metadata and prepared notes: [releases](releases.json). All source main/tag/release-branch runs passed: [milestone CI](milestone-ci.json). |
 | Documentation correction | VERIFIED: Microsoft automation sequence message used a semicolon interpreted by Mermaid as a separator. One line corrected on main; [CI passed](diagram-correction-ci.json). Frozen tag unchanged; no runtime change. |
-| Anonymous HTTP | VERIFIED: 125 public repository/release/README/licence/document/image requests returned 200: [HTTP evidence](anonymous-http.json). Requests used no Authorization or Cookie header. |
-| Anonymous Chrome | VERIFIED: all six READMEs and six architecture diagrams rendered; business-case navigation and parser checks passed, 14 checks total: [corrected browser evidence](browser-final/anonymous-browser.json). Fresh unauthenticated Chrome at desktop/mobile sizes. |
+| Anonymous HTTP | VERIFIED: 126 final public repository/release/README/licence/document/image requests returned 200: [final HTTP evidence](anonymous-http-final.json). Requests used no Authorization or Cookie header. |
+| Anonymous Chrome | VERIFIED: all six READMEs and six architecture diagrams rendered; business-case navigation and parser checks passed, 15 final checks total: [frozen browser evidence](browser-frozen/anonymous-browser.json). Fresh unauthenticated Chrome at desktop/mobile sizes. |
 | Browser findings | Initial broad SVG detection did not reject a Mermaid error graphic; console inspection caught it. Initial evidence retained, predicate hardened, diagram corrected and rerun: [review notes](browser-review-notes.json). Remaining 404s are solely GitHub’s logged-out global-navigation payload endpoint, not repository content. |
 | Existing local engineering | Preserved executed evidence: [172 tests](../release-2026-10-31/repository-checks/verification.json), five independent clean installations in each API’s October 31 evidence, [27 deterministic](../release-2026-10-31/deterministic.json), [27 real local Qwen](../release-2026-10-31/local-inference.json) and [26 local Chrome checks](../release-2026-10-31/browser/browser-qa.json). No unnecessary local reruns or new model download. Current hosted gates reran repository/package/advisory checks. |
 | Disclosure review | Reviewed reachable history, source/evidence/configuration, 16 retained artifacts, 18 completed-run log archives and 30 screenshots: [publication assessment](../release-2026-10-31/publication/publication-assessment.json). No confirmed secret/customer-data disclosure remained in scope. |
@@ -57,7 +59,7 @@ Source retains MIT and wheels include LICENSE; dependency licences remain separa
 
 The [central portfolio](../SHOWCASE.md) provides business case → architecture → demo → six components → verification → limitations. All six READMEs identify their purpose, stack, working behavior, independent setup, testing, security and limitations. Public canonical main pages expose the actual reviewed work. Existing authored screenshots and architecture diagrams are used; no nonexistent feature mockup, invented customer or production claim was added.
 
-A fresh logged-out browser—not owner tokens—verified public README content, all six diagrams and navigation. Screenshot evidence is retained at [desktop](browser-final/portfolio-public-desktop.png) and [mobile](browser-final/portfolio-public-mobile.png). The final status-only handover/landing updates are verified again after publication. Broader browsers/assistive technology are optional, not introduced as release blockers. GitHub’s ancillary logged-out navigation 404 is recorded transparently.
+A fresh logged-out browser—not owner tokens—verified public README content, all six diagrams and navigation. Screenshot evidence is retained at [desktop](browser-frozen/portfolio-public-desktop.png) and [mobile](browser-frozen/portfolio-public-mobile.png). The final status-only handover/landing updates were verified again after publication. Anonymous access to all six successful workflow summaries and their exact-SHA API records is retained in [anonymous CI evidence](anonymous-ci.json). Broader browsers/assistive technology are optional, not introduced as release blockers. GitHub’s ancillary logged-out navigation 404 is recorded transparently.
 
 ## 7. Business value
 

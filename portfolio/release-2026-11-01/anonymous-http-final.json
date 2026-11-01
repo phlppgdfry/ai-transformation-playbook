@@ -1,0 +1,812 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "anonymous": true,
+    "authorization_header": false,
+    "cookie_header": false,
+    "checks": [
+      {
+        "url": "https://github.com/phlppgdfry/agentic-workflow-platform",
+        "status": 200,
+        "bytes": 294858,
+        "sha256": "9de70ef4c365af8a8834fa3d166829023b9613923b59a6b5e269a7e4bfbcea3e"
+      },
+      {
+        "url": "https://github.com/phlppgdfry/agentic-workflow-platform/releases/tag/portfolio-v1.0.0",
+        "status": 200,
+        "bytes": 155926,
+        "sha256": "b8cfb965f1df094855d0f2298bc7a1c6de35467e1cb019e0606650bd4e3431f1"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/LICENSE",
+        "status": 200,
+        "bytes": 1073,
+        "sha256": "55e47645da10e6500ef7fc10af39ba9446897ee80fd354046d153848ca417fb2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/README.md",
+        "status": 200,
+        "bytes": 8076,
+        "sha256": "a655658a6e34fbeef495aa9e37dda64e07e3112450ac886e6e12972e0eeae4d5"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/architecture.md",
+        "status": 200,
+        "bytes": 4671,
+        "sha256": "535bad07299553bee45002cb7bb12579fa37e1e89e3f0f48bb188e0d62759406"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/business-case.md",
+        "status": 200,
+        "bytes": 2843,
+        "sha256": "485ee6aee968a7333f9166b785a4949eed362448ad33cca0ec115407ea068953"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/demo-script.md",
+        "status": 200,
+        "bytes": 1490,
+        "sha256": "b7376e5d443046a733a0d9c2f08d7b58ee535ac5f12a6ebdf060457eda9f4cb4"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/learning.md",
+        "status": 200,
+        "bytes": 3860,
+        "sha256": "62d52b45607ffcb14840c1fa96b87266f246ef4b6e6083cae83380bc1afcd75b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/local-inference.md",
+        "status": 200,
+        "bytes": 2999,
+        "sha256": "e0027c34b9e5852fdedd8e8192904d168f8dc3402435b8fd68d803888c49f524"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/portfolio-integration.md",
+        "status": 200,
+        "bytes": 3132,
+        "sha256": "dc13e0d05fe61d54558ddb74ad3523f589b8370c8cfea2b3c10276d577175578"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/release.md",
+        "status": 200,
+        "bytes": 4854,
+        "sha256": "fbd14e54280c71dd31797c1ad3df608c8f1559e32be57a1f5aebe4f2f9a3f81f"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/releases/portfolio-v1.0.0.md",
+        "status": 200,
+        "bytes": 1766,
+        "sha256": "4e095733870b5dbdce6f4837a88edb60ff230341021bf0bc4e606b0fecbfef70"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/runbook.md",
+        "status": 200,
+        "bytes": 3328,
+        "sha256": "f0540d71cb2f28053e0ef41482d24d7b031f0cefe18484fef8dbf03d0240ae45"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/security.md",
+        "status": 200,
+        "bytes": 3094,
+        "sha256": "674a87fcf213563f01ce8c89a7c58de467cbed71d786fc897643462d369fb0d5"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/docs/verification.md",
+        "status": 200,
+        "bytes": 2179,
+        "sha256": "a6db4b0c9df6d6ece92074f7f3d0589cec2f817455c96dbb7514b205061fa81e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/evidence/FEATURES.md",
+        "status": 200,
+        "bytes": 1884,
+        "sha256": "52491684e996c926d32eaf6e66285e952e0295e0ddb412cba19a6a32e63e6a32"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/evidence/release-2026-10-30/FEATURES.md",
+        "status": 200,
+        "bytes": 1372,
+        "sha256": "3e700def4cae4a167353a50a3b3d999bfb5a1974828cb81cfc3a9fcd5393267e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/evidence/screenshots/desktop.png",
+        "status": 200,
+        "bytes": 194626,
+        "sha256": "22daa5ae533bff3a292d9c3ef1232f4a49e87fcff0e60f5faa960567cd15ea13"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/agentic-workflow-platform/main/examples/request.json",
+        "status": 200,
+        "bytes": 143,
+        "sha256": "d44a7aa0abbcd9e93d08913c443a951a8dd4d6b9964ed21df206a0ac54f560bb"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "anonymous": true,
+    "authorization_header": false,
+    "cookie_header": false,
+    "checks": [
+      {
+        "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant",
+        "status": 200,
+        "bytes": 270866,
+        "sha256": "0aea9ebf55a252dc28f847deb9c4fed61e47e13ec00220f77b35935c27e8c58a"
+      },
+      {
+        "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/releases/tag/portfolio-v1.0.0",
+        "status": 200,
+        "bytes": 156275,
+        "sha256": "0c4e9c84f73f286affb3fe89557d0408b72e825eff0a6d9285afc8132a0d90b3"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/LICENSE",
+        "status": 200,
+        "bytes": 1073,
+        "sha256": "55e47645da10e6500ef7fc10af39ba9446897ee80fd354046d153848ca417fb2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/README.md",
+        "status": 200,
+        "bytes": 4879,
+        "sha256": "c6a3ab5b308ed0bc6bb359c03b41c42deea1ee5c4f0cf8b1fe8200b83c9bcbf5"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/architecture.md",
+        "status": 200,
+        "bytes": 2743,
+        "sha256": "048fd1459fd24cc3c868b44ff70764b719d15973007731f868fa5264ae9c4eba"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/azure.md",
+        "status": 200,
+        "bytes": 3193,
+        "sha256": "b3d068660ab2f6efcb70828dfb4ef5889324ba6c66842c111433d911d9f872fc"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/learning.md",
+        "status": 200,
+        "bytes": 2243,
+        "sha256": "841dec43e6d6c19e735f81d3913c27a564dbc94a9cc55f4575501ccda1c378bb"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/openapi.json",
+        "status": 200,
+        "bytes": 6162,
+        "sha256": "f8af1e431352fa418e93402f56af7d93c59fe037295c5520f2be00a43a7dff3b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/portfolio-integration.md",
+        "status": 200,
+        "bytes": 2596,
+        "sha256": "032524b017b2d4011d29fe5202cc5ee97b2285e1d51b566bb3a115ddd076d9ba"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/release.md",
+        "status": 200,
+        "bytes": 5077,
+        "sha256": "98c75d7911ac6d3c02e03853a114066f4f16904e9c476fd18bb35d9558a0af6d"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/releases/portfolio-v1.0.0.md",
+        "status": 200,
+        "bytes": 1744,
+        "sha256": "d0f8dbdd7c7338c2dbaaaef7ba3f0f1a807f1520f74a5598c7b30f1211087c30"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/runbook.md",
+        "status": 200,
+        "bytes": 1984,
+        "sha256": "1f4c8bf9450117472bdd5049eb0573441c5e3348215f78b1cf3c0c838471f2d0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/docs/security.md",
+        "status": 200,
+        "bytes": 1936,
+        "sha256": "962003180cb32d4d345e915e5c4226db60bdd597df9794a4871ffc7081b38729"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/evidence/FEATURES.md",
+        "status": 200,
+        "bytes": 1570,
+        "sha256": "300f3f3cb4730a5f86228da60e8dc8cd497aaa3198b80a549552f81a62e200d5"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/evidence/README.md",
+        "status": 200,
+        "bytes": 965,
+        "sha256": "e6ff636f595b89b453af75311a25d6c62358e61590feeff2a176c0aaae700f40"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/evidence/release-2026-10-30/FEATURES.md",
+        "status": 200,
+        "bytes": 1372,
+        "sha256": "3e700def4cae4a167353a50a3b3d999bfb5a1974828cb81cfc3a9fcd5393267e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/evidence/screenshots/desktop.png",
+        "status": 200,
+        "bytes": 110785,
+        "sha256": "eaefcdae3e730a091af117cf282711732e020fe28c50a934eea0dc2ad74eb725"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/evidence/tests.xml",
+        "status": 200,
+        "bytes": 1450,
+        "sha256": "ceb41ed02178bd100fc833bd87d9dfa3fbc49ec1c6bd9477ceda5eb482a53648"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/azure-ai-rag-knowledge-assistant/main/fixtures/documents.json",
+        "status": 200,
+        "bytes": 760,
+        "sha256": "77bb4c594870043da8188f36cc096580aa2460fd6be30b63f96a6e95b1d8cf5c"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "anonymous": true,
+    "authorization_header": false,
+    "cookie_header": false,
+    "checks": [
+      {
+        "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation",
+        "status": 200,
+        "bytes": 276622,
+        "sha256": "96459fbbcde7964bf4dee60f6f10bec0927a9c45f1065482df4585b0f8681738"
+      },
+      {
+        "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/releases/tag/portfolio-v1.0.0",
+        "status": 200,
+        "bytes": 156436,
+        "sha256": "1891ff20506c3f5a295c9694a364b4f89330775e85a615f84f65be58dd93fcd3"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/LICENSE",
+        "status": 200,
+        "bytes": 1073,
+        "sha256": "55e47645da10e6500ef7fc10af39ba9446897ee80fd354046d153848ca417fb2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/README.md",
+        "status": 200,
+        "bytes": 4784,
+        "sha256": "b9cd6eb2206855799589136b8b8ff268a1ef0e95dfa84bab69217415aec9d91b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/connectors/dossier-agent.swagger.json",
+        "status": 200,
+        "bytes": 4010,
+        "sha256": "a30bac5ab322634db07bbb3ec071001e29cb79aa4e045fd43b6d2ae9b5050ad0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/copilot/instructions.md",
+        "status": 200,
+        "bytes": 1221,
+        "sha256": "4bbdde3fed9afa403dd636da886124afdfeb3e70f506e0f96b46d04ecd009aa0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/docs/architecture.md",
+        "status": 200,
+        "bytes": 1948,
+        "sha256": "b4156164b52b954f51171f550626f283415d8620c201af826d04923ef65b5f33"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/docs/connector-deployment.md",
+        "status": 200,
+        "bytes": 2752,
+        "sha256": "2ff6b96e0d2d3227d382be967dc5936fb27570f420bc34f9c3e798cd9504db56"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/docs/learning-runbook.md",
+        "status": 200,
+        "bytes": 2411,
+        "sha256": "4ca40cf9acb36d22d44616a9addd4cc8cf7223fbf883686af181d6b76dcf901e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/docs/openapi.json",
+        "status": 200,
+        "bytes": 8536,
+        "sha256": "e584ac8a21a1e9d0f6ac2274ccf9609500572373d042db69af70e79709c66cfe"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/docs/release.md",
+        "status": 200,
+        "bytes": 4855,
+        "sha256": "f6e1822f8e87f8fc0f77c9945f52bdd51aaf9f8bc69556885d46efcf74cd6e23"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/docs/releases/portfolio-v1.0.0.md",
+        "status": 200,
+        "bytes": 1749,
+        "sha256": "21e1c84508fc72f7cb1f2d9fed3b653ded0f1c57542b7d57a1c1feb80f9535fa"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/docs/security.md",
+        "status": 200,
+        "bytes": 1560,
+        "sha256": "a3de1476ed7b6e3579dbacda541700d0f2cd4f5d7153eca42273a47b6c591752"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/docs/tenant-setup.md",
+        "status": 200,
+        "bytes": 3777,
+        "sha256": "83e02a086a3ba1d94c81f4cb780e1ea74c8cb3151d406acdfdff211794f960d2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/evidence/FEATURES.md",
+        "status": 200,
+        "bytes": 1647,
+        "sha256": "650f7d0b9fb3abbd35453534ad3cbe7aa609793cc3700020203510cfdbe3f6dd"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/evidence/README.md",
+        "status": 200,
+        "bytes": 961,
+        "sha256": "caea2fd3aa45df711c605b0a19ed920bee4e6a2ab3302aaf18b05b39c5d45858"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/evidence/release-2026-10-30/FEATURES.md",
+        "status": 200,
+        "bytes": 1372,
+        "sha256": "3e700def4cae4a167353a50a3b3d999bfb5a1974828cb81cfc3a9fcd5393267e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/power-automate/approval-flow.md",
+        "status": 200,
+        "bytes": 2128,
+        "sha256": "702cfaf69d9f9895cc18c4f94a24c85c1a7ee693164068588b787cf4fabff67c"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/microsoft-copilot-studio-automation/main/solution/README.md",
+        "status": 200,
+        "bytes": 2205,
+        "sha256": "3feab8ff0cefba8c78ddd5af6ea2bbaf5935ccf9fead50b4e2eed8263fbead28"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "anonymous": true,
+    "authorization_header": false,
+    "cookie_header": false,
+    "checks": [
+      {
+        "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance",
+        "status": 200,
+        "bytes": 280943,
+        "sha256": "cf99cf63bfa8028797d1baf8d88fb48d7dd37558c51d960b4385e7f34a3d48f5"
+      },
+      {
+        "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/releases/tag/portfolio-v1.0.0",
+        "status": 200,
+        "bytes": 156175,
+        "sha256": "3df3fd42b266c32d25af0ba848acd6c6f05f87f77408d9d61a8f3819b0cc90e6"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/LICENSE",
+        "status": 200,
+        "bytes": 1077,
+        "sha256": "7696ae47f9c5b657adf307e048dda83da24c2ee2b9c55ade2b2584f77948c464"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/README.md",
+        "status": 200,
+        "bytes": 7091,
+        "sha256": "12a660a03333e7d9fec839e50f150663899a653c07064271d2813aff2992019a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/architecture.md",
+        "status": 200,
+        "bytes": 3097,
+        "sha256": "2e4ccb03921469315b1785f161aac75cf394a4ca4c6a92278214d1bf3b363f64"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/business-case.md",
+        "status": 200,
+        "bytes": 2169,
+        "sha256": "adf3057549406a2adfbbc5e55f08a43ad9451100c850dbaf91123b88c3e8bf4a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/demo.md",
+        "status": 200,
+        "bytes": 1352,
+        "sha256": "171d5d5364f363ac2f38e74ba3b1cb51b5907a6e03c23494f360ec9297d4735d"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/evaluation-design.md",
+        "status": 200,
+        "bytes": 3461,
+        "sha256": "1f7c5d4e065e63f008bb528b325e8259423e61376212dc135130e6928d4d326f"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/governance.md",
+        "status": 200,
+        "bytes": 3656,
+        "sha256": "d9abf3948e085f80f66129f4fad36641ffe02aa462a625605c6030e286745d74"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/learning.md",
+        "status": 200,
+        "bytes": 4116,
+        "sha256": "1c628f9509e051a547904f0062d5446791ce32b4972c4137fa38880c32cc180a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/openapi.json",
+        "status": 200,
+        "bytes": 10270,
+        "sha256": "fe8686b62caa81b140c5a3a157090bf165567e5cb6e5fee6e8f3e151b20a5537"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/portfolio-integration.md",
+        "status": 200,
+        "bytes": 2069,
+        "sha256": "9937e30c3706ed302efa5c7645f4b663ad0cae5822730230f5c164c0968878dc"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/release.md",
+        "status": 200,
+        "bytes": 4882,
+        "sha256": "05d04f978d53477920ce56c184f1ec3259aa1d5f3cdf07e790fc9160112e8ebe"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/releases/portfolio-v1.0.0.md",
+        "status": 200,
+        "bytes": 1735,
+        "sha256": "73328c0063a5c3369c726446c67903922e0bc297be472d1767f0068d2c3b1835"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/runbook.md",
+        "status": 200,
+        "bytes": 3195,
+        "sha256": "7bad5ac69b7aff5d68d72ff83a8a0f616eb0a57d542b12abc2695b76cffbdb02"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/security.md",
+        "status": 200,
+        "bytes": 2910,
+        "sha256": "f60b784784963f6df8ca9e0fc3bdbc5023951cae2be9c29cb467b84c761718df"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/docs/target-contract.md",
+        "status": 200,
+        "bytes": 2803,
+        "sha256": "9f8d8af44bf4e8714a8df93d66682e012ac7a8b32e7dbe0971025e1228f85023"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/evidence/FEATURES.md",
+        "status": 200,
+        "bytes": 1702,
+        "sha256": "a72df592ff943d686da4ad9e4b27c84c888e6ea2062928af6bc797b587b6664a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/evidence/README.md",
+        "status": 200,
+        "bytes": 1950,
+        "sha256": "acd102219387bf14de9ebe2e875df5e6357b330adbbdbff90600e29c44bf92fb"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/evidence/release-2026-10-30/FEATURES.md",
+        "status": 200,
+        "bytes": 1372,
+        "sha256": "3e700def4cae4a167353a50a3b3d999bfb5a1974828cb81cfc3a9fcd5393267e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-evals-governance/main/evidence/screenshots/desktop.png",
+        "status": 200,
+        "bytes": 156191,
+        "sha256": "19d1e5f94749473ce7bb31c9ffe9520b9163b6baa0e30567e81ee4c5cbd29752"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "anonymous": true,
+    "authorization_header": false,
+    "cookie_header": false,
+    "checks": [
+      {
+        "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot",
+        "status": 200,
+        "bytes": 282150,
+        "sha256": "8a904a052ee88c1aa386384fdcb2e06eb6149f6366ba7d781b30a202686c434c"
+      },
+      {
+        "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/releases/tag/portfolio-v1.0.0",
+        "status": 200,
+        "bytes": 156307,
+        "sha256": "8b174f2a530da63e99f92bf8d47f0f704794aae36392a13d7d6cee57774abfbb"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/LICENSE",
+        "status": 200,
+        "bytes": 1073,
+        "sha256": "55e47645da10e6500ef7fc10af39ba9446897ee80fd354046d153848ca417fb2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/README.md",
+        "status": 200,
+        "bytes": 7065,
+        "sha256": "bebb38a9230ba64e3af83378fe81ff5b5c02c3c8c9e1a2f7e09667a6a9157b0f"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/architecture.md",
+        "status": 200,
+        "bytes": 3643,
+        "sha256": "53558304374751bca61882d32f2f3e270d98f33367826635b85d8ab3478f92f8"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/azure.md",
+        "status": 200,
+        "bytes": 3970,
+        "sha256": "196c01b48f61efef851d0014a4dfdfac43768061ab22be1eb0d778fa8ece33a6"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/businesscase.md",
+        "status": 200,
+        "bytes": 3108,
+        "sha256": "c69ae9aeeaf602bb91dc2f146e9868fc41d20b554c5249394453035832a648f5"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/evaluation.md",
+        "status": 200,
+        "bytes": 2401,
+        "sha256": "0520ad472aa7c6f2574ef300ab4b3217cfe70f9148fd7482a68c4d7f79494da4"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/learning.md",
+        "status": 200,
+        "bytes": 3539,
+        "sha256": "6d626ff5a168565b04addfce7894fd1df54031e8684f3d07c9bf071aa65d9650"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/openapi.json",
+        "status": 200,
+        "bytes": 14095,
+        "sha256": "e3c1aac5a56cd5475c05e6362bc4df5c52c7dcfb7bcd362ca03b5dc0a2ceeaa9"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/portfolio-integration.md",
+        "status": 200,
+        "bytes": 2134,
+        "sha256": "f1ac3bdead57539edebce8d8b663d713f55fb796b73b7ee67e66907b77049a4b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/release.md",
+        "status": 200,
+        "bytes": 4856,
+        "sha256": "69fa281aa0a3b02847d32e1c835a8a0ae9e9bb2148a48b5ac3a0291c18f2806a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/releases/portfolio-v1.0.0.md",
+        "status": 200,
+        "bytes": 1741,
+        "sha256": "f6fd4bee14b4205d5b0c9629607e4f109d8113ebb6039d87b317e61987cdc13b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/runbook.md",
+        "status": 200,
+        "bytes": 3566,
+        "sha256": "f4e27bff55ab05593804605bfab484963bf7fbab3e5cbabba7ea281a059a4e10"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/docs/security.md",
+        "status": 200,
+        "bytes": 3305,
+        "sha256": "e54ef7c4638524bbce694a9b7eb9e8dff60c5555c3458be8a9a61fadc28bd8f0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/evidence/FEATURES.md",
+        "status": 200,
+        "bytes": 1575,
+        "sha256": "fe183df01c3456e8ccc8e9b31bc6160d78aa1217b61bf1e19a21ce9632a517f9"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/evidence/release-2026-10-30/FEATURES.md",
+        "status": 200,
+        "bytes": 1372,
+        "sha256": "3e700def4cae4a167353a50a3b3d999bfb5a1974828cb81cfc3a9fcd5393267e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/evidence/screenshots/desktop.png",
+        "status": 200,
+        "bytes": 268988,
+        "sha256": "0dca93e1badd7493ff6c57289dfde9e74d3ca681f84856934a1740bde9ffd28b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/enterprise-ai-accounting-copilot/main/examples/invoice.json",
+        "status": 200,
+        "bytes": 275,
+        "sha256": "d847f8af7c12aff296607d86e98cee8df9d778253d7bf8d9d7dab6d0b9778ac5"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "anonymous": true,
+    "authorization_header": false,
+    "cookie_header": false,
+    "checks": [
+      {
+        "url": "https://github.com/phlppgdfry/ai-transformation-playbook",
+        "status": 200,
+        "bytes": 254507,
+        "sha256": "93def824a225ebe2e231fd497d4b466c8f1fc6ca8f4da36de4c843df3de60e1d"
+      },
+      {
+        "url": "https://github.com/phlppgdfry/ai-transformation-playbook/blob/main/portfolio/SHOWCASE.md",
+        "status": 200,
+        "bytes": 222284,
+        "sha256": "ee790622e765f7c7ff04eb02a0b3f8f5e7df5e541c0405f835cedd2da837861b"
+      },
+      {
+        "url": "https://github.com/phlppgdfry/ai-transformation-playbook/releases/tag/portfolio-v1.0.0",
+        "status": 200,
+        "bytes": 155857,
+        "sha256": "07296bc8b8f0205bcedc9778d897931997a5402ede9c7ced71955e7ac3f15912"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/LICENSE",
+        "status": 200,
+        "bytes": 1073,
+        "sha256": "55e47645da10e6500ef7fc10af39ba9446897ee80fd354046d153848ca417fb2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/README.md",
+        "status": 200,
+        "bytes": 5221,
+        "sha256": "5f9b4bb026f2fef943fab2252a293feea8eb257f8c2fa2d40b6e88cd4e5bf2e9"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/data/scenarios.json",
+        "status": 200,
+        "bytes": 673,
+        "sha256": "8e6d838f64f17672f8e5e6e92222619cae39ff9a09b3bee4f1e89322140d265b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/data/use-cases.csv",
+        "status": 200,
+        "bytes": 340,
+        "sha256": "4f5760098d7c3bfd1045e7f91b34b602a9b86989e87f73e29fc77e3cbacdb39f"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/01-discovery-process.md",
+        "status": 200,
+        "bytes": 3246,
+        "sha256": "918bb449346b941acc49b1de4a314aacbd539be4d861e3ab904fd1efc2237da4"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/02-delivery-contract.md",
+        "status": 200,
+        "bytes": 2886,
+        "sha256": "77ab6072d5e178ea45db9c9365cfc7abc5dc363570460c4ec933bbddaa8dd0f6"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/03-business-case-decisions.md",
+        "status": 200,
+        "bytes": 2663,
+        "sha256": "54faccc651ba7f042f37bed9b34abeb5b469fa09b6e84f82cb1cd01f16af1521"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/04-risk-governance.md",
+        "status": 200,
+        "bytes": 2425,
+        "sha256": "050a02e06acde52f9598f886f03087e6399690074b31884214484123fa4a2de4"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/05-pilot-adoption.md",
+        "status": 200,
+        "bytes": 2936,
+        "sha256": "22804fb3aeaca031b04ffcc5b3338509c99970f6044db6372ac772125fed1029"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/06-learning-roadmap.md",
+        "status": 200,
+        "bytes": 3708,
+        "sha256": "5657efb10249d6ca1f7fbb41ab52c1d29eb9e812169cee81d58b2e3b898a5da9"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/07-interview-evidence.md",
+        "status": 200,
+        "bytes": 2801,
+        "sha256": "1ffef43c8c92b34d174e62bf2834bedfb193e58dc37f325417008c1805015b80"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/08-certifications.md",
+        "status": 200,
+        "bytes": 2442,
+        "sha256": "66520cfaa8e3d1aede11f9835092f9407a64595183466c28aa73b9c2a1d3ce39"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/docs/releases/portfolio-v1.0.0.md",
+        "status": 200,
+        "bytes": 1674,
+        "sha256": "f6d193b3b6d1940161722771585f375d387b10a718382c96f99dd575fadafe33"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/evidence/business-case.json",
+        "status": 200,
+        "bytes": 2895,
+        "sha256": "9a5fba023ce8a35b4a6be6e0a574d3d902c915782df17fc921962b969e7d977b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/evidence/screenshots/desktop.png",
+        "status": 200,
+        "bytes": 243622,
+        "sha256": "4b9741a25d17cf0fb6f25cc015f48f5baedafb0ab3bafc88539d8640e70ac9af"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/integration/README.md",
+        "status": 200,
+        "bytes": 5106,
+        "sha256": "36246900016b7708a1abc5b294d0701760a26e564535073fb3538cf5d9bc89b8"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/AUDIT.md",
+        "status": 200,
+        "bytes": 8533,
+        "sha256": "7b12768b3e226d6a18dc532754a80603805b5b052424c4ae351b83cd3d9dfac1"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/EXECUTIVE-BRIEF.md",
+        "status": 200,
+        "bytes": 4344,
+        "sha256": "d6918793d5d1763c831486aaec3f30f202c6b5932ff1b0f4651b3f7a2c12eade"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/INTERVIEW.md",
+        "status": 200,
+        "bytes": 7697,
+        "sha256": "cf521411bf317b010c8e4ea3e8677e3b7d9b5e279d532861594fdc2348008100"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/REPORT.md",
+        "status": 200,
+        "bytes": 15136,
+        "sha256": "37d72bd5efc21ac5c928bd5a2b999dd16aaa45e2a91c2d523147309dc6ce5159"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/SHOWCASE.md",
+        "status": 200,
+        "bytes": 5994,
+        "sha256": "84d33b0e020fb9164c30f756d8b5ba3a21e85170b4c13aa5f2171631b93b10c2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/integration-local-model-result.json",
+        "status": 200,
+        "bytes": 14870,
+        "sha256": "df43882a4d47021d80c8febdfc0516894168da233cbe2fc694c9e4f24f0486af"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/release-2026-10-30/LEARNING.md",
+        "status": 200,
+        "bytes": 12258,
+        "sha256": "01e1462559eb53696553ee81b154d17f44ce0c773c02a59e092eb7e121204a52"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/release-2026-10-31/FINAL-HANDOVER.md",
+        "status": 200,
+        "bytes": 16330,
+        "sha256": "265b41fa9242328d068a3a211b1e94f80d2cef70e6fdcb999236671e1127a010"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/release-2026-10-31/HANDOVER.md",
+        "status": 200,
+        "bytes": 9152,
+        "sha256": "2bdfa91f383034aa776430470d9fa57a60f70b54e2e4b438cc7cd2843c55cd2e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/phlppgdfry/ai-transformation-playbook/main/portfolio/release-2026-11-01/FINAL-HANDOVER.md",
+        "status": 200,
+        "bytes": 14001,
+        "sha256": "9a4b2b0f378d3a321181466766dd992cf1344a49626ea9a3b30d5748536d183e"
+      }
+    ],
+    "passed": true
+  }
+]

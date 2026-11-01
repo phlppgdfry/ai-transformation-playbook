@@ -1,4 +1,4 @@
-> Historical publication-preparation snapshot. The authoritative completed publication report is [Final handover — 1 November 2026](../release-2026-11-01/FINAL-HANDOVER.md).
+> Historical publication-preparation snapshot. The authoritative completed publication report is [Completed public handover](../release-2026-11-01/FINAL-HANDOVER.md).
 
 # Portfolio v1.0 — final publication and handover
 

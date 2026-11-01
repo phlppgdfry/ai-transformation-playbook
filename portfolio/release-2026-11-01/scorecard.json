@@ -173,16 +173,16 @@
       "visibility": "public",
       "milestone_tag": "portfolio-v1.0.0",
       "release_sha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
-      "validated_main_sha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+      "validated_main_sha": "02cd8cc770cdaad9df5ac3262f72739dafc09e70",
       "ci": [
         {
           "conclusion": "success",
-          "databaseId": 41358461578,
+          "databaseId": 41359610605,
           "headBranch": "main",
-          "headSha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+          "headSha": "02cd8cc770cdaad9df5ac3262f72739dafc09e70",
           "name": "Business case verification",
           "status": "completed",
-          "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41358461578"
+          "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41359610605"
         }
       ],
       "release_url": "https://github.com/phlppgdfry/ai-transformation-playbook/releases/tag/portfolio-v1.0.0",
@@ -196,7 +196,7 @@
         "digital-transformation"
       ],
       "license": "MIT",
-      "documentation_followups_only": false
+      "documentation_followups_only": true
     }
   ]
 }

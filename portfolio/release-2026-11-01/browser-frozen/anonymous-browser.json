@@ -1,0 +1,172 @@
+{
+  "browser": "156.0.8078.74",
+  "authenticated": false,
+  "browser_plugin": "not available; existing Playwright/Chrome used",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "checks": [
+    {
+      "repository": "agentic-workflow-platform",
+      "check": "anonymous README rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/agentic-workflow-platform"
+    },
+    {
+      "repository": "agentic-workflow-platform",
+      "check": "architecture diagram rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/agentic-workflow-platform/blob/main/docs/architecture.md"
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "check": "anonymous README rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant"
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "check": "architecture diagram rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/blob/main/docs/architecture.md"
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "check": "anonymous README rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation"
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "check": "architecture diagram rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/blob/main/docs/architecture.md"
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "check": "anonymous README rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance"
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "check": "architecture diagram rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/blob/main/docs/architecture.md"
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "check": "anonymous README rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot"
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "check": "architecture diagram rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/blob/main/docs/architecture.md"
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "check": "anonymous README rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/ai-transformation-playbook"
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "check": "architecture diagram rendered",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/ai-transformation-playbook/blob/main/portfolio/SHOWCASE.md"
+    },
+    {
+      "check": "canonical public publication status",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/ai-transformation-playbook/blob/main/portfolio/SHOWCASE.md"
+    },
+    {
+      "check": "overview to business case navigation",
+      "passed": true,
+      "url": "https://github.com/phlppgdfry/ai-transformation-playbook/blob/main/docs/03-business-case-decisions.md"
+    },
+    {
+      "check": "no Mermaid parser errors",
+      "passed": true
+    }
+  ],
+  "consoleAndPageErrors": [
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 404 ()"
+  ],
+  "failedResponses": [
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    },
+    {
+      "status": 404,
+      "url": "https://github.com/_global-navigation/payloads.json"
+    }
+  ],
+  "passed": true
+}
