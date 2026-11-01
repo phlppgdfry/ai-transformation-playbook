@@ -1,0 +1,44 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "default_branch": "main",
+    "private": true,
+    "main_sha": "d48a3d3bd6c25491b504258b197caabcff7bb325",
+    "baseline_unchanged": true
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "default_branch": "main",
+    "private": true,
+    "main_sha": "4c23677bd565a0628b611fb35abcfb42af305441",
+    "baseline_unchanged": true
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "default_branch": "main",
+    "private": true,
+    "main_sha": "5699e630f8288d3d8885f2f83905ff9ec4c8c540",
+    "baseline_unchanged": true
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "default_branch": "main",
+    "private": true,
+    "main_sha": "7d48e4a15ee2681407c5517dc19b548741707ee4",
+    "baseline_unchanged": true
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "default_branch": "main",
+    "private": true,
+    "main_sha": "e0ec9989b0af9517ef53b1b4c1ce7d9472ae787c",
+    "baseline_unchanged": true
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "default_branch": "main",
+    "private": true,
+    "main_sha": "21925968db25dfc1753080885e87a7aed888a009",
+    "baseline_unchanged": true
+  }
+]

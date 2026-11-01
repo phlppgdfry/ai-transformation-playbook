@@ -1,0 +1,6 @@
+{
+  "date": "2026-11-01",
+  "scope": "User explicitly authorized prepared pushes, exact-SHA CI, fast-forward main promotion, public visibility after green main/security gates, six annotated portfolio-v1.0.0 tags, six GitHub releases, anonymous verification and final handover publication",
+  "privacy": "Existing author email and home-path metadata previously explicitly allowed",
+  "excluded": "Force pushes, history rewriting, branch deletion, new features, packages, paid/cloud services and unrelated repositories"
+}

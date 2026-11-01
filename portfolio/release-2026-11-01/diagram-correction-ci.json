@@ -1,0 +1,15 @@
+{
+  "repository": "microsoft-copilot-studio-automation",
+  "sha": "3bfb47822b3bacf68ef90bbc571db4e88cdb3552",
+  "runs": [
+    {
+      "conclusion": "success",
+      "databaseId": 41359134627,
+      "headBranch": "main",
+      "headSha": "3bfb47822b3bacf68ef90bbc571db4e88cdb3552",
+      "name": "Quality checks",
+      "status": "completed",
+      "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41359134627"
+    }
+  ]
+}

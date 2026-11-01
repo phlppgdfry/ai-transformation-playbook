@@ -1,0 +1,80 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "tag": "portfolio-v1.0.0",
+    "annotated_tag_sha": "c5cc940300e552a6835d842f76f7ede3902edae2",
+    "tagged_commit": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+    "release_id": 430908080,
+    "release_url": "https://github.com/phlppgdfry/agentic-workflow-platform/releases/tag/portfolio-v1.0.0",
+    "published_at": "2026-11-01T22:44:16Z",
+    "draft": false,
+    "prerelease": false,
+    "binary_assets": 0,
+    "notes_match_prepared": true
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "tag": "portfolio-v1.0.0",
+    "annotated_tag_sha": "82112071d13fc337c5fb7e4854c7ffdae0cef567",
+    "tagged_commit": "9651e0028cefad24ccd308780f16082b4023a926",
+    "release_id": 430908077,
+    "release_url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/releases/tag/portfolio-v1.0.0",
+    "published_at": "2026-11-01T22:44:16Z",
+    "draft": false,
+    "prerelease": false,
+    "binary_assets": 0,
+    "notes_match_prepared": true
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "tag": "portfolio-v1.0.0",
+    "annotated_tag_sha": "c2b0df188ae7c2d9af366418b2a0206a2522c881",
+    "tagged_commit": "f85b8e64789af8e873833aa0c8be9c78c69ad4c6",
+    "release_id": 430908081,
+    "release_url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/releases/tag/portfolio-v1.0.0",
+    "published_at": "2026-11-01T22:44:16Z",
+    "draft": false,
+    "prerelease": false,
+    "binary_assets": 0,
+    "notes_match_prepared": true
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "tag": "portfolio-v1.0.0",
+    "annotated_tag_sha": "0d126226c18bde0864ffb357b3a7a88afb439cec",
+    "tagged_commit": "a300fc0262e4245648d177779249b483a4fa4cd6",
+    "release_id": 430908076,
+    "release_url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/releases/tag/portfolio-v1.0.0",
+    "published_at": "2026-11-01T22:44:16Z",
+    "draft": false,
+    "prerelease": false,
+    "binary_assets": 0,
+    "notes_match_prepared": true
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "tag": "portfolio-v1.0.0",
+    "annotated_tag_sha": "5f52dddd98f9a15dbaf9715cb4bd742b0a51d011",
+    "tagged_commit": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+    "release_id": 430908079,
+    "release_url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/releases/tag/portfolio-v1.0.0",
+    "published_at": "2026-11-01T22:44:16Z",
+    "draft": false,
+    "prerelease": false,
+    "binary_assets": 0,
+    "notes_match_prepared": true
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "tag": "portfolio-v1.0.0",
+    "annotated_tag_sha": "6d6b3b3196f775707b37f02a57edb0dd68e2e487",
+    "tagged_commit": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+    "release_id": 430908078,
+    "release_url": "https://github.com/phlppgdfry/ai-transformation-playbook/releases/tag/portfolio-v1.0.0",
+    "published_at": "2026-11-01T22:44:16Z",
+    "draft": false,
+    "prerelease": false,
+    "binary_assets": 0,
+    "notes_match_prepared": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "visibility": "public",
+    "default_branch": "main",
+    "url": "https://github.com/phlppgdfry/agentic-workflow-platform"
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "visibility": "public",
+    "default_branch": "main",
+    "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant"
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "visibility": "public",
+    "default_branch": "main",
+    "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation"
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "visibility": "public",
+    "default_branch": "main",
+    "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance"
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "visibility": "public",
+    "default_branch": "main",
+    "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot"
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "visibility": "public",
+    "default_branch": "main",
+    "url": "https://github.com/phlppgdfry/ai-transformation-playbook"
+  }
+]

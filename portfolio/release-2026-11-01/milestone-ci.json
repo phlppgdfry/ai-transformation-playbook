@@ -1,0 +1,218 @@
+[
+  {
+    "repository": "agentic-workflow-platform",
+    "sha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+    "runs": [
+      {
+        "conclusion": "success",
+        "databaseId": 41358609731,
+        "event": "push",
+        "headBranch": "portfolio-v1.0.0",
+        "headSha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+        "name": "verify",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41358609731"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358462166,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+        "name": "verify",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41358462166"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358225844,
+        "event": "push",
+        "headBranch": "portfolio/enterprise-quality-2026-10-29",
+        "headSha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+        "name": "verify",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41358225844"
+      }
+    ]
+  },
+  {
+    "repository": "azure-ai-rag-knowledge-assistant",
+    "sha": "9651e0028cefad24ccd308780f16082b4023a926",
+    "runs": [
+      {
+        "conclusion": "success",
+        "databaseId": 41358609850,
+        "event": "push",
+        "headBranch": "portfolio-v1.0.0",
+        "headSha": "9651e0028cefad24ccd308780f16082b4023a926",
+        "name": "Quality checks",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41358609850"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358461506,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "9651e0028cefad24ccd308780f16082b4023a926",
+        "name": "Quality checks",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41358461506"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358225699,
+        "event": "push",
+        "headBranch": "portfolio/enterprise-quality-2026-10-29",
+        "headSha": "9651e0028cefad24ccd308780f16082b4023a926",
+        "name": "Quality checks",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41358225699"
+      }
+    ]
+  },
+  {
+    "repository": "microsoft-copilot-studio-automation",
+    "sha": "f85b8e64789af8e873833aa0c8be9c78c69ad4c6",
+    "runs": [
+      {
+        "conclusion": "success",
+        "databaseId": 41358610587,
+        "event": "push",
+        "headBranch": "portfolio-v1.0.0",
+        "headSha": "f85b8e64789af8e873833aa0c8be9c78c69ad4c6",
+        "name": "Quality checks",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41358610587"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358462032,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "f85b8e64789af8e873833aa0c8be9c78c69ad4c6",
+        "name": "Quality checks",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41358462032"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358225963,
+        "event": "push",
+        "headBranch": "portfolio/enterprise-quality-2026-10-29",
+        "headSha": "f85b8e64789af8e873833aa0c8be9c78c69ad4c6",
+        "name": "Quality checks",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41358225963"
+      }
+    ]
+  },
+  {
+    "repository": "enterprise-ai-evals-governance",
+    "sha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+    "runs": [
+      {
+        "conclusion": "success",
+        "databaseId": 41358612251,
+        "event": "push",
+        "headBranch": "portfolio-v1.0.0",
+        "headSha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+        "name": "Evaluation quality gate",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41358612251"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358461932,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+        "name": "Evaluation quality gate",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41358461932"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358225907,
+        "event": "push",
+        "headBranch": "portfolio/enterprise-quality-2026-10-29",
+        "headSha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+        "name": "Evaluation quality gate",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41358225907"
+      }
+    ]
+  },
+  {
+    "repository": "enterprise-ai-accounting-copilot",
+    "sha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+    "runs": [
+      {
+        "conclusion": "success",
+        "databaseId": 41358610238,
+        "event": "push",
+        "headBranch": "portfolio-v1.0.0",
+        "headSha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+        "name": "accounting-quality",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41358610238"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358461384,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+        "name": "accounting-quality",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41358461384"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358225402,
+        "event": "push",
+        "headBranch": "portfolio/enterprise-quality-2026-10-29",
+        "headSha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+        "name": "accounting-quality",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41358225402"
+      }
+    ]
+  },
+  {
+    "repository": "ai-transformation-playbook",
+    "sha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+    "runs": [
+      {
+        "conclusion": "success",
+        "databaseId": 41358610472,
+        "event": "push",
+        "headBranch": "portfolio-v1.0.0",
+        "headSha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+        "name": "Business case verification",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41358610472"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358461578,
+        "event": "push",
+        "headBranch": "main",
+        "headSha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+        "name": "Business case verification",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41358461578"
+      },
+      {
+        "conclusion": "success",
+        "databaseId": 41358225584,
+        "event": "push",
+        "headBranch": "portfolio/enterprise-quality-2026-10-29",
+        "headSha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+        "name": "Business case verification",
+        "status": "completed",
+        "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41358225584"
+      }
+    ]
+  }
+]

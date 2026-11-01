@@ -1,0 +1,202 @@
+{
+  "at": "2026-11-01T22:54:05.073203+00:00",
+  "scope": "verified implementation/main state before the final playbook handover-only commit; immutable tag SHAs are final",
+  "repositories": [
+    {
+      "repository": "agentic-workflow-platform",
+      "url": "https://github.com/phlppgdfry/agentic-workflow-platform",
+      "default_branch": "main",
+      "visibility": "public",
+      "milestone_tag": "portfolio-v1.0.0",
+      "release_sha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+      "validated_main_sha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+      "ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358462166,
+          "headBranch": "main",
+          "headSha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+          "name": "verify",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41358462166"
+        }
+      ],
+      "release_url": "https://github.com/phlppgdfry/agentic-workflow-platform/releases/tag/portfolio-v1.0.0",
+      "annotated_tag_sha": "c5cc940300e552a6835d842f76f7ede3902edae2",
+      "description": "Durable AI tool proposals with scoped execution, checkpoints, retries and independent human approval.",
+      "topics": [
+        "agentic-ai",
+        "azure-openai",
+        "human-in-the-loop",
+        "python",
+        "tool-calling",
+        "workflow-engine"
+      ],
+      "license": "MIT",
+      "documentation_followups_only": false
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant",
+      "default_branch": "main",
+      "visibility": "public",
+      "milestone_tag": "portfolio-v1.0.0",
+      "release_sha": "9651e0028cefad24ccd308780f16082b4023a926",
+      "validated_main_sha": "9651e0028cefad24ccd308780f16082b4023a926",
+      "ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358461506,
+          "headBranch": "main",
+          "headSha": "9651e0028cefad24ccd308780f16082b4023a926",
+          "name": "Quality checks",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41358461506"
+        }
+      ],
+      "release_url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/releases/tag/portfolio-v1.0.0",
+      "annotated_tag_sha": "82112071d13fc337c5fb7e4854c7ffdae0cef567",
+      "description": "Tenant-scoped enterprise knowledge retrieval with source citations and optional Azure hybrid search.",
+      "topics": [
+        "access-control",
+        "azure-ai-search",
+        "azure-openai",
+        "python",
+        "rag",
+        "retrieval"
+      ],
+      "license": "MIT",
+      "documentation_followups_only": false
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation",
+      "default_branch": "main",
+      "visibility": "public",
+      "milestone_tag": "portfolio-v1.0.0",
+      "release_sha": "f85b8e64789af8e873833aa0c8be9c78c69ad4c6",
+      "validated_main_sha": "3bfb47822b3bacf68ef90bbc571db4e88cdb3552",
+      "ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41359134627,
+          "headBranch": "main",
+          "headSha": "3bfb47822b3bacf68ef90bbc571db4e88cdb3552",
+          "name": "Quality checks",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41359134627"
+        }
+      ],
+      "release_url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/releases/tag/portfolio-v1.0.0",
+      "annotated_tag_sha": "c2b0df188ae7c2d9af366418b2a0206a2522c881",
+      "description": "Copilot Studio connector reference with separate proposal, human review and execution boundaries.",
+      "topics": [
+        "copilot-studio",
+        "custom-connector",
+        "human-in-the-loop",
+        "power-automate",
+        "power-platform"
+      ],
+      "license": "MIT",
+      "documentation_followups_only": true
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance",
+      "default_branch": "main",
+      "visibility": "public",
+      "milestone_tag": "portfolio-v1.0.0",
+      "release_sha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+      "validated_main_sha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+      "ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358461932,
+          "headBranch": "main",
+          "headSha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+          "name": "Evaluation quality gate",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41358461932"
+        }
+      ],
+      "release_url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/releases/tag/portfolio-v1.0.0",
+      "annotated_tag_sha": "0d126226c18bde0864ffb357b3a7a88afb439cec",
+      "description": "Reproducible AI evaluation gates, security test cases and auditable release reports for enterprise AI applications.",
+      "topics": [
+        "ai-governance",
+        "ai-security",
+        "llm-evaluation",
+        "python",
+        "rag",
+        "regression-testing"
+      ],
+      "license": "MIT",
+      "documentation_followups_only": false
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot",
+      "default_branch": "main",
+      "visibility": "public",
+      "milestone_tag": "portfolio-v1.0.0",
+      "release_sha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+      "validated_main_sha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+      "ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358461384,
+          "headBranch": "main",
+          "headSha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+          "name": "accounting-quality",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41358461384"
+        }
+      ],
+      "release_url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/releases/tag/portfolio-v1.0.0",
+      "annotated_tag_sha": "5f52dddd98f9a15dbaf9715cb4bd742b0a51d011",
+      "description": "Invoice review with Azure extraction adapters, independent approval and an idempotent mock ERP outbox. Tested synthetic portfolio case.",
+      "topics": [
+        "accounting",
+        "ai-consulting",
+        "azure-ai",
+        "document-intelligence",
+        "fastapi",
+        "human-in-the-loop"
+      ],
+      "license": "MIT",
+      "documentation_followups_only": false
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "url": "https://github.com/phlppgdfry/ai-transformation-playbook",
+      "default_branch": "main",
+      "visibility": "public",
+      "milestone_tag": "portfolio-v1.0.0",
+      "release_sha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+      "validated_main_sha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+      "ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358461578,
+          "headBranch": "main",
+          "headSha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+          "name": "Business case verification",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41358461578"
+        }
+      ],
+      "release_url": "https://github.com/phlppgdfry/ai-transformation-playbook/releases/tag/portfolio-v1.0.0",
+      "annotated_tag_sha": "6d6b3b3196f775707b37f02a57edb0dd68e2e487",
+      "description": "AI consulting case with traceable business scenarios, use-case prioritization, adoption and governance exercises.",
+      "topics": [
+        "ai-consulting",
+        "ai-governance",
+        "business-analysis",
+        "change-management",
+        "digital-transformation"
+      ],
+      "license": "MIT",
+      "documentation_followups_only": false
+    }
+  ]
+}

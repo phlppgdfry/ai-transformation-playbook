@@ -2,7 +2,7 @@
 
 A fictional accounting practice wants to reduce invoice-review friction while preserving human authority and traceable decisions. This portfolio connects business analysis to working local software. It is a demonstration case, with synthetic records and hypothetical capacity estimates, not client delivery or measured savings.
 
-[Business case](../docs/03-business-case-decisions.md) → [Architecture](#working-architecture) → [Demo](#see-it-and-reproduce-it) → [Components](#follow-the-case) → [Verification and publication](release-2026-10-31/FINAL-HANDOVER.md) → [Limitations](#what-this-demonstrates)
+[Business case](../docs/03-business-case-decisions.md) → [Architecture](#working-architecture) → [Demo](#see-it-and-reproduce-it) → [Components](#follow-the-case) → [Verification and publication](release-2026-11-01/FINAL-HANDOVER.md) → [Limitations](#what-this-demonstrates)
 
 ## Follow the case
 
@@ -17,7 +17,7 @@ Discover the process → agree requirements and acceptance → build controlled 
 | Evals & Governance | Observe API behavior, apply explicit gates and retain positive/negative evidence | [Repository](https://github.com/phlppgdfry/enterprise-ai-evals-governance) · [review branch](https://github.com/phlppgdfry/enterprise-ai-evals-governance/tree/portfolio/enterprise-quality-2026-10-29) |
 | Microsoft Automation | Restrict an agent connector to proposals/status; separate review and execution | [Repository](https://github.com/phlppgdfry/microsoft-copilot-studio-automation) · [review branch](https://github.com/phlppgdfry/microsoft-copilot-studio-automation/tree/portfolio/enterprise-quality-2026-10-29) |
 
-The repositories are private until separately authorized otherwise. Review-branch links are available after approved pushes and successful hosted checks. Their default `main` branches do not yet represent this release; promoting the release is a separate authorization step.
+All six repositories are public. Their validated `main` branches are canonical; the retained review branches preserve the release history. Each has an annotated `portfolio-v1.0.0` milestone release. This is a verified synthetic reference portfolio, not a production deployment.
 
 ## Working architecture
 
