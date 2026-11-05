@@ -1,0 +1,10 @@
+{
+  "supplier_id": "synthetic-office",
+  "invoice_number": "SYN-VIDEO-001",
+  "invoice_date": "2026-01-01",
+  "currency": "EUR",
+  "net": "200.00",
+  "vat": "42.00",
+  "total": "242.00",
+  "description": "Synthetic office supplies for recorded invoice review"
+}

@@ -1,0 +1,276 @@
+{
+  "checked_at": "2026-11-05T09:35:28.962387+00:00",
+  "branch": "portfolio/career-launch-2026-11-05",
+  "repositories": [
+    {
+      "repository": "agentic-workflow-platform",
+      "baseline_main_sha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+      "origin_main_sha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+      "milestone_sha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "Durable AI tool proposals with scoped execution, checkpoints, retries and independent human approval.",
+        "isPrivate": false,
+        "nameWithOwner": "phlppgdfry/agentic-workflow-platform",
+        "repositoryTopics": [
+          {
+            "name": "agentic-ai"
+          },
+          {
+            "name": "azure-openai"
+          },
+          {
+            "name": "human-in-the-loop"
+          },
+          {
+            "name": "python"
+          },
+          {
+            "name": "tool-calling"
+          },
+          {
+            "name": "workflow-engine"
+          }
+        ]
+      },
+      "main_ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358462166,
+          "headSha": "0967b610b47062eaf6ead67b7db3df3b2694a37c",
+          "name": "verify",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/agentic-workflow-platform/actions/runs/41358462166"
+        }
+      ],
+      "readme": "https://github.com/phlppgdfry/agentic-workflow-platform#readme",
+      "release": "https://github.com/phlppgdfry/agentic-workflow-platform/releases/tag/portfolio-v1.0.0"
+    },
+    {
+      "repository": "azure-ai-rag-knowledge-assistant",
+      "baseline_main_sha": "9651e0028cefad24ccd308780f16082b4023a926",
+      "origin_main_sha": "9651e0028cefad24ccd308780f16082b4023a926",
+      "milestone_sha": "9651e0028cefad24ccd308780f16082b4023a926",
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "Tenant-scoped enterprise knowledge retrieval with source citations and optional Azure hybrid search.",
+        "isPrivate": false,
+        "nameWithOwner": "phlppgdfry/azure-ai-rag-knowledge-assistant",
+        "repositoryTopics": [
+          {
+            "name": "access-control"
+          },
+          {
+            "name": "azure-ai-search"
+          },
+          {
+            "name": "azure-openai"
+          },
+          {
+            "name": "python"
+          },
+          {
+            "name": "rag"
+          },
+          {
+            "name": "retrieval"
+          }
+        ]
+      },
+      "main_ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358461506,
+          "headSha": "9651e0028cefad24ccd308780f16082b4023a926",
+          "name": "Quality checks",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/actions/runs/41358461506"
+        }
+      ],
+      "readme": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant#readme",
+      "release": "https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/releases/tag/portfolio-v1.0.0"
+    },
+    {
+      "repository": "microsoft-copilot-studio-automation",
+      "baseline_main_sha": "3bfb47822b3bacf68ef90bbc571db4e88cdb3552",
+      "origin_main_sha": "3bfb47822b3bacf68ef90bbc571db4e88cdb3552",
+      "milestone_sha": "f85b8e64789af8e873833aa0c8be9c78c69ad4c6",
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "Copilot Studio connector reference with separate proposal, human review and execution boundaries.",
+        "isPrivate": false,
+        "nameWithOwner": "phlppgdfry/microsoft-copilot-studio-automation",
+        "repositoryTopics": [
+          {
+            "name": "copilot-studio"
+          },
+          {
+            "name": "custom-connector"
+          },
+          {
+            "name": "human-in-the-loop"
+          },
+          {
+            "name": "power-automate"
+          },
+          {
+            "name": "power-platform"
+          }
+        ]
+      },
+      "main_ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41359134627,
+          "headSha": "3bfb47822b3bacf68ef90bbc571db4e88cdb3552",
+          "name": "Quality checks",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/actions/runs/41359134627"
+        }
+      ],
+      "readme": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation#readme",
+      "release": "https://github.com/phlppgdfry/microsoft-copilot-studio-automation/releases/tag/portfolio-v1.0.0"
+    },
+    {
+      "repository": "enterprise-ai-evals-governance",
+      "baseline_main_sha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+      "origin_main_sha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+      "milestone_sha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "Reproducible AI evaluation gates, security test cases and auditable release reports for enterprise AI applications.",
+        "isPrivate": false,
+        "nameWithOwner": "phlppgdfry/enterprise-ai-evals-governance",
+        "repositoryTopics": [
+          {
+            "name": "ai-governance"
+          },
+          {
+            "name": "ai-security"
+          },
+          {
+            "name": "llm-evaluation"
+          },
+          {
+            "name": "python"
+          },
+          {
+            "name": "rag"
+          },
+          {
+            "name": "regression-testing"
+          }
+        ]
+      },
+      "main_ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358461932,
+          "headSha": "a300fc0262e4245648d177779249b483a4fa4cd6",
+          "name": "Evaluation quality gate",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/actions/runs/41358461932"
+        }
+      ],
+      "readme": "https://github.com/phlppgdfry/enterprise-ai-evals-governance#readme",
+      "release": "https://github.com/phlppgdfry/enterprise-ai-evals-governance/releases/tag/portfolio-v1.0.0"
+    },
+    {
+      "repository": "enterprise-ai-accounting-copilot",
+      "baseline_main_sha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+      "origin_main_sha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+      "milestone_sha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "Invoice review with Azure extraction adapters, independent approval and an idempotent mock ERP outbox. Tested synthetic portfolio case.",
+        "isPrivate": false,
+        "nameWithOwner": "phlppgdfry/enterprise-ai-accounting-copilot",
+        "repositoryTopics": [
+          {
+            "name": "accounting"
+          },
+          {
+            "name": "ai-consulting"
+          },
+          {
+            "name": "azure-ai"
+          },
+          {
+            "name": "document-intelligence"
+          },
+          {
+            "name": "fastapi"
+          },
+          {
+            "name": "human-in-the-loop"
+          }
+        ]
+      },
+      "main_ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41358461384,
+          "headSha": "c88630e8a3f35c8d3ad3245b46246c3c20ad3edb",
+          "name": "accounting-quality",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/actions/runs/41358461384"
+        }
+      ],
+      "readme": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot#readme",
+      "release": "https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/releases/tag/portfolio-v1.0.0"
+    },
+    {
+      "repository": "ai-transformation-playbook",
+      "baseline_main_sha": "3458555351ccedf26499a5f5edeed85f64060769",
+      "origin_main_sha": "3458555351ccedf26499a5f5edeed85f64060769",
+      "milestone_sha": "fd463c82928098b1c9f337b7bec75168a6623ab8",
+      "metadata": {
+        "defaultBranchRef": {
+          "name": "main"
+        },
+        "description": "AI consulting case with traceable business scenarios, use-case prioritization, adoption and governance exercises.",
+        "isPrivate": false,
+        "nameWithOwner": "phlppgdfry/ai-transformation-playbook",
+        "repositoryTopics": [
+          {
+            "name": "ai-consulting"
+          },
+          {
+            "name": "ai-governance"
+          },
+          {
+            "name": "business-analysis"
+          },
+          {
+            "name": "change-management"
+          },
+          {
+            "name": "digital-transformation"
+          }
+        ]
+      },
+      "main_ci": [
+        {
+          "conclusion": "success",
+          "databaseId": 41360048571,
+          "headSha": "3458555351ccedf26499a5f5edeed85f64060769",
+          "name": "Business case verification",
+          "status": "completed",
+          "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/41360048571"
+        }
+      ],
+      "readme": "https://github.com/phlppgdfry/ai-transformation-playbook#readme",
+      "release": "https://github.com/phlppgdfry/ai-transformation-playbook/releases/tag/portfolio-v1.0.0"
+    }
+  ]
+}

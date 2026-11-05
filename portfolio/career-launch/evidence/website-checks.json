@@ -1,0 +1,48 @@
+{
+  "site_source": "pgosprive",
+  "base_commit": "704815a",
+  "worktree": "/private/tmp/enterprise-ai-career-website",
+  "branch": "portfolio/career-launch-catalogue-isolated-2026-11-05",
+  "tests": {
+    "command": "npm test -- --run",
+    "exit_code": 0,
+    "passed": 13,
+    "files": 2
+  },
+  "build": {
+    "command": "npm run build",
+    "exit_code": 0,
+    "warnings": [
+      "Existing outdated Browserslist database",
+      "Existing bundle larger than 500 kB"
+    ]
+  },
+  "lint": {
+    "command": "npm run lint",
+    "exit_code": 1,
+    "errors": 3,
+    "warnings": 8,
+    "files_unchanged_from_base": [
+      {
+        "file": "src/components/ui/command.tsx",
+        "unchanged_from_base": true
+      },
+      {
+        "file": "src/components/ui/textarea.tsx",
+        "unchanged_from_base": true
+      },
+      {
+        "file": "tailwind.config.ts",
+        "unchanged_from_base": true
+      }
+    ],
+    "scope": "No TS/TSX source changed by this proposal; these lint failures are pre-existing, not silently fixed"
+  },
+  "playbook_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 9,
+    "exit_code": 0
+  },
+  "deployment": "NOT PERFORMED",
+  "hosted_feature_branch_ci": "NOT EXECUTED: no push authorized"
+}

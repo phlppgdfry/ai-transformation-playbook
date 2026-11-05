@@ -1,56 +1,80 @@
-# Enterprise AI consulting case study
+# Philippe Godfroy — AI transformation & business technology
 
-A fictional accounting practice wants to reduce invoice-review friction while preserving human authority and traceable decisions. This portfolio connects business analysis to working local software. It is a demonstration case, with synthetic records and hypothetical capacity estimates, not client delivery or measured savings.
+I am transitioning toward business analysis, AI implementation and product-focused technology roles. This independent portfolio uses substantial AI-assisted development; I am building the proficiency to explain, modify and troubleshoot the work myself.
 
-[Business case](../docs/03-business-case-decisions.md) → [Architecture](#working-architecture) → [Demo](#see-it-and-reproduce-it) → [Components](#follow-the-case) → [Verification and publication](release-2026-11-01/FINAL-HANDOVER.md) → [Limitations](#what-this-demonstrates)
+## Executive overview
 
-## Follow the case
+A fictional accounting practice needs to review invoices, find the right policy and keep approval responsibility clear. This case connects a business process and transparent assumptions to six working components: invoice validation, controlled AI tool proposals, authorized knowledge retrieval, independent review, evaluation and a Microsoft connector artifact. The public milestone includes retained tests, hosted CI, local demonstrations and genuine local-Qwen evidence. Invoice fields and business effects are synthetic; the default demo calls no model. Azure inference/OCR and full Copilot Studio runtime remain unverified. It demonstrates inspectable project decisions; it establishes neither client outcomes nor independently assessed personal expertise.
 
-Discover the process → agree requirements and acceptance → build controlled automation → retrieve authorized policy evidence → obtain independent approval → evaluate behavior → plan adoption and measure a pilot.
+**Choose your route:** [60-second recruiter brief](career-launch/RECRUITER-BRIEF.md) · [run the demo](#demonstration) · [inspect technical evidence](#engineering-evidence) · [career and ownership materials](career-launch/README.md).
 
-| Component | Business responsibility | Inspect the release branch |
-|---|---|---|
-| Transformation Playbook | Process, assumptions, prioritization, adoption and benefits measurement | [Repository](https://github.com/phlppgdfry/ai-transformation-playbook) · [review branch](https://github.com/phlppgdfry/ai-transformation-playbook/tree/portfolio/enterprise-quality-2026-10-29) |
-| Accounting Copilot | Validate invoices, separate reviewer authority and export to a local mock ERP | [Repository](https://github.com/phlppgdfry/enterprise-ai-accounting-copilot) · [review branch](https://github.com/phlppgdfry/enterprise-ai-accounting-copilot/tree/portfolio/enterprise-quality-2026-10-29) |
-| Agentic Workflow Platform | Bound a model's tool proposals, persist steps and require independent approval | [Repository](https://github.com/phlppgdfry/agentic-workflow-platform) · [review branch](https://github.com/phlppgdfry/agentic-workflow-platform/tree/portfolio/enterprise-quality-2026-10-29) |
-| Knowledge Assistant | Retrieve permitted policy sources before generating an answer | [Repository](https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant) · [review branch](https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant/tree/portfolio/enterprise-quality-2026-10-29) |
-| Evals & Governance | Observe API behavior, apply explicit gates and retain positive/negative evidence | [Repository](https://github.com/phlppgdfry/enterprise-ai-evals-governance) · [review branch](https://github.com/phlppgdfry/enterprise-ai-evals-governance/tree/portfolio/enterprise-quality-2026-10-29) |
-| Microsoft Automation | Restrict an agent connector to proposals/status; separate review and execution | [Repository](https://github.com/phlppgdfry/microsoft-copilot-studio-automation) · [review branch](https://github.com/phlppgdfry/microsoft-copilot-studio-automation/tree/portfolio/enterprise-quality-2026-10-29) |
+## Business challenge
 
-All six repositories are public. Their validated `main` branches are canonical; the retained review branches preserve the release history. Each has an annotated `portfolio-v1.0.0` milestone release. This is a verified synthetic reference portfolio, not a production deployment.
+Invoice review combines repeated checks with accountable decisions. Missing fields, duplicates, policy exceptions and handoffs can create rework or an inappropriate export. A useful solution must show the source, explain exceptions, keep the reviewer independent and leave a trace of what happened. People also need training, acceptance criteria and a way to report errors. This fictional scenario provides a place to examine those needs without claiming a real accounting engagement.
 
-## Working architecture
+<a id="follow-the-case"></a>
+
+## Proposed solution
+
+| Responsibility | Component and inspectable capability |
+|---|---|
+| Discover and prioritize | [Transformation Playbook](https://github.com/phlppgdfry/ai-transformation-playbook): process, requirements, risk, adoption and a hypothetical capacity model |
+| Validate and execute | [Accounting Copilot](https://github.com/phlppgdfry/enterprise-ai-accounting-copilot): exact amounts, duplicates, separate review, audit and local mock ERP export |
+| Prepare a proposal | [Workflow Platform](https://github.com/phlppgdfry/agentic-workflow-platform): bounded tool plans, saved progress, real invoice/policy HTTP reads and independent approval |
+| Retrieve permitted sources | [Knowledge Assistant](https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant): access filtering before local search and source extracts; optional Azure adapters |
+| Inspect quality and controls | [Evals & Governance](https://github.com/phlppgdfry/enterprise-ai-evals-governance): executed positive/negative checks, compatible baselines and advisory policy gates |
+| Demonstrate Microsoft integration boundaries | [Microsoft Automation](https://github.com/phlppgdfry/microsoft-copilot-studio-automation): proposal/status connector artifact and a separate local review/execution API |
+
+<a id="working-architecture"></a>
+
+## Architecture
 
 ```mermaid
 flowchart LR
-  Business[Process, business case and adoption plan] --> Invoice[Accounting API]
-  Workflow[Workflow API: bounded planner and durable steps] -->|scoped invoice read| Invoice
-  Workflow -->|authorized policy search| Knowledge[Knowledge API]
-  Workflow --> Reviewer[Independent workflow reviewer]
+  Business[Process and acceptance criteria] --> Invoice[Accounting validation]
+  Planner[Fixture or local Qwen plan] --> Guard[Server tool and scope checks]
+  Guard --> Invoice
+  Guard --> Knowledge[Authorized policy retrieval]
+  Guard --> Proposal[Saved workflow proposal]
+  Proposal --> Reviewer[Independent workflow reviewer]
   Reviewer --> CRM[Local mock CRM case]
-  Invoice --> Finance[Separate accounting reviewer]
+  Invoice --> Finance[Separate invoice reviewer]
   Finance --> ERP[Authorized local mock ERP export]
-  Evals[Evaluation and governance API] -. observes .-> Workflow
-  Evals -. checks .-> Knowledge
-  Runner[Optional scenario runner] -->|separate local proposal| Automation[Automation API]
-  Artifact[Microsoft connector artifact] -. runtime not verified .-> Automation
+  Evals[Evaluation observes and advises] -. checks .-> Knowledge
+  Evals -. checks .-> Proposal
+  Runner[Optional scenario runner] --> Automation[Local task approval API]
+  Microsoft[Microsoft connector artifact] -. runtime unverified .-> Automation
+  Azure[Optional Azure OCR and inference] -. live quality unverified .-> Invoice
 ```
 
-The optional runner connects actual HTTP APIs; services retain separate databases and authority. Workflow approval does not approve the invoice. Governance advice does not grant permissions. The Microsoft artifact is not an active cloud connection.
+Services own separate state and authority. A model proposes; the server checks permissions and arguments. Workflow approval does not approve an invoice. Evaluation advice never grants execution rights. Microsoft cloud runtime and Azure quality are outside the verified local scenario. [System map, workflow and screenshot gallery](career-launch/assets/README.md) · [architecture decisions](release-2026-10-30/STORY.md).
 
-The APIs use Python, FastAPI, Pydantic and SQLite; the consulting calculator uses Python's standard library. Interfaces are small authored HTML workspaces. Genuine local tool calling uses an installed Ollama/Qwen model. The offline planner uses fixtures, local knowledge answers are lexical extracts, and business effects use local mock tables. Azure adapters are optional and their live quality remains unverified.
+<a id="see-it-and-reproduce-it"></a>
 
-## See it and reproduce it
+## Demonstration
 
-![Actual accounting review workspace, synthetic data](release-2026-10-30/browser/accounting-desktop.png)
+1. **See:** browse the [actual screenshot gallery](career-launch/assets/README.md) or inspect a [three-minute recording script](career-launch/DEMO-SCRIPT.md). A new finished video has not been recorded.
+2. **Run:** install the five sibling APIs using their independent READMEs, then run `python3 -m integration.scenario --root ..` from this repository. It starts temporary local services and runs the deterministic scenario. [Exact setup and cleanup](../integration/README.md).
+3. **Review:** use the [recording guide](career-launch/RECORDING-GUIDE.md) to open the calculator, invoice review, tool receipts and evaluation controls. The optional installed-Qwen mode is labelled separately; a provider failure is never presented as a fixture success.
 
-1. Read the [five-minute demo](release-2026-10-31/HANDOVER.md) and [integration quick start](../integration/README.md).
-2. Use each API's README and `docs/release.md` for independent installation. All five APIs can be evaluated without cloud credentials.
-3. Run `python3 -m integration.scenario --root ..` from this repository after installing the five sibling APIs. Use the explicit Ollama option only when the installed model is available; a model failure is not replaced by fixtures.
-4. Open the [release decision and exact evidence](release-2026-10-31/REPORT.md). Historical evidence and [architecture decisions](release-2026-10-30/STORY.md) remain intact.
+## Engineering evidence
 
-## What this demonstrates
+The current public repositories and their main CI were checked on 5 November 2026: [baseline snapshot](career-launch/evidence/baseline.json). The career-launch presentation changes are a local feature-branch proposal until separately approved for publication.
 
-For a business reviewer: process analysis, explicit assumptions, acceptance criteria, independent review, adoption planning and a way to measure benefits. For an engineer: API contracts, schema/role/tenant checks, transactional state, idempotency, controlled tools, retrieval boundaries and reproducible negative tests.
+The released implementation retains [172 repository-test results](release-2026-10-31/repository-checks/verification.json), five clean-install records in the API repositories, [27 deterministic checks](release-2026-10-31/deterministic.json), [27 genuine local-Qwen checks](release-2026-10-31/local-inference.json) and [26 local browser checks](release-2026-10-31/browser/browser-qa.json). These are historical executed records, not a newly claimed rerun. [Publication, release URLs and limitations](release-2026-11-01/FINAL-HANDOVER.md).
 
-It does not demonstrate production identity/availability, real ERP effects, a fully running Microsoft agent/flow, live Azure quality, legal compliance or the author's independently assessed skills. Use the [learning exercises](release-2026-10-30/LEARNING.md) to establish personal ownership before claiming those competencies.
+## Business impact hypothesis
+
+Potential benefits are less repeated handling, clearer exception routing and more traceable review. The [business case](../docs/03-business-case-decisions.md) exposes assumptions for volume, adoption, coverage, rework and cost. No client savings or adoption result was observed. A pilot would compare similar tasks before and after: handling time, rework, errors, reviewer completion, actual usage and total operating cost. Freed capacity only becomes a financial benefit if the organization can use it productively.
+
+<a id="what-this-demonstrates"></a>
+
+## My contribution and developing ownership
+
+The portfolio direction connects business questions to technical artifacts. Requirements, architecture, implementation, tests and documentation were developed with substantial AI assistance. The repository evidence shows that those artifacts and checks exist; it does not establish that I independently authored every decision or can reproduce every change without help. I bring foundational programming logic and a focus on structured business-technology problem solving, while developing deeper implementation skill.
+
+The next evidence of personal ownership is practical: explain one boundary, trace a request, diagnose a failure and make a reviewed change without generated assistance. [14-day ownership plan](career-launch/OWNERSHIP-PLAN.md) · [interview preparation](career-launch/INTERVIEW-PREP.md).
+
+## Next steps
+
+Record the existing demonstration, review the website integration, complete the ownership exercises and tailor applications toward business/functional analysis, AI implementation and technical product analysis. Senior leadership is a long-term direction requiring experience, not a current qualification. [Career positioning](career-launch/CAREER-POSITIONING.md) · [human action checklist](career-launch/FINAL-CHECKLIST.md). No runtime expansion is needed for this presentation phase.

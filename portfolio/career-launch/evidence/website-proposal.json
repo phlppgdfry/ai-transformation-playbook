@@ -1,0 +1,18 @@
+{
+  "repository": "pgosprive",
+  "branch": "portfolio/career-launch-catalogue-isolated-2026-11-05",
+  "commit": "1ed77e1a88871a6eabd98d294a1690dfbbc9901f",
+  "base": "704815a96f665259cfea223d937c2f7e9df113db",
+  "worktree": "/private/tmp/enterprise-ai-career-website",
+  "files": [
+    "public/sitemap.xml",
+    "public/work/enterprise-ai-accounting.png",
+    "src/data/projects.json"
+  ],
+  "working_tree_clean": true,
+  "new_dependencies": 0,
+  "unrelated_project_data_preserved": true,
+  "original_checkout_concurrent_edits_preserved": true,
+  "push_merge_deploy": "NOT PERFORMED",
+  "secret_findings": 0
+}

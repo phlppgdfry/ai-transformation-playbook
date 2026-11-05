@@ -1,0 +1,23 @@
+[
+  {
+    "file": "accounting-workspace.png",
+    "source": "portfolio/release-2026-10-31/browser/accounting-desktop.png",
+    "sha256": "e97b54721ba23676493dc17ea81310ef18910fc796556a57b3f34da3b9715587",
+    "alt": "Synthetic accounting review workspace with invoice status and independent approval",
+    "classification": "authentic implemented application screenshot; synthetic records; unchanged pixels"
+  },
+  {
+    "file": "workflow-inspector.png",
+    "source": "portfolio/release-2026-10-31/browser/workflow-desktop.png",
+    "sha256": "6e06d8bc941d61a2c9144e45581c622ec3a9f93752f7ddd361895ba4a11484ec",
+    "alt": "Workflow inspector showing a fixture plan waiting for independent approval",
+    "classification": "authentic implemented application screenshot; synthetic records; unchanged pixels"
+  },
+  {
+    "file": "transformation-studio.png",
+    "source": "evidence/screenshots/desktop.png",
+    "sha256": "4b9741a25d17cf0fb6f25cc015f48f5baedafb0ab3bafc88539d8640e70ac9af",
+    "alt": "Implemented consulting calculator with hypothetical scenario assumptions",
+    "classification": "authentic implemented application screenshot; synthetic records; unchanged pixels"
+  }
+]

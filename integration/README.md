@@ -1,6 +1,6 @@
 # Reproduce the integrated accounting case
 
-Clone the six private repositories as sibling directories and install each API repository using its own README and dependency lock. Keep their `.venv` environments separate. The playbook itself uses only Python's standard library.
+Clone the six public repositories as sibling directories and install each API repository using its own README and dependency lock. Keep their `.venv` environments separate. The playbook itself uses only Python's standard library.
 
 ```bash
 cd ai-transformation-playbook
