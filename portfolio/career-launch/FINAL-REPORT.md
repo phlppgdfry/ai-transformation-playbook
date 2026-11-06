@@ -4,7 +4,7 @@
 
 **CONDITIONAL GO for publication; GO for the completed local career-launch preparation.** The six-component portfolio now has a clearer author/business narrative, evidence-based career materials, a usable recording package and independent ownership plan. P0/P1 presentation issues identified in this task are addressed. No AI runtime expansion is required.
 
-Changes are local proposals. The public v1.0 implementation, main branches and tags remain unchanged. Publishing/merging the new career materials or deploying the website requires separate authorization. Personal technical proficiency, a finished video and job eligibility are not inferred from the deliverables.
+Both prepared feature branches were pushed after explicit authorization, and exact-commit hosted CI passed. The public v1.0 implementation, main branches and tags remain unchanged. Main integration and production website deployment require separate authorization. See [push verification](evidence/push-verification.json). Personal technical proficiency, a finished video and job eligibility are not inferred from the deliverables.
 
 ## B. Exact changes and branches
 
@@ -22,7 +22,7 @@ Concurrent changes appeared in the original website checkout after its initial c
 
 | Check | Actual result / scope |
 |---|---|
-| Current six public baselines | Fetched and read GitHub metadata/CI: all six remain public with successful exact-main runs; local baselines unchanged: [baseline](evidence/baseline.json). No new hosted CI claimed for unpushed career branches. |
+| Current six public baselines | Fetched and read GitHub metadata/CI: all six remain public with successful exact-main runs; local baselines unchanged: [baseline](evidence/baseline.json). Follow-up hosted CI for the pushed career and website branches passed; exact SHAs and workflow URLs are in the push verification record. |
 | Playbook regression | `python3 -m unittest discover -s tests -v`: 9 passed. No scenario assumptions or application code changed. |
 | Isolated website tests | `npm test -- --run`: 13 passed across two existing suites, including catalogue uniqueness, bilingual data and real-image checks. |
 | Isolated production build | `npm run build`: passed. Existing outdated Browserslist-data and >500 kB bundle warnings retained; no dependency update/refactor introduced. |
@@ -33,7 +33,7 @@ Concurrent changes appeared in the original website checkout after its initial c
 | Content/assets | 24 interview questions, 10 independent exercises, 14 daily budgets, 311-word recruiter brief, about 240 spoken script words; 22 referenced source files exist, three authentic asset hashes match originals and two SVGs parse: [checks](evidence/content-checks.json). |
 | Navigation / new secrets / scope | Final local file-target and staged-content scans recorded in [final validation](evidence/final-validation.json). No raw credentials/session file added; original release evidence/tags and the five API repositories are unchanged. |
 
-The prior 172 repository tests, five clean installations, 27 deterministic/27 local-Qwen integrations and 26 local browser checks remain historical implementation evidence; they were not unnecessarily rerun or relabelled as new career-launch results. New Mermaid source was reviewed but not rendered on GitHub because this branch is unpublished. Personal exercises, applications, LinkedIn/CV updates, video recording and live website publication were NOT PERFORMED.
+The prior 172 repository tests, five clean installations, 27 deterministic/27 local-Qwen integrations and 26 local browser checks remain historical implementation evidence; they were not unnecessarily rerun or relabelled as new career-launch results. New Mermaid source was reviewed but not rendered on GitHub during the initial local review; hosted CI success does not itself prove diagram rendering. Personal exercises, applications, LinkedIn/CV updates, video recording and live website publication were NOT PERFORMED.
 
 ## D. Strongest positioning
 
@@ -49,8 +49,8 @@ A reviewer can inspect the released contracts/source, server authority boundarie
 
 ## G. Remaining limitations
 
-- **BLOCKER for merging/deploying these proposals:** publication authorization and review of the original website's concurrent work. No push/merge/deployment is performed in this task. This does not block delivery of the local package.
-- **Website integration review:** inherited lint errors and document-language semantics need owner triage before claiming a fully green/publicly validated website change. Whether the deployment pipeline enforces lint is UNKNOWN. No unrelated repair was made.
+- **BLOCKER for main integration/production deployment:** separate approval and review of the original website checkout overlap. Feature-branch pushes and hosted CI are complete; no main merge or production deployment was performed.
+- **Website integration review:** inherited lint errors and document-language semantics need owner triage before claiming a fully green/publicly validated website change. The inspected GitHub workflow runs type checking, tests, build and project links; it does not run lint. GitHub also reported 69 inherited default-branch dependency alerts (36 high, 29 moderate, 4 low), not introduced or resolved by these three data/asset changes. No unrelated repair was made.
 - **OPTIONAL:** extra social imagery, PDF pagination, broader accessibility/browser coverage or new video tooling. None requires another AI feature cycle.
 - **FUTURE LEARNING / pilot scope:** independently assessed proficiency, real stakeholder facilitation, live Azure OCR/inference, full Microsoft runtime, production identity and actual external-sink operations remain unverified. No client results, employment experience or eligibility was invented.
 
@@ -62,4 +62,10 @@ Use [FINAL-CHECKLIST.md](FINAL-CHECKLIST.md): review personal claims; complete i
 
 ## I. Stop decision
 
-**No further portfolio feature development is necessary for this launch preparation.** The required materials are usable and the known limitations are explicit. Stop at this reviewable local baseline. The next work is human practice, recording, integration/publication review and targeted applications, not another masterprompt or engineering expansion.
+**No further portfolio feature development is necessary for this launch preparation.** The required materials are usable and the known limitations are explicit. Stop at this pushed, CI-verified review baseline. The next work is human practice, recording, integration/publication review and targeted applications, not another masterprompt or engineering expansion.
+
+## Follow-up push and disclosure review
+
+The user authorized pushing all prepared work. Career content commit `10911fade7a674b124fb54a67ac16e8028d73d33` passed [hosted verification](https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/42049997538). Website commit `1ed77e1a88871a6eabd98d294a1690dfbbc9901f` passed [build and links jobs](https://github.com/phlppgdfry/pgosprive/actions/runs/42050641533). The website source remains private. Later documentation-only follow-up commits are checked separately in GitHub.
+
+The central history scan found no secrets. A redacted website-history scan flagged an already committed Supabase publishable/anon client key in an ancestor of its existing main branch. Offline claim inspection identified `anon`, not a privileged service-role key. No token or project reference is copied here, no tracked environment file is added, and database RLS was not audited. This finding does not establish database security; see the scoped evidence record. No history rewrite was performed.

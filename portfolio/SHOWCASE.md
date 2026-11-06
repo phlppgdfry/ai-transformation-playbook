@@ -59,7 +59,7 @@ Services own separate state and authority. A model proposes; the server checks p
 
 ## Engineering evidence
 
-The current public repositories and their main CI were checked on 5 November 2026: [baseline snapshot](career-launch/evidence/baseline.json). The career-launch presentation changes are a local feature-branch proposal until separately approved for publication.
+The current public repositories and their main CI were checked on 5 November 2026: [baseline snapshot](career-launch/evidence/baseline.json). The career-launch presentation changes are available on the pushed review branch with passing hosted CI; default-branch integration remains pending. [Push evidence](career-launch/evidence/push-verification.json).
 
 The released implementation retains [172 repository-test results](release-2026-10-31/repository-checks/verification.json), five clean-install records in the API repositories, [27 deterministic checks](release-2026-10-31/deterministic.json), [27 genuine local-Qwen checks](release-2026-10-31/local-inference.json) and [26 local browser checks](release-2026-10-31/browser/browser-qa.json). These are historical executed records, not a newly claimed rerun. [Publication, release URLs and limitations](release-2026-11-01/FINAL-HANDOVER.md).
 

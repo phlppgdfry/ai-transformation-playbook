@@ -4,7 +4,7 @@
 
 Existing repository: `phlppgdfry/pgosprive`, base `704815a`. Actual source files: `src/data/projects.json`, `src/data/projects.ts`, `src/pages/ProjectDetail.tsx`, `src/components/portfolio/ProjectLinks.tsx`; existing build generates `public/sitemap.xml`. No new framework/component is needed.
 
-Owned proposal on local branch `portfolio/career-launch-catalogue-isolated-2026-11-05`, isolated worktree `/private/tmp/enterprise-ai-career-website`:
+Owned proposal on pushed review branch `portfolio/career-launch-catalogue-isolated-2026-11-05`, isolated worktree `/private/tmp/enterprise-ai-career-website`:
 
 1. Add only the `enterprise-ai-accounting-case` data object from [project-entry.json](project-entry.json).
 2. Copy the authentic accounting PNG to `public/work/enterprise-ai-accounting.png`; preserve its hash/caption provenance.
@@ -22,4 +22,4 @@ The original checkout on `portfolio/enterprise-ai-career-launch-2026-11-05` acqu
 
 Run existing tests and production build, inspect the new route in both languages at desktop/mobile widths, and check the Code link points to the public playbook. Review role/AI-assistance wording. The build's pre-existing sitemap generator stamps every entry with the build date; this proposal preserves prior entry dates and adds only the new route in the committed sitemap. No generator redesign is included.
 
-Only after explicit approval should you push/merge the website and career-launch branches and run the normal deployment process. No DNS, domain, contact form, global metadata, paid service or deployment setting is changed here.
+Both review branches were pushed after explicit approval and passed hosted CI; see [push evidence](../evidence/push-verification.json). Main merges and the normal production deployment remain unperformed and require separate approval. GitHub reported 69 existing default-branch dependency alerts (36 high, 29 moderate, 4 low); this data-only proposal changes no dependencies. Triage those alerts before claiming production readiness. No DNS, domain, contact form, global metadata, paid service or deployment setting is changed here.

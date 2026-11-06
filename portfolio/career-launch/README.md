@@ -1,6 +1,6 @@
 # Career launch — Philippe Godfroy
 
-A local, reviewable presentation package for an independent AI-assisted portfolio. The released six-repository implementation is unchanged. New materials are not published until separately approved.
+A reviewable presentation package for an independent AI-assisted portfolio. Both prepared feature branches have been pushed with passing hosted CI. The released six-repository implementation and default branches remain unchanged. Main integration and production website publication remain separate steps. [Push verification](evidence/push-verification.json).
 
 | Reader / purpose | Start here |
 |---|---|

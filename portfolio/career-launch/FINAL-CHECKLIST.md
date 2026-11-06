@@ -1,6 +1,6 @@
 # Final checklist and human actions
 
-## Prepared in the local branches
+## Prepared and pushed on review branches
 
 - [x] Six current public baselines and exact-main CI inspected; historical evidence retained.
 - [x] Subjective audit with documented rubric and P0–P3 priorities.
@@ -18,7 +18,7 @@
 2. **Develop ownership.** Complete the practical plan, preserve actual red/green outputs and help used, and explain a request and denied action without generated assistance. Do not mark the exercise checklist complete because the repository tests passed.
 3. **Record the video.** Rehearse, capture actual actions, review audio/captions/keys and publish only a real verified file. No finished video exists in this deliverable.
 4. **Review website integration.** Compare the isolated catalogue commit with concurrent edits in the original site checkout. Preserve unrelated projects. Review inherited lint failures and Dutch document-language semantics before deciding on deployment. No new website page is claimed live.
-5. **Authorize publication when ready.** This task does not push, merge, deploy, alter visibility or move tags. Review the two local branches first. Keep the public v1.0 implementation frozen.
+5. **Review main integration when ready.** The two prepared feature branches were pushed after explicit authorization and both passed hosted CI. No main merge, production deployment, visibility change or tag move was performed. Review the branches and inherited website dependency alerts before approving integration. Keep the public v1.0 implementation frozen.
 6. **Update CV and LinkedIn.** Personally edit the supplied drafts; posting and messaging are not performed by this task.
 7. **Start targeted applications.** Verify each actual vacancy/eligibility criterion on the official posting, choose the right evidence and maintain a small application log.
 8. **Obtain external feedback.** Ask a business reviewer for a 60-second comprehension check and an engineer for one boundary/debugging review. Record feedback rather than inventing an endorsement.
