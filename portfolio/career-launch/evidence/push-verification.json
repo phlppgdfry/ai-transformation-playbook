@@ -40,5 +40,16 @@
     },
     "dependencies_changed": false
   },
-  "historical_evidence": "Earlier local verification records remain unchanged. This follow-up records remote pushes and CI, not new runtime test counts."
+  "historical_evidence": "Earlier local verification records remain unchanged. This follow-up records remote pushes and CI, not new runtime test counts.",
+  "final_remote_observation": {
+    "playbook_main": "3458555351ccedf26499a5f5edeed85f64060769",
+    "website_main": "2053112ce4424afaab46188f00c3ee14647addd0",
+    "website_main_changed_independently_since_initial_base": true,
+    "action": "No merge attempted; compare current main before integration. Prepared branch remains synchronized.",
+    "handover_commit_ci": {
+      "sha": "b9a294cf59e6ae488ccc05d5aac02ad751ade057",
+      "result": "success",
+      "url": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/42308316481"
+    }
+  }
 }
