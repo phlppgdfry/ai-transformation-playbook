@@ -1,0 +1,44 @@
+{
+  "slug": "enterprise-ai-accounting-case",
+  "title": "Enterprise AI accounting case",
+  "kind": {
+    "en": "AI & business technology portfolio",
+    "nl": "Portfolio AI en bedrijfstechnologie"
+  },
+  "categories": [
+    "ai",
+    "analysis",
+    "engineering"
+  ],
+  "status": "case",
+  "fictional": true,
+  "summary": {
+    "en": "One fictional accounting process, six connected components: invoice review, controlled AI proposals, authorized knowledge, evaluation and a Microsoft connector artifact. Independent AI-assisted project; local mock effects and explicit cloud limits.",
+    "nl": "Eén fictief accountancyproces, zes verbonden componenten: factuurcontrole, begrensde AI-voorstellen, toegestane kennis, evaluatie en een Microsoft-connectorartefact. Onafhankelijk project met AI-ondersteuning; lokale mocks en expliciete cloudgrenzen."
+  },
+  "image": "/work/enterprise-ai-accounting.png",
+  "stack": [
+    "Business analysis",
+    "Python",
+    "FastAPI",
+    "SQLite",
+    "AI evaluation"
+  ],
+  "repo": "ai-transformation-playbook",
+  "links": [],
+  "story": {
+    "problem": {
+      "en": "Invoice review combines repetitive checks with decisions that require an accountable person. This fictional case explores policy lookup, exceptions, handoffs and audit evidence before making a case for automation.",
+      "nl": "Factuurcontrole combineert herhaalde controles met beslissingen waarvoor een verantwoordelijke persoon nodig is. Deze fictieve case onderzoekt beleidsinformatie, uitzonderingen, overdrachten en auditbewijs vóór automatisering."
+    },
+    "built": {
+      "en": "Six independent Python repositories connect a consulting playbook to invoice validation, durable tool proposals, permission-filtered retrieval, evaluations and a restricted Microsoft connector. Implementation and documentation used substantial AI assistance.",
+      "nl": "Zes zelfstandige Python-repositories verbinden een consultantdossier met factuurvalidatie, persistente toolvoorstellen, retrieval met toegangsfilters, evaluaties en een beperkte Microsoft-connector. Implementatie en documentatie zijn uitgebreid met AI ondersteund."
+    },
+    "result": {
+      "en": "The public portfolio includes reproducible local demonstrations, hosted checks and retained release evidence. All data and effects are synthetic. Azure quality and full Copilot Studio runtime remain unverified; personal technical proficiency is being developed, not inferred from the code.",
+      "nl": "Het publieke portfolio bevat reproduceerbare lokale demonstraties, hosted controles en releasebewijs. Alle gegevens en effecten zijn synthetisch. Azure-kwaliteit en de volledige Copilot Studio-runtime zijn niet geverifieerd; persoonlijke technische vaardigheid wordt ontwikkeld en volgt niet automatisch uit de code."
+    }
+  },
+  "added": "2026-11-01"
+}

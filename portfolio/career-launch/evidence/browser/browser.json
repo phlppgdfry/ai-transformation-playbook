@@ -1,0 +1,67 @@
+{
+  "browser": "156.0.8078.80",
+  "browserPlugin": "not available; existing Playwright/Chrome used",
+  "url": "http://127.0.0.1:4178/work/enterprise-ai-accounting-case",
+  "authenticated": false,
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "checks": [
+    {
+      "name": "case route returns 200",
+      "passed": true
+    },
+    {
+      "name": "meaningful page title",
+      "passed": true
+    },
+    {
+      "name": "synthetic case and AI assistance disclosed",
+      "passed": true
+    },
+    {
+      "name": "cloud and proficiency limits visible in story",
+      "passed": true
+    },
+    {
+      "name": "authentic screenshot loads",
+      "passed": true
+    },
+    {
+      "name": "code link points to actual public portfolio",
+      "passed": true
+    },
+    {
+      "name": "repository link keyboard focusable",
+      "passed": true
+    },
+    {
+      "name": "no invented video link",
+      "passed": true
+    },
+    {
+      "name": "mobile has no page overflow",
+      "passed": true
+    },
+    {
+      "name": "Dutch language interaction updates copy",
+      "passed": true
+    },
+    {
+      "name": "Dutch mobile has no page overflow",
+      "passed": true
+    },
+    {
+      "name": "repository link interaction opens correct target",
+      "passed": true
+    },
+    {
+      "name": "no local app console or runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "documentLanguageAfterDutchToggle": "en",
+  "scope": "isolated local proposal, not deployed; basic checks, not WCAG certification"
+}

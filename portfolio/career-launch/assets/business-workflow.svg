@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+<title id="title">Synthetic invoice-review demonstration flow</title>
+<desc id="desc">Import fields, validate, retrieve allowed policy, prepare a proposal, make independent decisions, execute a local mock export, inspect evidence and define future pilot measures. Not all transitions are automatic; invoice and workflow approval are distinct.</desc>
+<rect width="1000" height="360" fill="#f5f8fa"/>
+<text x="30" y="42" font-family="Arial,sans-serif" font-size="25" fill="#173c50" font-weight="700">From review friction to inspectable evidence</text>
+<rect x="30" y="76" width="216" height="94" rx="8" fill="white" stroke="#adc2ce"/>
+<text x="46" y="104" font-family="Arial,sans-serif" font-size="14" fill="#176c66">01</text>
+<text x="46" y="135" font-family="Arial,sans-serif" font-size="14" fill="#173c50">Import synthetic fields</text>
+<rect x="272" y="76" width="216" height="94" rx="8" fill="white" stroke="#adc2ce"/>
+<text x="288" y="104" font-family="Arial,sans-serif" font-size="14" fill="#176c66">02</text>
+<text x="288" y="135" font-family="Arial,sans-serif" font-size="14" fill="#173c50">Validate and flag exceptions</text>
+<rect x="514" y="76" width="216" height="94" rx="8" fill="white" stroke="#adc2ce"/>
+<text x="530" y="104" font-family="Arial,sans-serif" font-size="14" fill="#176c66">03</text>
+<text x="530" y="135" font-family="Arial,sans-serif" font-size="14" fill="#173c50">Read allowed policy</text>
+<rect x="756" y="76" width="216" height="94" rx="8" fill="white" stroke="#adc2ce"/>
+<text x="772" y="104" font-family="Arial,sans-serif" font-size="14" fill="#176c66">04</text>
+<text x="772" y="135" font-family="Arial,sans-serif" font-size="14" fill="#173c50">Prepare proposal</text>
+<rect x="30" y="200" width="216" height="94" rx="8" fill="white" stroke="#adc2ce"/>
+<text x="46" y="228" font-family="Arial,sans-serif" font-size="14" fill="#176c66">05</text>
+<text x="46" y="259" font-family="Arial,sans-serif" font-size="14" fill="#173c50">Independent decisions</text>
+<rect x="272" y="200" width="216" height="94" rx="8" fill="white" stroke="#adc2ce"/>
+<text x="288" y="228" font-family="Arial,sans-serif" font-size="14" fill="#176c66">06</text>
+<text x="288" y="259" font-family="Arial,sans-serif" font-size="14" fill="#173c50">Authorized mock export</text>
+<rect x="514" y="200" width="216" height="94" rx="8" fill="white" stroke="#adc2ce"/>
+<text x="530" y="228" font-family="Arial,sans-serif" font-size="14" fill="#176c66">07</text>
+<text x="530" y="259" font-family="Arial,sans-serif" font-size="14" fill="#173c50">Inspect audit and gates</text>
+<rect x="756" y="200" width="216" height="94" rx="8" fill="white" stroke="#adc2ce"/>
+<text x="772" y="228" font-family="Arial,sans-serif" font-size="14" fill="#176c66">08</text>
+<text x="772" y="259" font-family="Arial,sans-serif" font-size="14" fill="#173c50">Measure a future pilot</text>
+<text x="30" y="335" font-family="Arial,sans-serif" font-size="14" fill="#395563">Illustration, not an application screenshot. Separate approvals; no production or observed-ROI claim.</text>
+</svg>

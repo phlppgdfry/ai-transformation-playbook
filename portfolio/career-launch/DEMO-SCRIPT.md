@@ -1,0 +1,15 @@
+# Three-minute recording script
+
+Use [the recording guide](RECORDING-GUIDE.md) and a fresh temporary fixture scenario. This is a script, not a finished video. The prepared narration contains about 240 spoken words, leaving time for visible actions and pauses; rehearse toward 2–3 minutes rather than speeding up screens. Human actions are scripted demo identities, not a user study.
+
+| Time | Show | Suggested narration |
+|---|---|---|
+| 0:00–0:20 | Title: Philippe Godfroy / independent AI-assisted portfolio; accounting inbox | “Invoice review combines repeated checks with decisions that need an accountable person. This fictional case asks how to support the process while keeping approval and traceability clear.” |
+| 0:20–0:45 | [Responsibility map](assets/system-map.svg) | “Six components connect the business case to invoice validation, controlled tool proposals, authorized knowledge, evaluation and a restricted Microsoft connector artifact. They remain independently runnable; each application owns its permissions.” |
+| 0:45–1:15 | Load `invoice-demo.json`, submit, show attempted operator approval denied | “This demonstration imports explicit synthetic fields; it is not OCR. The application checks the invoice and stores it. The submitting operator cannot approve it. The server enforces that boundary.” |
+| 1:15–1:45 | Switch to reviewer off-record, approve; show workflow proposal/tool receipts | “A separate reviewer makes the decision. The workflow records evidence from actual local invoice and policy APIs before waiting for its own approval. The default plan is deterministic. A separately recorded test used genuine local Qwen tool calling.” |
+| 1:45–2:15 | Audit and mock export; finance policy source then restricted HR search; unsafe gate | “Approval in one service grants no rights in another. Export uses a local mock ERP and an audit trail. Knowledge access is filtered before retrieval. Positive and unsafe controls make specific failures visible; a green score is not a guarantee of model safety.” |
+| 2:15–2:45 | Calculator assumptions; set adoption to zero | “The potential value is less repeated handling, clearer exceptions and a measurable process. These figures are hypothetical capacity estimates. Real benefit would require a controlled pilot measuring time, rework, adoption, errors and actual cost.” |
+| 2:45–3:00 | Case-study URL and limits caption | “This is independent project work with substantial AI assistance. Live Azure quality and full Copilot Studio runtime remain unverified. The case, code and evidence are available for review while I develop my independent technical proficiency.” |
+
+If an action fails, pause and diagnose it; do not substitute a screenshot while implying the action succeeded live. It is acceptable to use a clearly labelled authentic screenshot as explanatory B-roll. Do not invent a Copilot conversation. The older [five-minute and fifteen-minute routes](../release-2026-10-31/HANDOVER.md) remain available for technical follow-up.

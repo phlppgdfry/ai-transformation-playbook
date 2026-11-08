@@ -4,6 +4,8 @@
 
 One fictional accounting practice, six independently runnable engineering components. Follow the case from process discovery and a transparent business case to invoice review, controlled AI tool proposals, authorized knowledge access, evaluation and a restricted Microsoft connector artifact.
 
+**Career launch:** [recruiter brief](portfolio/career-launch/RECRUITER-BRIEF.md) · [career materials and ownership plan](portfolio/career-launch/README.md).
+
 **Start here:** [case study and architecture](portfolio/SHOWCASE.md) · [v1.0 publication and final handover](portfolio/release-2026-11-01/FINAL-HANDOVER.md) · [recruiter and interview handover](portfolio/release-2026-10-31/HANDOVER.md) · [hands-on ownership exercises](portfolio/release-2026-10-30/LEARNING.md).
 
 This is a synthetic consulting demonstration. Portfolio v1.0 is public on the validated `main` branches, with annotated `portfolio-v1.0.0` releases and independent public-access checks. Azure inference/OCR and full Copilot Studio runtime are not verified. Personal proficiency and client outcomes are not established by these repositories.
@@ -55,7 +57,7 @@ De CLI verwerkt [drie scenario's](data/scenarios.json) en [zes use-cases](data/u
 | [Copilot Studio Automation](https://github.com/phlppgdfry/microsoft-copilot-studio-automation) | Smalle agentconnector en afzonderlijk akkoord |
 | Deze repo | Businessanalyse, keuzes, adoptie en leren |
 
-De repo's zijn privé: reviewers hebben toegang nodig. Ze delen een casusthema maar zijn zelfstandig uitvoerbaar; de optionele lokale integratierunner verbindt vijf API's met deze businesscase, zonder clouddeployment.
+De zes repo's zijn publiek toegankelijk. Ze delen een casusthema maar zijn zelfstandig uitvoerbaar; de optionele lokale integratierunner verbindt vijf API's met deze businesscase, zonder clouddeployment.
 
 ## Kwaliteitslat
 

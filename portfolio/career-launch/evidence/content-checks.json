@@ -1,0 +1,34 @@
+{
+  "required_pre_report_documents": 12,
+  "interview_questions": 24,
+  "ownership_exercises": 10,
+  "schedule_days": 14,
+  "recruiter_brief_words": 311,
+  "spoken_script_words": 236,
+  "authentic_asset_sha_checks": 3,
+  "svg_xml_checks": 2,
+  "referenced_source_files_exist": 22,
+  "website_proposal_tests": 13,
+  "playbook_tests": 9,
+  "website_browser_checks": 13,
+  "application_sources": [
+    {
+      "url": "https://www.vdab.be/vindeenjob",
+      "checked": "2026-11-05",
+      "scope": "search entry and filters, no vacancy claims"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/",
+      "checked": "2026-11-05",
+      "scope": "search entry, no vacancy claims"
+    }
+  ],
+  "react_source": "https://react.dev/learn/rendering-lists",
+  "notes": [
+    "New Mermaid diagram source reviewed; not rendered on GitHub because changes are unpublished",
+    "First browser capture preceded existing image fade completion; final capture waits for decode and opacity",
+    "Full website lint fails on 3 unchanged baseline files; no runtime fix made",
+    "Dutch copy toggle works but inherited document lang remains en",
+    "No finished video, deployment, hosted feature CI, personal exercises or applications performed"
+  ]
+}

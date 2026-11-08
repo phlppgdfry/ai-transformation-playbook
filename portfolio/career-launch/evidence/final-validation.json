@@ -1,0 +1,15 @@
+{
+  "scope": "all local Markdown file targets; fragment checks for changed/new career material; new files/claims/assets reviewed",
+  "markdown_files_checked": 48,
+  "broken_file_targets": [],
+  "broken_changed_fragment_targets": [],
+  "required_core_documents": 13,
+  "new_secrets_check": "Gitleaks staged-content scan exit 0; zero findings, plus manual claim/data review",
+  "new_runtime_or_dependency_changes_in_six_ai_repositories": false,
+  "remote_publish_merge_deploy_actions": false,
+  "published_milestone_tags_moved": false,
+  "human_exercises_completed_by_agent": false,
+  "hosted_feature_ci": "NOT EXECUTED: branch unpushed",
+  "new_Mermaid_GitHub_rendering": "NOT VERIFIED: branch unpublished",
+  "gitleaks_findings": 0
+}
