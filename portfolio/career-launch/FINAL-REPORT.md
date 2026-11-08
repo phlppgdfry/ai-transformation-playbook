@@ -1,73 +1,58 @@
-# Career-launch final report — 5 November 2026
+# Career Launch — final production delivery, 8 November 2026
 
-## A. Executive assessment
+## Release decision: SUCCESS / GO within the documented showcase scope
 
-**CONDITIONAL GO for publication; GO for the completed local career-launch preparation.** The six-component portfolio now has a clearer author/business narrative, evidence-based career materials, a usable recording package and independent ownership plan. P0/P1 presentation issues identified in this task are addressed. No AI runtime expansion is required.
+The Career Launch materials are merged into the public playbook. The existing private website is integrated, deployed to its existing Vercel project and verified on the actual public domain. No repository visibility, historical milestone tag, DNS or database schema was changed. No cloud AI capability, professional client engagement or personal technical mastery is inferred from this release.
 
-Both prepared feature branches were pushed after explicit authorization, and exact-commit hosted CI passed. The public v1.0 implementation, main branches and tags remain unchanged. Main integration and production website deployment require separate authorization. See [push verification](evidence/push-verification.json). Personal technical proficiency, a finished video and job eligibility are not inferred from the deliverables.
+**Live case:** [English](https://www.philippegodfroy.com/work/enterprise-ai-accounting-case) · [Dutch](https://www.philippegodfroy.com/nl/work/enterprise-ai-accounting-case). [Central showcase](../SHOWCASE.md) · [exact machine-readable evidence](evidence/production-2026-11-08/release-verification.json).
 
-## B. Exact changes and branches
+## GitHub and deployment
 
-Central repository: `ai-transformation-playbook`, local branch `portfolio/career-launch-2026-11-05` from `3458555351ccedf26499a5f5edeed85f64060769`.
+| Component | Exact code revision | Integration and hosted checks |
+|---|---|---|
+| Public playbook content | `ab6ac7dde28cdc7b4cdc5111af6204287d0293af` | [PR 1 merged](https://github.com/phlppgdfry/ai-transformation-playbook/pull/1), [main CI success](https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/42481934852) |
+| Private website main | `9d4bc72f8c8b77ea2b7a333ac78e2ebaa0c2b346` | [PR 2 merged — owner access](https://github.com/phlppgdfry/pgosprive/pull/2), [main CI success — owner access](https://github.com/phlppgdfry/pgosprive/actions/runs/42482315807) |
 
-Modified current entry files: `README.md`, `integration/README.md`, `portfolio/SHOWCASE.md`. The two current private-status contradictions were corrected; the central showcase now introduces Philippe and realistic role direction, then problem, responsibilities, architecture, demo, evidence, value hypothesis and contribution/ownership boundaries.
+Vercel production deployment `dpl_AbwWH3fiNGzDiZNrzpWFYAnFqcz6` is READY at [the deployment URL](https://pgosprive-10yk0dkz6-kippiegs-projects.vercel.app), aliased to `www.philippegodfroy.com` and the apex domain. GitHub deployment `7636110820` records that exact website main SHA with success. Public browser verification additionally required the built `index-Ce7QG8Eq.js` asset, rather than assuming a push meant deployment. This report-only follow-up has its own GitHub commit/review record; the code SHAs above identify the deployed implementation, not a self-referential report hash.
 
-Added the thirteen required core documents under `portfolio/career-launch/`, plus its reader index, two SVG illustrations, three unchanged screenshot copies/provenance, a synthetic recording invoice, four website handoff documents, one portable project data object and verification records. [Exact changed-file manifest](evidence/changed-files.json) lists every file rather than hiding changes behind a folder name. [Audit and rubric](PORTFOLIO-AUDIT.md) preserve the baseline findings/scores.
+## Completed changes
 
-Personal website source: existing `pgosprive`, React/Vite, identified by public HTML/title/meta and its own source README. The live deployed commit is UNKNOWN. Local isolated branch `portfolio/career-launch-catalogue-isolated-2026-11-05`, commit `1ed77e1a88871a6eabd98d294a1690dfbbc9901f`, worktree `/private/tmp/enterprise-ai-career-website`. Only three owned files: `src/data/projects.json`, `public/work/enterprise-ai-accounting.png`, `public/sitemap.xml`. Existing components, dependencies, project objects and audience selections are preserved. [Proposal record](evidence/website-proposal.json).
+- Central narrative, thirteen requested supporting documents, recruiter/CV/LinkedIn drafts, recording package, website copy, 24 interview questions and 10 ownership exercises with a 14-day plan are delivered. [Reader index](README.md), [audit/rubric](PORTFOLIO-AUDIT.md), [original changed-file manifest](evidence/changed-files.json).
+- Preserved independently developed website navigation, Dutch URLs, language/document metadata, project catalogue, branding and documentation. The current catalogue already contained the prepared case; exactly one honest fictional entry and authentic screenshot remain. Merge-marker repair was verified before release; no overlapping work was discarded.
+- Reproduced the current language fix instead of introducing a second implementation. Added regression tests for case identity, disclosure, explicit Dutch routes and legacy query-language navigation.
+- Standardized on Node 24 and one npm lockfile. Removed stale Bun locks, fixed test Node typings, and added CI typecheck, lint and high-severity audit checks. Compatible security updates plus reviewed Vite 6.4.5 / Vitest 4.1.12 updates remove critical/high audit findings. Removed unused Zod; tested patched transitive build/lint dependencies.
+- Merged both PRs after hosted success and verified the existing automatic Vercel production workflow. No paid resource, database migration or new hosting architecture was introduced.
 
-Concurrent changes appeared in the original website checkout after its initial clean inspection. They were not authored or committed by this task. The original checkout, including the initial draft copy/build output, was left intact; only the isolated proposal was committed. Review that overlap before integration. The older separate Next.js portfolio candidate was not modified. No seventh repository was created.
+## Actual verification
 
-## C. Actual verification
-
-| Check | Actual result / scope |
+| Gate | Result and limits |
 |---|---|
-| Current six public baselines | Fetched and read GitHub metadata/CI: all six remain public with successful exact-main runs; local baselines unchanged: [baseline](evidence/baseline.json). Follow-up hosted CI for the pushed career and website branches passed; exact SHAs and workflow URLs are in the push verification record. |
-| Playbook regression | `python3 -m unittest discover -s tests -v`: 9 passed. No scenario assumptions or application code changed. |
-| Isolated website tests | `npm test -- --run`: 13 passed across two existing suites, including catalogue uniqueness, bilingual data and real-image checks. |
-| Isolated production build | `npm run build`: passed. Existing outdated Browserslist-data and >500 kB bundle warnings retained; no dependency update/refactor introduced. |
-| Full website lint | `npm run lint`: FAILED, 3 errors/8 warnings. The three error files are byte-identical to base: `ui/command.tsx`, `ui/textarea.tsx`, `tailwind.config.ts`. No TS/TSX source was changed by this proposal. These inherited failures are not represented as green. [Check summary](evidence/website-checks.json). |
-| Local browser | Existing Playwright/Chrome; Browser plugin not available. 13 final checks passed, no local console/page errors, at 1440×1000 and 390×844: [final browser record](evidence/browser-final/browser.json). EN/NL switch, actual image load, code-link focus and popup target, limits text and mobile overflow checked. This is local, not deployed. |
-| Visual capture | Final screenshots wait for actual image decode/ancestor opacity. Initial captures caught the site's existing fade before image visibility; initial records remain separate, final images are authoritative. [Desktop](evidence/browser-final/website-desktop.png) · [Dutch mobile](evidence/browser-final/website-mobile-nl.png). |
-| Basic accessibility observation | Inherited Dutch toggle changes copy while `html[lang]` remains `en`. Recorded for website integration review; no formal WCAG or full contrast/screen-reader audit claimed. |
-| Content/assets | 24 interview questions, 10 independent exercises, 14 daily budgets, 311-word recruiter brief, about 240 spoken script words; 22 referenced source files exist, three authentic asset hashes match originals and two SVGs parse: [checks](evidence/content-checks.json). |
-| Navigation / new secrets / scope | Final local file-target and staged-content scans recorded in [final validation](evidence/final-validation.json). No raw credentials/session file added; original release evidence/tags and the five API repositories are unchanged. |
+| Playbook | 9 unittest tests passed locally; content main CI passed. |
+| Clean installation | npm ci from final package-lock.json passed; no undocumented global application package required. |
+| Website tests | 31 Vitest tests passed, including 3 release regression tests; hosted main suite passed. |
+| Typecheck / lint | Both passed. Lint has 0 errors and 8 inherited Fast Refresh warnings; no rule disabled for this release. |
+| Production build | Vite build and 128-route prerender passed locally and hosted. Main bundle remains over 500 kB: a performance warning, not a broken build. |
+| Links | Hosted full catalogue link job passed. Local career-document file targets validated. Private CI/source links are labelled owner-only, rather than falsely presented as anonymous evidence. |
+| Preview | Vercel READY and authenticated EN/NL HTML requests returned 200 with correct title/language. Direct browser preview remained protected; no protection was disabled. Local browser verification preceded merge. |
+| Actual public browser | Chrome, 375/768/1024/1440 px; homepage, work catalogue, EN/NL case; 20 checks passed, 0 console/page errors. Tested exact production bundle, loaded image, overflow, EN→NL→EN with preserved query/anchor, GitHub link, keyboard focus and alt presence. [Executed record](evidence/production-2026-11-08/browser.json). |
+| Contact safety | Empty JSON POST returned 400; no real contact message or email was sent. Delivery to a real inbox was not retested. |
+| Security | New staged content and central reachable-history Gitleaks scans found no secret. Private website history retains the previously classified anon client key; no privileged key added. Current code/bundle does not initialize Supabase or depend on RLS. RLS itself was not assessed. |
+| Dependencies | npm audit: 0 critical, 0 high, 2 moderate package findings. GitHub independently recalculated from 69 alerts to 2 medium Router advisories. [Exact audit](evidence/production-2026-11-08/dependency-audit.json). No alert manually dismissed. |
 
-The prior 172 repository tests, five clean installations, 27 deterministic/27 local-Qwen integrations and 26 local browser checks remain historical implementation evidence; they were not unnecessarily rerun or relabelled as new career-launch results. New Mermaid source was reviewed but not rendered on GitHub during the initial local review; hosted CI success does not itself prove diagram rendering. Personal exercises, applications, LinkedIn/CV updates, video recording and live website publication were NOT PERFORMED.
+[Desktop screenshot](evidence/production-2026-11-08/case-1440.png) · [mobile screenshot](evidence/production-2026-11-08/case-375.png). These are actual production captures, not conceptual mockups. Basic checks are not a WCAG certification or a complete screen-reader/contrast audit. Historical 172 repository tests, 27 deterministic/27 Qwen checks and 26 integration browser checks remain retained release evidence; they were not misrepresented as new runtime runs in this presentation release.
 
-## D. Strongest positioning
+## Remaining issues
 
-A transitioning business-technology candidate using an independent AI-assisted case to examine process requirements, controlled automation, acceptance evidence and adoption. Track A leads with functional/business analysis; B with supported AI implementation; C with technical product/problem framing. Senior leadership is a future direction requiring experience. The package discloses substantial AI assistance and developing independent implementation proficiency.
+**BLOCKER:** none confirmed within the documented Career Launch showcase scope.
 
-## E. Recruiter experience
+**Non-blocking security:** GHSA-wrjc-x8rr-h8h6 affects untrusted backslash Link/useNavigate destinations; this site uses authored static destinations. GHSA-337j-9hxr-rhxg affects React Router SSR error hydration; this client BrowserRouter app does not use it. Build-time metadata prerendering is not Router SSR. Retain the explicit risk assessment; a separately tested Router 7.18+ migration is recommended when touching routing or adding either exposure. Scanner success alone would not prove security.
 
-First ten seconds: Philippe's identity, transition direction and independent project context. Next twenty: one fictional invoice problem and a concise responsibility matrix. Final thirty: authentic screens, a reproducible demo path and traceable evidence/limits. The [brief](RECRUITER-BRIEF.md) supplies the one-page target without requiring all six READMEs first. This is a reading-order review, not a measured recruiter usability study. A finished video is not implied by the script or recording checklist.
+**OPTIONAL:** eight Fast Refresh warnings, large bundle warning, broader accessibility and browser coverage. No feature expansion is required to finish this release.
 
-## F. Technical credibility
+**FUTURE LEARNING / human tasks:** complete ownership exercises, personally review career claims, record an actual video, update CV/LinkedIn and apply to real roles. These were prepared, not performed on the author's behalf. Azure inference/OCR, complete Copilot Studio runtime and personal mastery remain unverified; no customer savings or deployments are invented.
 
-A reviewer can inspect the released contracts/source, server authority boundaries, persistence, retrieval access, negative evaluation controls and actual release/CI records. The new [ownership plan](OWNERSHIP-PLAN.md) asks the author to explain a request/schema/approval, identify a risk, interpret a failed evaluation, make a bounded practice change, add a meaningful red/green test and debug a controlled defect. These exercises are prepared, not completed or certified on the author's behalf.
+## Operations and freeze
 
-## G. Remaining limitations
+Previous known-good deployment: `dpl_B1DssNkGShTgvuuEdW17BL7Z762V`. If a confirmed production regression occurs, use the existing authorized Vercel rollback mechanism with that exact target, then verify the domain. Rollback was not needed or executed.
 
-- **BLOCKER for main integration/production deployment:** separate approval and review of the original website checkout overlap. Feature-branch pushes and hosted CI are complete; no main merge or production deployment was performed.
-- **Website integration review:** inherited lint errors and document-language semantics need owner triage before claiming a fully green/publicly validated website change. The inspected GitHub workflow runs type checking, tests, build and project links; it does not run lint. GitHub also reported 69 inherited default-branch dependency alerts (36 high, 29 moderate, 4 low), not introduced or resolved by these three data/asset changes. No unrelated repair was made.
-- **OPTIONAL:** extra social imagery, PDF pagination, broader accessibility/browser coverage or new video tooling. None requires another AI feature cycle.
-- **FUTURE LEARNING / pilot scope:** independently assessed proficiency, real stakeholder facilitation, live Azure OCR/inference, full Microsoft runtime, production identity and actual external-sink operations remain unverified. No client results, employment experience or eligibility was invented.
-
-Existing site cases outside this six-repository case were preserved, not audited or endorsed by this task. Source-level claims in those other cases must not be borrowed as evidence for this portfolio.
-
-## H. Human action checklist
-
-Use [FINAL-CHECKLIST.md](FINAL-CHECKLIST.md): review personal claims; complete independent exercises; record/review a real video and transcript; compare/approve the website integration; authorize publication if desired; update CV/LinkedIn yourself; screen real vacancies; and obtain external feedback. The website package includes usable copy and a local integration commit, not a claim that the new page is already live. No outreach was sent.
-
-## I. Stop decision
-
-**No further portfolio feature development is necessary for this launch preparation.** The required materials are usable and the known limitations are explicit. Stop at this pushed, CI-verified review baseline. The next work is human practice, recording, integration/publication review and targeted applications, not another masterprompt or engineering expansion.
-
-## Follow-up push and disclosure review
-
-The user authorized pushing all prepared work. Career content commit `10911fade7a674b124fb54a67ac16e8028d73d33` passed [hosted verification](https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/42049997538). Website commit `1ed77e1a88871a6eabd98d294a1690dfbbc9901f` passed [build and links jobs](https://github.com/phlppgdfry/pgosprive/actions/runs/42050641533). The website source remains private. Later documentation-only follow-up commits are checked separately in GitHub.
-
-The central history scan found no secrets. A redacted website-history scan flagged an already committed Supabase publishable/anon client key in an ancestor of its existing main branch. Offline claim inspection identified `anon`, not a privileged service-role key. No token or project reference is copied here, no tracked environment file is added, and database RLS was not audited. This finding does not establish database security; see the scoped evidence record. No history rewrite was performed.
-
-Final remote reconciliation (6 November): the prepared feature branches are synchronized and clean. Website `main` independently advanced to `2053112ce4424afaab46188f00c3ee14647addd0`; this task did not modify it. Reconcile the isolated proposal against that current main before any merge. Playbook main remains `3458555351ccedf26499a5f5edeed85f64060769`. The documentation follow-up at `b9a294c` also passed hosted CI; see the evidence record.
+The code release can now be frozen. Preserve existing branches and milestone tags. Further work is personal learning, recording and external review, or a concrete new defect—not another portfolio feature cycle. Final report publication is documentation-only and must retain passing CI. The final merged report revision is visible in GitHub history and recorded in the delivery response.

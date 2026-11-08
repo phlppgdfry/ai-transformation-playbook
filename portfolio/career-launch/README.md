@@ -1,6 +1,6 @@
 # Career launch — Philippe Godfroy
 
-A reviewable presentation package for an independent AI-assisted portfolio. Both prepared feature branches have been pushed with passing hosted CI. The released six-repository implementation and default branches remain unchanged. Main integration and production website publication remain separate steps. [Push verification](evidence/push-verification.json).
+The Career Launch package is merged into main, and the bilingual accounting case is live on the existing website. The website source remains private. [Live case](https://www.philippegodfroy.com/work/enterprise-ai-accounting-case) · [final production report](FINAL-REPORT.md).
 
 | Reader / purpose | Start here |
 |---|---|

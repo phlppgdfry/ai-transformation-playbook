@@ -1,0 +1,103 @@
+{
+  "base": "https://www.philippegodfroy.com",
+  "results": [
+    {
+      "width": 375,
+      "route": "/",
+      "result": "pass"
+    },
+    {
+      "width": 375,
+      "route": "/work",
+      "result": "pass"
+    },
+    {
+      "width": 375,
+      "route": "/work/enterprise-ai-accounting-case",
+      "result": "pass"
+    },
+    {
+      "width": 375,
+      "route": "/nl/work/enterprise-ai-accounting-case",
+      "result": "pass"
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "result": "pass"
+    },
+    {
+      "width": 768,
+      "route": "/work",
+      "result": "pass"
+    },
+    {
+      "width": 768,
+      "route": "/work/enterprise-ai-accounting-case",
+      "result": "pass"
+    },
+    {
+      "width": 768,
+      "route": "/nl/work/enterprise-ai-accounting-case",
+      "result": "pass"
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "result": "pass"
+    },
+    {
+      "width": 1024,
+      "route": "/work",
+      "result": "pass"
+    },
+    {
+      "width": 1024,
+      "route": "/work/enterprise-ai-accounting-case",
+      "result": "pass"
+    },
+    {
+      "width": 1024,
+      "route": "/nl/work/enterprise-ai-accounting-case",
+      "result": "pass"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "result": "pass"
+    },
+    {
+      "width": 1440,
+      "route": "/work",
+      "result": "pass"
+    },
+    {
+      "width": 1440,
+      "route": "/work/enterprise-ai-accounting-case",
+      "result": "pass"
+    },
+    {
+      "width": 1440,
+      "route": "/nl/work/enterprise-ai-accounting-case",
+      "result": "pass"
+    },
+    {
+      "flow": "EN-NL-EN preserves case, query and anchor",
+      "result": "pass"
+    },
+    {
+      "flow": "images have alt attributes",
+      "result": "pass"
+    },
+    {
+      "flow": "GitHub repository link present",
+      "result": "pass"
+    },
+    {
+      "flow": "keyboard focus",
+      "tag": "A",
+      "result": "pass"
+    }
+  ],
+  "errors": []
+}

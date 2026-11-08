@@ -1,25 +1,14 @@
-# Minimal integration plan
+# Integration plan — executed 8 November 2026
 
-## Identified source and owned scope
+Integrated the prepared catalogue branch with the latest `pgosprive/main`, preserving later bilingual routes, navigation, all unrelated projects and documentation. The current catalogue already contained the accounting case; retained one entry and its authentic screenshot. Repair and checks removed conflict markers before the final release.
 
-Existing repository: `phlppgdfry/pgosprive`, base `704815a`. Actual source files: `src/data/projects.json`, `src/data/projects.ts`, `src/pages/ProjectDetail.tsx`, `src/components/portfolio/ProjectLinks.tsx`; existing build generates `public/sitemap.xml`. No new framework/component is needed.
+1. Reconciled the latest main and isolated release branch without force pushes.
+2. Standardized npm/Node 24 installation, remediated high/critical dependency findings, fixed Node test typings and added release regressions plus CI quality gates.
+3. Passed local tests, typecheck, lint/build, four-width Chrome checks, hosted PR checks and authenticated EN/NL preview HTML checks.
+4. Merged [website PR 2 (private source; owner-only)](https://github.com/phlppgdfry/pgosprive/pull/2) and [playbook PR 1](https://github.com/phlppgdfry/ai-transformation-playbook/pull/1) under explicit authorization.
+5. Verified exact website main SHA `9d4bc72f8c8b77ea2b7a333ac78e2ebaa0c2b346`, successful main CI and existing Vercel production deployment `dpl_AbwWH3fiNGzDiZNrzpWFYAnFqcz6`.
+6. Checked the actual domain in Chrome and retained screenshots/results. Repository privacy, DNS, existing tags and database schemas were preserved.
 
-Owned proposal on pushed review branch `portfolio/career-launch-catalogue-isolated-2026-11-05`, isolated worktree `/private/tmp/enterprise-ai-career-website`:
+**Live route:** https://www.philippegodfroy.com/work/enterprise-ai-accounting-case
 
-1. Add only the `enterprise-ai-accounting-case` data object from [project-entry.json](project-entry.json).
-2. Copy the authentic accounting PNG to `public/work/enterprise-ai-accounting.png`; preserve its hash/caption provenance.
-3. Include the new route in the existing sitemap, preserving unrelated entries.
-4. Reuse `/work/:slug` rendering, EN/NL text, image semantics and Code link. `links` stays empty so the app does not count a Markdown case as a live interactive demo.
-5. Keep existing six-item audience feature selections unchanged. The case is available through the all-project catalogue/search and its direct route.
-
-Preview route: `http://127.0.0.1:4178/work/enterprise-ai-accounting-case`. Proposed public route after owner approval: `https://www.philippegodfroy.com/work/enterprise-ai-accounting-case` (not claimed deployed).
-
-## Concurrent work
-
-The original checkout on `portfolio/enterprise-ai-career-launch-2026-11-05` acquired unrelated edits in `SiteNav.tsx`, `Home.tsx`, a different enterprise-AI section and Noordwerk assets during this task. They were not authored, reverted or committed by this task. The original checkout also holds the initial uncommitted copy of this catalogue proposal/build sitemap; it is left intact to avoid damaging concurrent work. Integrate the isolated commit selectively after comparing it with those edits. Do not blindly merge two overlapping presentation branches.
-
-## Review and publish later
-
-Run existing tests and production build, inspect the new route in both languages at desktop/mobile widths, and check the Code link points to the public playbook. Review role/AI-assistance wording. The build's pre-existing sitemap generator stamps every entry with the build date; this proposal preserves prior entry dates and adds only the new route in the committed sitemap. No generator redesign is included.
-
-Both review branches were pushed after explicit approval and passed hosted CI; see [push evidence](../evidence/push-verification.json). Main merges and the normal production deployment remain unperformed and require separate approval. GitHub reported 69 existing default-branch dependency alerts (36 high, 29 moderate, 4 low); this data-only proposal changes no dependencies. Triage those alerts before claiming production readiness. No DNS, domain, contact form, global metadata, paid service or deployment setting is changed here.
+[Authoritative final report](../FINAL-REPORT.md) includes deployment evidence, the two scoped medium Router advisories, accessibility limits and rollback target. Original proposal/evidence records remain historical; no future approval is needed to claim that the already verified integration occurred.

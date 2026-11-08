@@ -1,9 +1,7 @@
-# Website handoff — philippegodfroy.com
+# Website handoff — completed production integration
 
-The active source was identified as the existing `pgosprive` repository: its index title/meta and React/Vite asset layout match the public HTML, and its README identifies the domain. A public HEAD request returned 200 on 5 November. The deployment's exact source commit is UNKNOWN; no deployment or website publication was performed.
+The existing private `pgosprive` source runs React 18, Vite 6, React Router and Tailwind with an EN/NL project catalogue. Its current production commit is `9d4bc72f8c8b77ea2b7a333ac78e2ebaa0c2b346`; the existing Vercel deployment was verified on 8 November 2026. [Final evidence and limitations](../FINAL-REPORT.md).
 
-The application uses React 18, Vite 5, React Router, Tailwind and an EN/NL JSON project catalogue. This task adds one bilingual case and an unchanged screenshot through that existing model. No component, dependency, global identity, featured audience list or unrelated project was rewritten. It is a case with a Code link, not a fake live demo or video.
+[English case](https://www.philippegodfroy.com/work/enterprise-ai-accounting-case) · [Dutch case](https://www.philippegodfroy.com/nl/work/enterprise-ai-accounting-case). The case has an authentic screenshot and Code link; it is not a working cloud-product claim or a finished video.
 
-[Page copy](PAGE-COPY.md) · [integration plan and branch](INTEGRATION-PLAN.md) · [portable project entry](project-entry.json) · [SEO/mobile/accessibility notes](SEO-ACCESSIBILITY.md). Assets are in the sibling [asset package](../assets/README.md).
-
-The original website working tree developed concurrent edits after the initial clean inspection. Those changes are preserved and are not included in the isolated proposal. The owned catalogue entry was prepared/validated separately in an isolated worktree. Review overlap before integrating; do not overwrite the other work.
+The earlier copy and portable data remain useful authored handoff materials: [page copy](PAGE-COPY.md), [project entry](project-entry.json), [SEO/accessibility guidance](SEO-ACCESSIBILITY.md), [assets](../assets/README.md). The integration is now complete; these files are not a separate unpublished website. Concurrent website work was retained, not overwritten.
