@@ -1,0 +1,987 @@
+{
+ "description": "Shared fixtures: consulting.business_case (Python) and site/console/model.js (browser port) must return exactly these values.",
+ "cases": [
+  {
+   "name": "scenario conservative",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 8,
+    "minutes_after": 5,
+    "hourly_cost": 45,
+    "adoption": 0.4,
+    "automation_coverage": 0.6,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.15,
+    "rework_minutes": 4
+   },
+   "expected": {
+    "freed_hours_monthly": 9.6,
+    "capacity_value_monthly_eur": 432.0,
+    "net_capacity_value_monthly_eur": 82.0,
+    "payback_months": 109.76,
+    "first_year_net_capacity_value_eur": -8016.0
+   }
+  },
+  {
+   "name": "scenario base",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 8,
+    "minutes_after": 3,
+    "hourly_cost": 45,
+    "adoption": 0.7,
+    "automation_coverage": 0.75,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.08,
+    "rework_minutes": 4
+   },
+   "expected": {
+    "freed_hours_monthly": 40.95,
+    "capacity_value_monthly_eur": 1842.75,
+    "net_capacity_value_monthly_eur": 1492.75,
+    "payback_months": 6.03,
+    "first_year_net_capacity_value_eur": 8913.0
+   }
+  },
+  {
+   "name": "scenario optimistic",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 8,
+    "minutes_after": 2,
+    "hourly_cost": 45,
+    "adoption": 0.9,
+    "automation_coverage": 0.85,
+    "monthly_run_cost": 450,
+    "implementation_cost": 9000,
+    "rework_rate": 0.03,
+    "rework_minutes": 3
+   },
+   "expected": {
+    "freed_hours_monthly": 75.35,
+    "capacity_value_monthly_eur": 3390.86,
+    "net_capacity_value_monthly_eur": 2940.86,
+    "payback_months": 3.06,
+    "first_year_net_capacity_value_eur": 26290.35
+   }
+  },
+  {
+   "name": "random 1",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 13.0,
+    "minutes_after": 12.9,
+    "hourly_cost": 62.5,
+    "adoption": 0.45,
+    "automation_coverage": 0.86,
+    "monthly_run_cost": 0,
+    "implementation_cost": 0,
+    "rework_rate": 0.24,
+    "rework_minutes": 2.9
+   },
+   "expected": {
+    "freed_hours_monthly": -3.84,
+    "capacity_value_monthly_eur": -240.26,
+    "net_capacity_value_monthly_eur": -240.26,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -2883.15
+   }
+  },
+  {
+   "name": "random 2",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 11.9,
+    "minutes_after": 1.4,
+    "hourly_cost": 45,
+    "adoption": 0.14,
+    "automation_coverage": 0.54,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 25000,
+    "rework_rate": 0.01,
+    "rework_minutes": 5.9
+   },
+   "expected": {
+    "freed_hours_monthly": 56.85,
+    "capacity_value_monthly_eur": 2558.05,
+    "net_capacity_value_monthly_eur": 1358.05,
+    "payback_months": 18.41,
+    "first_year_net_capacity_value_eur": -8703.37
+   }
+  },
+  {
+   "name": "random 3",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 9.8,
+    "minutes_after": 9.2,
+    "hourly_cost": 30,
+    "adoption": 0.62,
+    "automation_coverage": 0.83,
+    "monthly_run_cost": 0,
+    "implementation_cost": 0,
+    "rework_rate": 0.01,
+    "rework_minutes": 5.3
+   },
+   "expected": {
+    "freed_hours_monthly": 4.69,
+    "capacity_value_monthly_eur": 140.74,
+    "net_capacity_value_monthly_eur": 140.74,
+    "payback_months": 0.0,
+    "first_year_net_capacity_value_eur": 1688.92
+   }
+  },
+  {
+   "name": "random 4",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 0.5,
+    "minutes_after": 7.0,
+    "hourly_cost": 62.5,
+    "adoption": 0.59,
+    "automation_coverage": 0.2,
+    "monthly_run_cost": 0,
+    "implementation_cost": 25000,
+    "rework_rate": 0.09,
+    "rework_minutes": 0.0
+   },
+   "expected": {
+    "freed_hours_monthly": -55.24,
+    "capacity_value_monthly_eur": -3452.3,
+    "net_capacity_value_monthly_eur": -3452.3,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -66427.59
+   }
+  },
+  {
+   "name": "random 5",
+   "input": {
+    "monthly_volume": 0,
+    "minutes_before": 6.9,
+    "minutes_after": 4.2,
+    "hourly_cost": 0,
+    "adoption": 0.71,
+    "automation_coverage": 0.32,
+    "monthly_run_cost": 0,
+    "implementation_cost": 25000,
+    "rework_rate": 0.09,
+    "rework_minutes": 0.4
+   },
+   "expected": {
+    "freed_hours_monthly": 0.0,
+    "capacity_value_monthly_eur": 0.0,
+    "net_capacity_value_monthly_eur": 0.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -25000.0
+   }
+  },
+  {
+   "name": "random 6",
+   "input": {
+    "monthly_volume": 0,
+    "minutes_before": 6.0,
+    "minutes_after": 12.7,
+    "hourly_cost": 62.5,
+    "adoption": 0.07,
+    "automation_coverage": 0.02,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 0,
+    "rework_rate": 0.06,
+    "rework_minutes": 5.6
+   },
+   "expected": {
+    "freed_hours_monthly": -0.0,
+    "capacity_value_monthly_eur": -0.0,
+    "net_capacity_value_monthly_eur": -1200.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -14400.0
+   }
+  },
+  {
+   "name": "random 7",
+   "input": {
+    "monthly_volume": 0,
+    "minutes_before": 7.0,
+    "minutes_after": 14.7,
+    "hourly_cost": 62.5,
+    "adoption": 0.42,
+    "automation_coverage": 0.57,
+    "monthly_run_cost": 0,
+    "implementation_cost": 25000,
+    "rework_rate": 0.08,
+    "rework_minutes": 0.5
+   },
+   "expected": {
+    "freed_hours_monthly": -0.0,
+    "capacity_value_monthly_eur": -0.0,
+    "net_capacity_value_monthly_eur": -0.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -25000.0
+   }
+  },
+  {
+   "name": "random 8",
+   "input": {
+    "monthly_volume": 250,
+    "minutes_before": 0.2,
+    "minutes_after": 6.2,
+    "hourly_cost": 0,
+    "adoption": 0.13,
+    "automation_coverage": 0.71,
+    "monthly_run_cost": 0,
+    "implementation_cost": 0,
+    "rework_rate": 0.14,
+    "rework_minutes": 2.9
+   },
+   "expected": {
+    "freed_hours_monthly": -2.46,
+    "capacity_value_monthly_eur": -0.0,
+    "net_capacity_value_monthly_eur": -0.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -0.0
+   }
+  },
+  {
+   "name": "random 9",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 2.8,
+    "minutes_after": 7.6,
+    "hourly_cost": 30,
+    "adoption": 0.42,
+    "automation_coverage": 0.38,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.3,
+    "rework_minutes": 0.0
+   },
+   "expected": {
+    "freed_hours_monthly": -55.17,
+    "capacity_value_monthly_eur": -1655.12,
+    "net_capacity_value_monthly_eur": -2005.12,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -33061.39
+   }
+  },
+  {
+   "name": "random 10",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 4.6,
+    "minutes_after": 13.3,
+    "hourly_cost": 30,
+    "adoption": 0.19,
+    "automation_coverage": 1.0,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 25000,
+    "rework_rate": 0.17,
+    "rework_minutes": 0.3
+   },
+   "expected": {
+    "freed_hours_monthly": -119.74,
+    "capacity_value_monthly_eur": -3592.24,
+    "net_capacity_value_monthly_eur": -4792.24,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -82506.9
+   }
+  },
+  {
+   "name": "random 11",
+   "input": {
+    "monthly_volume": 1,
+    "minutes_before": 3.2,
+    "minutes_after": 3.9,
+    "hourly_cost": 45,
+    "adoption": 0.83,
+    "automation_coverage": 0.39,
+    "monthly_run_cost": 0,
+    "implementation_cost": 0,
+    "rework_rate": 0.06,
+    "rework_minutes": 3.8
+   },
+   "expected": {
+    "freed_hours_monthly": -0.01,
+    "capacity_value_monthly_eur": -0.23,
+    "net_capacity_value_monthly_eur": -0.23,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -2.7
+   }
+  },
+  {
+   "name": "random 12",
+   "input": {
+    "monthly_volume": 0,
+    "minutes_before": 9.0,
+    "minutes_after": 5.6,
+    "hourly_cost": 62.5,
+    "adoption": 0.13,
+    "automation_coverage": 0.59,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 0,
+    "rework_rate": 0.26,
+    "rework_minutes": 1.1
+   },
+   "expected": {
+    "freed_hours_monthly": 0.0,
+    "capacity_value_monthly_eur": 0.0,
+    "net_capacity_value_monthly_eur": -1200.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -14400.0
+   }
+  },
+  {
+   "name": "random 13",
+   "input": {
+    "monthly_volume": 1,
+    "minutes_before": 4.7,
+    "minutes_after": 3.4,
+    "hourly_cost": 30,
+    "adoption": 0.73,
+    "automation_coverage": 0.16,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 25000,
+    "rework_rate": 0.06,
+    "rework_minutes": 5.7
+   },
+   "expected": {
+    "freed_hours_monthly": 0.0,
+    "capacity_value_monthly_eur": 0.06,
+    "net_capacity_value_monthly_eur": -1199.94,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -39399.33
+   }
+  },
+  {
+   "name": "random 14",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 9.1,
+    "minutes_after": 6.3,
+    "hourly_cost": 0,
+    "adoption": 0.11,
+    "automation_coverage": 0.51,
+    "monthly_run_cost": 350,
+    "implementation_cost": 0,
+    "rework_rate": 0.22,
+    "rework_minutes": 2.3
+   },
+   "expected": {
+    "freed_hours_monthly": 2.14,
+    "capacity_value_monthly_eur": 0.0,
+    "net_capacity_value_monthly_eur": -350.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -4200.0
+   }
+  },
+  {
+   "name": "random 15",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 12.4,
+    "minutes_after": 8.9,
+    "hourly_cost": 45,
+    "adoption": 0.52,
+    "automation_coverage": 0.93,
+    "monthly_run_cost": 0,
+    "implementation_cost": 0,
+    "rework_rate": 0.07,
+    "rework_minutes": 3.4
+   },
+   "expected": {
+    "freed_hours_monthly": 26.29,
+    "capacity_value_monthly_eur": 1183.13,
+    "net_capacity_value_monthly_eur": 1183.13,
+    "payback_months": 0.0,
+    "first_year_net_capacity_value_eur": 14197.53
+   }
+  },
+  {
+   "name": "random 16",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 9.2,
+    "minutes_after": 4.2,
+    "hourly_cost": 30,
+    "adoption": 0.75,
+    "automation_coverage": 0.07,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.07,
+    "rework_minutes": 0.3
+   },
+   "expected": {
+    "freed_hours_monthly": 18.82,
+    "capacity_value_monthly_eur": 564.75,
+    "net_capacity_value_monthly_eur": 214.75,
+    "payback_months": 41.91,
+    "first_year_net_capacity_value_eur": -6423.01
+   }
+  },
+  {
+   "name": "random 17",
+   "input": {
+    "monthly_volume": 250,
+    "minutes_before": 5.5,
+    "minutes_after": 8.6,
+    "hourly_cost": 30,
+    "adoption": 0.09,
+    "automation_coverage": 0.14,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.2,
+    "rework_minutes": 4.1
+   },
+   "expected": {
+    "freed_hours_monthly": -0.21,
+    "capacity_value_monthly_eur": -6.17,
+    "net_capacity_value_monthly_eur": -356.17,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -13274.09
+   }
+  },
+  {
+   "name": "random 18",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 14.2,
+    "minutes_after": 8.8,
+    "hourly_cost": 0,
+    "adoption": 0.47,
+    "automation_coverage": 0.36,
+    "monthly_run_cost": 350,
+    "implementation_cost": 0,
+    "rework_rate": 0.01,
+    "rework_minutes": 3.8
+   },
+   "expected": {
+    "freed_hours_monthly": 65.34,
+    "capacity_value_monthly_eur": 0.0,
+    "net_capacity_value_monthly_eur": -350.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -4200.0
+   }
+  },
+  {
+   "name": "random 19",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 1.0,
+    "minutes_after": 4.7,
+    "hourly_cost": 30,
+    "adoption": 1.0,
+    "automation_coverage": 0.08,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 9000,
+    "rework_rate": 0.22,
+    "rework_minutes": 5.4
+   },
+   "expected": {
+    "freed_hours_monthly": -6.52,
+    "capacity_value_monthly_eur": -195.52,
+    "net_capacity_value_monthly_eur": -1395.52,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -25746.24
+   }
+  },
+  {
+   "name": "random 20",
+   "input": {
+    "monthly_volume": 1,
+    "minutes_before": 11.9,
+    "minutes_after": 13.7,
+    "hourly_cost": 45,
+    "adoption": 0.08,
+    "automation_coverage": 0.47,
+    "monthly_run_cost": 0,
+    "implementation_cost": 9000,
+    "rework_rate": 0.28,
+    "rework_minutes": 0.2
+   },
+   "expected": {
+    "freed_hours_monthly": -0.0,
+    "capacity_value_monthly_eur": -0.05,
+    "net_capacity_value_monthly_eur": -0.05,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -9000.63
+   }
+  },
+  {
+   "name": "random 21",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 8.6,
+    "minutes_after": 9.4,
+    "hourly_cost": 62.5,
+    "adoption": 0.38,
+    "automation_coverage": 0.01,
+    "monthly_run_cost": 0,
+    "implementation_cost": 0,
+    "rework_rate": 0.03,
+    "rework_minutes": 0.7
+   },
+   "expected": {
+    "freed_hours_monthly": -0.05,
+    "capacity_value_monthly_eur": -3.25,
+    "net_capacity_value_monthly_eur": -3.25,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -39.0
+   }
+  },
+  {
+   "name": "random 22",
+   "input": {
+    "monthly_volume": 250,
+    "minutes_before": 13.2,
+    "minutes_after": 10.9,
+    "hourly_cost": 62.5,
+    "adoption": 0.93,
+    "automation_coverage": 0.69,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.14,
+    "rework_minutes": 3.2
+   },
+   "expected": {
+    "freed_hours_monthly": 4.95,
+    "capacity_value_monthly_eur": 309.49,
+    "net_capacity_value_monthly_eur": -40.51,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -9486.16
+   }
+  },
+  {
+   "name": "random 23",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 11.3,
+    "minutes_after": 0.4,
+    "hourly_cost": 0,
+    "adoption": 0.48,
+    "automation_coverage": 0.23,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 0,
+    "rework_rate": 0.15,
+    "rework_minutes": 3.7
+   },
+   "expected": {
+    "freed_hours_monthly": 82.25,
+    "capacity_value_monthly_eur": 0.0,
+    "net_capacity_value_monthly_eur": -1200.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -14400.0
+   }
+  },
+  {
+   "name": "random 24",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 3.8,
+    "minutes_after": 0.2,
+    "hourly_cost": 45,
+    "adoption": 0.14,
+    "automation_coverage": 0.61,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 0,
+    "rework_rate": 0.23,
+    "rework_minutes": 2.1
+   },
+   "expected": {
+    "freed_hours_monthly": 4.44,
+    "capacity_value_monthly_eur": 199.64,
+    "net_capacity_value_monthly_eur": -1000.36,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -12004.27
+   }
+  },
+  {
+   "name": "random 25",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 7.5,
+    "minutes_after": 3.6,
+    "hourly_cost": 62.5,
+    "adoption": 0.67,
+    "automation_coverage": 0.2,
+    "monthly_run_cost": 350,
+    "implementation_cost": 0,
+    "rework_rate": 0.26,
+    "rework_minutes": 2.3
+   },
+   "expected": {
+    "freed_hours_monthly": 7.37,
+    "capacity_value_monthly_eur": 460.9,
+    "net_capacity_value_monthly_eur": 110.9,
+    "payback_months": 0.0,
+    "first_year_net_capacity_value_eur": 1330.85
+   }
+  },
+  {
+   "name": "random 26",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 13.8,
+    "minutes_after": 3.1,
+    "hourly_cost": 30,
+    "adoption": 0.5,
+    "automation_coverage": 0.84,
+    "monthly_run_cost": 0,
+    "implementation_cost": 25000,
+    "rework_rate": 0.02,
+    "rework_minutes": 5.9
+   },
+   "expected": {
+    "freed_hours_monthly": 320.07,
+    "capacity_value_monthly_eur": 9602.21,
+    "net_capacity_value_monthly_eur": 9602.21,
+    "payback_months": 2.6,
+    "first_year_net_capacity_value_eur": 90226.55
+   }
+  },
+  {
+   "name": "random 27",
+   "input": {
+    "monthly_volume": 1,
+    "minutes_before": 1.7,
+    "minutes_after": 7.1,
+    "hourly_cost": 30,
+    "adoption": 0.83,
+    "automation_coverage": 0.38,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 9000,
+    "rework_rate": 0.2,
+    "rework_minutes": 4.3
+   },
+   "expected": {
+    "freed_hours_monthly": -0.03,
+    "capacity_value_monthly_eur": -0.99,
+    "net_capacity_value_monthly_eur": -1200.99,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -23411.85
+   }
+  },
+  {
+   "name": "random 28",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 6.8,
+    "minutes_after": 1.1,
+    "hourly_cost": 0,
+    "adoption": 0.28,
+    "automation_coverage": 0.61,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 25000,
+    "rework_rate": 0.08,
+    "rework_minutes": 2.1
+   },
+   "expected": {
+    "freed_hours_monthly": 68.05,
+    "capacity_value_monthly_eur": 0.0,
+    "net_capacity_value_monthly_eur": -1200.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -39400.0
+   }
+  },
+  {
+   "name": "random 29",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 0.3,
+    "minutes_after": 2.0,
+    "hourly_cost": 62.5,
+    "adoption": 0.19,
+    "automation_coverage": 0.77,
+    "monthly_run_cost": 350,
+    "implementation_cost": 0,
+    "rework_rate": 0.23,
+    "rework_minutes": 4.8
+   },
+   "expected": {
+    "freed_hours_monthly": -29.54,
+    "capacity_value_monthly_eur": -1846.44,
+    "net_capacity_value_monthly_eur": -2196.44,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -26357.29
+   }
+  },
+  {
+   "name": "random 30",
+   "input": {
+    "monthly_volume": 0,
+    "minutes_before": 6.7,
+    "minutes_after": 9.4,
+    "hourly_cost": 45,
+    "adoption": 0.96,
+    "automation_coverage": 0.68,
+    "monthly_run_cost": 0,
+    "implementation_cost": 9000,
+    "rework_rate": 0.08,
+    "rework_minutes": 4.3
+   },
+   "expected": {
+    "freed_hours_monthly": -0.0,
+    "capacity_value_monthly_eur": -0.0,
+    "net_capacity_value_monthly_eur": -0.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -9000.0
+   }
+  },
+  {
+   "name": "random 31",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 8.0,
+    "minutes_after": 0.5,
+    "hourly_cost": 30,
+    "adoption": 0.27,
+    "automation_coverage": 0.35,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 25000,
+    "rework_rate": 0.15,
+    "rework_minutes": 6.0
+   },
+   "expected": {
+    "freed_hours_monthly": 10.39,
+    "capacity_value_monthly_eur": 311.85,
+    "net_capacity_value_monthly_eur": -888.15,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -35657.8
+   }
+  },
+  {
+   "name": "random 32",
+   "input": {
+    "monthly_volume": 1,
+    "minutes_before": 5.9,
+    "minutes_after": 11.9,
+    "hourly_cost": 30,
+    "adoption": 0.09,
+    "automation_coverage": 0.93,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 9000,
+    "rework_rate": 0.04,
+    "rework_minutes": 2.7
+   },
+   "expected": {
+    "freed_hours_monthly": -0.01,
+    "capacity_value_monthly_eur": -0.26,
+    "net_capacity_value_monthly_eur": -1200.26,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -23403.07
+   }
+  },
+  {
+   "name": "random 33",
+   "input": {
+    "monthly_volume": 0,
+    "minutes_before": 5.7,
+    "minutes_after": 8.5,
+    "hourly_cost": 45,
+    "adoption": 0.46,
+    "automation_coverage": 0.65,
+    "monthly_run_cost": 0,
+    "implementation_cost": 0,
+    "rework_rate": 0.22,
+    "rework_minutes": 4.9
+   },
+   "expected": {
+    "freed_hours_monthly": -0.0,
+    "capacity_value_monthly_eur": -0.0,
+    "net_capacity_value_monthly_eur": -0.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -0.0
+   }
+  },
+  {
+   "name": "random 34",
+   "input": {
+    "monthly_volume": 0,
+    "minutes_before": 3.2,
+    "minutes_after": 13.5,
+    "hourly_cost": 0,
+    "adoption": 0.98,
+    "automation_coverage": 0.54,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.27,
+    "rework_minutes": 5.1
+   },
+   "expected": {
+    "freed_hours_monthly": -0.0,
+    "capacity_value_monthly_eur": -0.0,
+    "net_capacity_value_monthly_eur": -350.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -13200.0
+   }
+  },
+  {
+   "name": "random 35",
+   "input": {
+    "monthly_volume": 250,
+    "minutes_before": 7.6,
+    "minutes_after": 0.6,
+    "hourly_cost": 45,
+    "adoption": 0.55,
+    "automation_coverage": 0.77,
+    "monthly_run_cost": 350,
+    "implementation_cost": 0,
+    "rework_rate": 0.07,
+    "rework_minutes": 5.2
+   },
+   "expected": {
+    "freed_hours_monthly": 11.71,
+    "capacity_value_monthly_eur": 526.94,
+    "net_capacity_value_monthly_eur": 176.94,
+    "payback_months": 0.0,
+    "first_year_net_capacity_value_eur": 2123.28
+   }
+  },
+  {
+   "name": "random 36",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 12.0,
+    "minutes_after": 2.6,
+    "hourly_cost": 45,
+    "adoption": 0.69,
+    "automation_coverage": 0.92,
+    "monthly_run_cost": 350,
+    "implementation_cost": 0,
+    "rework_rate": 0.3,
+    "rework_minutes": 5.4
+   },
+   "expected": {
+    "freed_hours_monthly": 82.31,
+    "capacity_value_monthly_eur": 3704.06,
+    "net_capacity_value_monthly_eur": 3354.06,
+    "payback_months": 0.0,
+    "first_year_net_capacity_value_eur": 40248.7
+   }
+  },
+  {
+   "name": "random 37",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 12.6,
+    "minutes_after": 10.3,
+    "hourly_cost": 62.5,
+    "adoption": 0.58,
+    "automation_coverage": 0.69,
+    "monthly_run_cost": 0,
+    "implementation_cost": 9000,
+    "rework_rate": 0.16,
+    "rework_minutes": 1.7
+   },
+   "expected": {
+    "freed_hours_monthly": 58.45,
+    "capacity_value_monthly_eur": 3653.07,
+    "net_capacity_value_monthly_eur": 3653.07,
+    "payback_months": 2.46,
+    "first_year_net_capacity_value_eur": 34836.85
+   }
+  },
+  {
+   "name": "random 38",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 9.6,
+    "minutes_after": 7.8,
+    "hourly_cost": 45,
+    "adoption": 0.31,
+    "automation_coverage": 0.38,
+    "monthly_run_cost": 1200,
+    "implementation_cost": 0,
+    "rework_rate": 0.09,
+    "rework_minutes": 0.8
+   },
+   "expected": {
+    "freed_hours_monthly": 14.66,
+    "capacity_value_monthly_eur": 659.68,
+    "net_capacity_value_monthly_eur": -540.32,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -6483.82
+   }
+  },
+  {
+   "name": "random 39",
+   "input": {
+    "monthly_volume": 4321,
+    "minutes_before": 7.9,
+    "minutes_after": 8.6,
+    "hourly_cost": 30,
+    "adoption": 0.41,
+    "automation_coverage": 0.11,
+    "monthly_run_cost": 0,
+    "implementation_cost": 25000,
+    "rework_rate": 0.11,
+    "rework_minutes": 3.2
+   },
+   "expected": {
+    "freed_hours_monthly": -3.42,
+    "capacity_value_monthly_eur": -102.51,
+    "net_capacity_value_monthly_eur": -102.51,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -26230.06
+   }
+  },
+  {
+   "name": "random 40",
+   "input": {
+    "monthly_volume": 0,
+    "minutes_before": 7.7,
+    "minutes_after": 6.0,
+    "hourly_cost": 0,
+    "adoption": 0.49,
+    "automation_coverage": 0.69,
+    "monthly_run_cost": 0,
+    "implementation_cost": 25000,
+    "rework_rate": 0.14,
+    "rework_minutes": 5.5
+   },
+   "expected": {
+    "freed_hours_monthly": 0.0,
+    "capacity_value_monthly_eur": 0.0,
+    "net_capacity_value_monthly_eur": 0.0,
+    "payback_months": null,
+    "first_year_net_capacity_value_eur": -25000.0
+   }
+  },
+  {
+   "name": "rate above one is refused",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 8,
+    "minutes_after": 3,
+    "hourly_cost": 45,
+    "adoption": 1.2,
+    "automation_coverage": 0.75,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.08,
+    "rework_minutes": 4
+   },
+   "expected": {
+    "error": "Rates must be between zero and one"
+   }
+  },
+  {
+   "name": "negative value is refused",
+   "input": {
+    "monthly_volume": 1000,
+    "minutes_before": 8,
+    "minutes_after": 3,
+    "hourly_cost": -1,
+    "adoption": 0.7,
+    "automation_coverage": 0.75,
+    "monthly_run_cost": 350,
+    "implementation_cost": 9000,
+    "rework_rate": 0.08,
+    "rework_minutes": 4
+   },
+   "expected": {
+    "error": "All assumptions must be finite non-negative numbers"
+   }
+  }
+ ]
+}

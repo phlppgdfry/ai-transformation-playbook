@@ -15,6 +15,8 @@ jobs:
         with:
           python-version: '3.13'
       - run: python -m unittest discover -s tests -v
+      - name: Browser console matches the Python model
+        run: node scripts/check-browser-port.mjs
       - run: python -m consulting.business_case --output /tmp/business-case.json
       - run: diff evidence/business-case.json /tmp/business-case.json
       - name: Isolated lint tools
