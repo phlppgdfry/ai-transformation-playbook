@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Six-component responsibility map</title>
+<desc id="desc">A conceptual responsibility map for the synthetic accounting case. Six independent components: playbook, accounting, workflow, knowledge, evaluation and Microsoft integration reference. This is not a deployment topology.</desc>
+<rect width="1000" height="560" fill="#f5f8fa"/>
+<text x="36" y="44" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#173c50">One process. Six responsibilities.</text>
+<text x="36" y="74" font-family="Arial,sans-serif" font-size="15" fill="#395563">Authored conceptual map · synthetic reference · separate state and authority</text>
+<rect x="36" y="103" width="448" height="118" rx="8" fill="#ffffff" stroke="#adc2ce"/>
+<rect x="36" y="103" width="6" height="118" rx="3" fill="#176c66"/>
+<text x="58" y="133" font-family="Arial,sans-serif" font-size="14" fill="#176c66">Discover &amp; prioritize</text>
+<text x="58" y="162" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#173c50">Playbook</text>
+<text x="58" y="190" font-family="Arial,sans-serif" font-size="14" fill="#395563">Assumptions, acceptance and adoption</text>
+<rect x="516" y="103" width="448" height="118" rx="8" fill="#ffffff" stroke="#adc2ce"/>
+<rect x="516" y="103" width="6" height="118" rx="3" fill="#176c66"/>
+<text x="538" y="133" font-family="Arial,sans-serif" font-size="14" fill="#176c66">Validate &amp; decide</text>
+<text x="538" y="162" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#173c50">Accounting</text>
+<text x="538" y="190" font-family="Arial,sans-serif" font-size="14" fill="#395563">Invoice rules, independent review, mock ERP</text>
+<rect x="36" y="241" width="448" height="118" rx="8" fill="#ffffff" stroke="#adc2ce"/>
+<rect x="36" y="241" width="6" height="118" rx="3" fill="#176c66"/>
+<text x="58" y="271" font-family="Arial,sans-serif" font-size="14" fill="#176c66">Prepare controlled proposals</text>
+<text x="58" y="300" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#173c50">Workflow</text>
+<text x="58" y="328" font-family="Arial,sans-serif" font-size="14" fill="#395563">Bounded plan, saved steps and human approval</text>
+<rect x="516" y="241" width="448" height="118" rx="8" fill="#ffffff" stroke="#adc2ce"/>
+<rect x="516" y="241" width="6" height="118" rx="3" fill="#176c66"/>
+<text x="538" y="271" font-family="Arial,sans-serif" font-size="14" fill="#176c66">Retrieve allowed evidence</text>
+<text x="538" y="300" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#173c50">Knowledge</text>
+<text x="538" y="328" font-family="Arial,sans-serif" font-size="14" fill="#395563">Local sources with tenant/group checks</text>
+<rect x="36" y="379" width="448" height="118" rx="8" fill="#ffffff" stroke="#adc2ce"/>
+<rect x="36" y="379" width="6" height="118" rx="3" fill="#176c66"/>
+<text x="58" y="409" font-family="Arial,sans-serif" font-size="14" fill="#176c66">Evaluate &amp; advise</text>
+<text x="58" y="438" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#173c50">Governance</text>
+<text x="58" y="466" font-family="Arial,sans-serif" font-size="14" fill="#395563">Positive/negative controls, not authority</text>
+<rect x="516" y="379" width="448" height="118" rx="8" fill="#ffffff" stroke="#adc2ce"/>
+<rect x="516" y="379" width="6" height="118" rx="3" fill="#176c66"/>
+<text x="538" y="409" font-family="Arial,sans-serif" font-size="14" fill="#176c66">Propose a local task</text>
+<text x="538" y="438" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#173c50">Microsoft reference</text>
+<text x="538" y="466" font-family="Arial,sans-serif" font-size="14" fill="#395563">Connector artifact; cloud runtime unverified</text>
+<text x="36" y="542" font-family="Arial,sans-serif" font-size="14" fill="#395563">Local mock business effects. Optional Azure adapters are not live-quality evidence.</text>
+</svg>

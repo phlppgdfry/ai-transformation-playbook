@@ -1,5 +1,11 @@
 # AI Transformation Playbook
 
+<!-- showcase:start -->
+> **[▶ Open the live workspace](https://phlppgdfry.github.io/ai-transformation-playbook/)** — change the ten business-case assumptions and see capacity, payback and adoption sensitivity update, in the repository's own console running in your browser.
+
+[![Open the live workspace: ai-transformation-playbook](site/preview.png)](https://phlppgdfry.github.io/ai-transformation-playbook/)
+<!-- showcase:end -->
+
 **Stack:** Python standard library · authored HTML workspace · optional Playwright/Chrome verification. [Portfolio v1.0 release scope](docs/releases/portfolio-v1.0.0.md).
 
 One fictional accounting practice, six independently runnable engineering components. Follow the case from process discovery and a transparent business case to invoice review, controlled AI tool proposals, authorized knowledge access, evaluation and a restricted Microsoft connector artifact.
