@@ -43,7 +43,7 @@ window.dispatchEvent(new Event('shim-ready'));
     body = body.replace("})();\n</script>", "});\n</script>", 1)
     banner = ('<div style="background:#fff7e0;color:#5b4400;padding:8px 36px;font:13px/1.5 system-ui">'
               'Static copy on GitHub Pages: calculations run in your browser with a tested port of the Python model. '
-              '<a href="../">Back to the showcase</a></div>')
+              '<a href="../" target="_top">Back to the showcase</a></div>')
     return head + shim + "<body>" + banner + body
 
 
