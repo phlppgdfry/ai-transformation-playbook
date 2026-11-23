@@ -164,7 +164,85 @@
       }
     ]
   },
-  "publication": "This is the local pre-publication verification record. Hosted deployment and live playback must be checked separately; a push is not proof of publication.",
+  "publication": {
+    "state": "VERIFIED",
+    "source_commit": "04bb779bafdb358ecec78601b2e69f194ba4cec5",
+    "pr": "https://github.com/phlppgdfry/ai-transformation-playbook/pull/3",
+    "main_ci": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/45268563505",
+    "main_ci_result": "success",
+    "pages_workflow": "https://github.com/phlppgdfry/ai-transformation-playbook/actions/runs/45268563685",
+    "pages_result": "success",
+    "public_file": {
+      "url": "https://phlppgdfry.github.io/ai-transformation-playbook/media/portfolio-tour-nl.mp4",
+      "http": 200,
+      "content_type": "video/mp4",
+      "bytes": 1036193,
+      "sha256": "72fd2673ed7aa616eb976f2e67c34c34922abf850a820919927712ac1a01101a"
+    },
+    "public_browser": {
+      "checkedAt": "2026-11-23T21:21:19.113Z",
+      "base": "https://phlppgdfry.github.io/ai-transformation-playbook",
+      "checks": [
+        {
+          "width": 375,
+          "playerMetadata": "pass",
+          "actualPlayback": "pass",
+          "transcript": "pass",
+          "noPageOverflow": "pass",
+          "info": {
+            "duration": 140,
+            "width": 1280,
+            "height": 720,
+            "controls": true,
+            "poster": "https://phlppgdfry.github.io/ai-transformation-playbook/media/poster.jpg"
+          }
+        },
+        {
+          "width": 768,
+          "playerMetadata": "pass",
+          "actualPlayback": "pass",
+          "transcript": "pass",
+          "noPageOverflow": "pass",
+          "info": {
+            "duration": 140,
+            "width": 1280,
+            "height": 720,
+            "controls": true,
+            "poster": "https://phlppgdfry.github.io/ai-transformation-playbook/media/poster.jpg"
+          }
+        },
+        {
+          "width": 1024,
+          "playerMetadata": "pass",
+          "actualPlayback": "pass",
+          "transcript": "pass",
+          "noPageOverflow": "pass",
+          "info": {
+            "duration": 140,
+            "width": 1280,
+            "height": 720,
+            "controls": true,
+            "poster": "https://phlppgdfry.github.io/ai-transformation-playbook/media/poster.jpg"
+          }
+        },
+        {
+          "width": 1440,
+          "playerMetadata": "pass",
+          "actualPlayback": "pass",
+          "transcript": "pass",
+          "noPageOverflow": "pass",
+          "info": {
+            "duration": 140,
+            "width": 1280,
+            "height": 720,
+            "controls": true,
+            "poster": "https://phlppgdfry.github.io/ai-transformation-playbook/media/poster.jpg"
+          }
+        }
+      ],
+      "errors": []
+    }
+  },
   "not_performed": [
     "new paid/cloud/model execution",
     "personal ownership exercises",
@@ -172,5 +250,6 @@
     "CV/LinkedIn publication",
     "outreach or applications",
     "fresh full regression run of the other five backends"
-  ]
+  ],
+  "initial_publication_scope": "This is the local pre-publication verification record. Hosted deployment and live playback must be checked separately; a push is not proof of publication."
 }
