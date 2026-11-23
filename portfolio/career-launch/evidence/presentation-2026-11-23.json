@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-23",
+  "scope": "Presentation completion only; no runtime service, private website or cloud changes",
+  "baseline_sha": "f92367a6b17992dba26f9510f9bb24cb0f3cd8e6",
+  "checks": {
+    "playbook_unittest": {
+      "passed": 11
+    },
+    "browser_python_parity": {
+      "passed_fixtures": 45,
+      "prioritization": "passed"
+    },
+    "recorded_public_scenes": 8,
+    "all_capture_assertions": "passed",
+    "capture_console_errors": 0,
+    "ffmpeg_full_decode": "passed",
+    "contact_sheet": "visually reviewed; three original viewpoints recaptured to keep results visible",
+    "local_browser": {
+      "checkedAt": "2026-11-23T21:15:23.109Z",
+      "base": "http://127.0.0.1:4199",
+      "checks": [
+        {
+          "width": 375,
+          "playerMetadata": "pass",
+          "actualPlayback": "pass",
+          "transcript": "pass",
+          "noPageOverflow": "pass",
+          "info": {
+            "duration": 140,
+            "width": 1280,
+            "height": 720,
+            "controls": true,
+            "poster": "http://127.0.0.1:4199/media/poster.jpg"
+          }
+        },
+        {
+          "width": 768,
+          "playerMetadata": "pass",
+          "actualPlayback": "pass",
+          "transcript": "pass",
+          "noPageOverflow": "pass",
+          "info": {
+            "duration": 140,
+            "width": 1280,
+            "height": 720,
+            "controls": true,
+            "poster": "http://127.0.0.1:4199/media/poster.jpg"
+          }
+        },
+        {
+          "width": 1024,
+          "playerMetadata": "pass",
+          "actualPlayback": "pass",
+          "transcript": "pass",
+          "noPageOverflow": "pass",
+          "info": {
+            "duration": 140,
+            "width": 1280,
+            "height": 720,
+            "controls": true,
+            "poster": "http://127.0.0.1:4199/media/poster.jpg"
+          }
+        },
+        {
+          "width": 1440,
+          "playerMetadata": "pass",
+          "actualPlayback": "pass",
+          "transcript": "pass",
+          "noPageOverflow": "pass",
+          "info": {
+            "duration": 140,
+            "width": 1280,
+            "height": 720,
+            "controls": true,
+            "poster": "http://127.0.0.1:4199/media/poster.jpg"
+          }
+        }
+      ],
+      "errors": []
+    }
+  },
+  "media": {
+    "path": "site/media/portfolio-tour-nl.mp4",
+    "sha256": "72fd2673ed7aa616eb976f2e67c34c34922abf850a820919927712ac1a01101a",
+    "bytes": 1036193,
+    "duration_seconds": 140,
+    "codec": "H.264",
+    "size": "1280x720",
+    "fps": 24,
+    "audio": "none",
+    "captions": "Dutch, burned into a separate band below the unchanged UI",
+    "rights": "Own MIT project UI and synthetic data; Inter raster captions under SIL OFL; no font binary redistributed"
+  },
+  "capture": {
+    "recordedAt": "2026-11-23T18:27:16.085Z",
+    "type": "Actual public showcase interactions; recorded evidence replays remain replays",
+    "scenes": [
+      {
+        "id": "01-overview",
+        "url": "https://phlppgdfry.github.io/ai-transformation-playbook/",
+        "start": 2.371,
+        "duration": 10,
+        "assertions": "passed",
+        "errors": []
+      },
+      {
+        "id": "02-business",
+        "url": "https://phlppgdfry.github.io/ai-transformation-playbook/console/",
+        "start": 1.675,
+        "duration": 20,
+        "capturedAt": "2026-11-23T18:38:19.790Z",
+        "assertions": "passed",
+        "errors": []
+      },
+      {
+        "id": "03-accounting",
+        "url": "https://phlppgdfry.github.io/enterprise-ai-accounting-copilot/",
+        "start": 2.139,
+        "duration": 20,
+        "assertions": "passed",
+        "errors": []
+      },
+      {
+        "id": "04-workflow",
+        "url": "https://phlppgdfry.github.io/agentic-workflow-platform/",
+        "start": 2.185,
+        "duration": 20,
+        "capturedAt": "2026-11-23T18:38:44.421Z",
+        "assertions": "passed",
+        "errors": []
+      },
+      {
+        "id": "05-knowledge",
+        "url": "https://phlppgdfry.github.io/azure-ai-rag-knowledge-assistant/",
+        "start": 2.309,
+        "duration": 20,
+        "assertions": "passed",
+        "errors": []
+      },
+      {
+        "id": "06-evaluation",
+        "url": "https://phlppgdfry.github.io/enterprise-ai-evals-governance/",
+        "start": 2.047,
+        "duration": 20,
+        "capturedAt": "2026-11-23T18:39:09.895Z",
+        "assertions": "passed",
+        "errors": []
+      },
+      {
+        "id": "07-microsoft",
+        "url": "https://phlppgdfry.github.io/microsoft-copilot-studio-automation/",
+        "start": 2.074,
+        "duration": 20,
+        "assertions": "passed",
+        "errors": []
+      },
+      {
+        "id": "08-limits",
+        "url": "https://phlppgdfry.github.io/ai-transformation-playbook/",
+        "start": 2.257,
+        "duration": 10,
+        "assertions": "passed",
+        "errors": []
+      }
+    ]
+  },
+  "publication": "This is the local pre-publication verification record. Hosted deployment and live playback must be checked separately; a push is not proof of publication.",
+  "not_performed": [
+    "new paid/cloud/model execution",
+    "personal ownership exercises",
+    "author voice recording",
+    "CV/LinkedIn publication",
+    "outreach or applications",
+    "fresh full regression run of the other five backends"
+  ]
+}

@@ -53,7 +53,7 @@ Services own separate state and authority. A model proposes; the server checks p
 
 ## Demonstration
 
-1. **See:** browse the [actual screenshot gallery](career-launch/assets/README.md) or inspect a [three-minute recording script](career-launch/DEMO-SCRIPT.md). A new finished video has not been recorded.
+1. **See:** watch the [2:20 captioned portfolio tour](career-launch/video/README.md), open the [Dutch start guide](career-launch/START-HIER-NL.md), or browse the [actual screenshot gallery](career-launch/assets/README.md). The tour shows browser demos and explicitly labelled evidence replays; the original full local API recording script remains a separate route.
 2. **Run:** install the five sibling APIs using their independent READMEs, then run `python3 -m integration.scenario --root ..` from this repository. It starts temporary local services and runs the deterministic scenario. [Exact setup and cleanup](../integration/README.md).
 3. **Review:** use the [recording guide](career-launch/RECORDING-GUIDE.md) to open the calculator, invoice review, tool receipts and evaluation controls. The optional installed-Qwen mode is labelled separately; a provider failure is never presented as a fixture success.
 
@@ -77,4 +77,4 @@ The next evidence of personal ownership is practical: explain one boundary, trac
 
 ## Next steps
 
-Record the existing demonstration, review the website integration, complete the ownership exercises and tailor applications toward business/functional analysis, AI implementation and technical product analysis. Senior leadership is a long-term direction requiring experience, not a current qualification. [Career positioning](career-launch/CAREER-POSITIONING.md) · [human action checklist](career-launch/FINAL-CHECKLIST.md). No runtime expansion is needed for this presentation phase.
+Use the recorded tour and live showcases, complete the ownership exercises and tailor applications toward business/functional analysis, AI implementation and technical product analysis. Senior leadership is a long-term direction requiring experience, not a current qualification. [Career positioning](career-launch/CAREER-POSITIONING.md) · [human action checklist](career-launch/FINAL-CHECKLIST.md). No runtime expansion is needed for this presentation phase.

@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-11-23T18:27:16.085Z",
+  "duration_seconds": 140,
+  "audio": "none",
+  "editing": "Real browser recordings, trimmed and concatenated; caption band added below unmodified UI. No generated app screens or synthetic voice.",
+  "scenes": [
+    {
+      "id": "01-overview",
+      "start_seconds": 0,
+      "duration_seconds": 10,
+      "source_url": "https://phlppgdfry.github.io/ai-transformation-playbook/",
+      "heading": "Een bedrijfsprobleem, zes onderdelen",
+      "caption": "Onafhankelijk AI-ondersteund portfolio. Fictieve accountingcase; geen klantresultaten."
+    },
+    {
+      "id": "02-business",
+      "start_seconds": 10,
+      "duration_seconds": 20,
+      "source_url": "https://phlppgdfry.github.io/ai-transformation-playbook/console/",
+      "heading": "1 / Businesscase: aannames zichtbaar maken",
+      "caption": "Interactieve browserberekening. Adoptie op nul geeft geen vrijgemaakte capaciteit; geen gerealiseerde besparing."
+    },
+    {
+      "id": "03-accounting",
+      "start_seconds": 30,
+      "duration_seconds": 20,
+      "source_url": "https://phlppgdfry.github.io/enterprise-ai-accounting-copilot/",
+      "heading": "2 / Factuurcontrole: regels boven overtuigende taal",
+      "caption": "Interactieve browsercontroles: een cent verschil wordt afgewezen; een onbekende leverancier vraagt review. Geen API-opslag."
+    },
+    {
+      "id": "04-workflow",
+      "start_seconds": 50,
+      "duration_seconds": 20,
+      "source_url": "https://phlppgdfry.github.io/agentic-workflow-platform/",
+      "heading": "3 / Agentworkflow: model stelt voor, mensen beslissen",
+      "caption": "Replay van een eerder vastgelegde echte lokale Qwen-run. Geen nieuwe modelaanroep; de CRM-actie is een lokale mock."
+    },
+    {
+      "id": "05-knowledge",
+      "start_seconds": 70,
+      "duration_seconds": 20,
+      "source_url": "https://phlppgdfry.github.io/azure-ai-rag-knowledge-assistant/",
+      "heading": "4 / Kennis: eerst toegang, daarna zoeken",
+      "caption": "Interactieve browserdemo met synthetische bronnen. Finance krijgt geen HR-bron; HR kan de toegestane bron vinden."
+    },
+    {
+      "id": "06-evaluation",
+      "start_seconds": 90,
+      "duration_seconds": 20,
+      "source_url": "https://phlppgdfry.github.io/enterprise-ai-evals-governance/",
+      "heading": "5 / Evaluatie: ook onveilige antwoorden testen",
+      "caption": "Vergelijking van twee bestaande evaluatierapporten. De onveilige controle hoort te falen; dit bewijst geen algemene AI-veiligheid."
+    },
+    {
+      "id": "07-microsoft",
+      "start_seconds": 110,
+      "duration_seconds": 20,
+      "source_url": "https://phlppgdfry.github.io/microsoft-copilot-studio-automation/",
+      "heading": "6 / Microsoft: voorstellen is niet goedkeuren",
+      "caption": "Replay van de lokale API-demo: eerst weigeren, dan reviewer, dan executor. Geen live Copilot Studio- of Dataverse-uitvoering."
+    },
+    {
+      "id": "08-limits",
+      "start_seconds": 130,
+      "duration_seconds": 10,
+      "source_url": "https://phlppgdfry.github.io/ai-transformation-playbook/",
+      "heading": "Bekijk het bewijs en oefen zelf",
+      "caption": "Azure OCR/inference en de volledige Copilot-runtime blijven ongeverifieerd. Code, demo en leerplan staan in het portfolio."
+    }
+  ]
+}

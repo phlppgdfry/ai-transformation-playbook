@@ -4,6 +4,8 @@ The Career Launch package is merged into main, and the bilingual accounting case
 
 | Reader / purpose | Start here |
 |---|---|
+| Nederlandstalige start | [Start hier: kijken, demonstreren en zelfstandig leren](START-HIER-NL.md) |
+| Video, 2:20 | [Echte browseropnamen met Nederlandse captions](video/README.md) |
 | Recruiter, 60 seconds | [Recruiter brief](RECRUITER-BRIEF.md) |
 | Business reviewer, five minutes | [Central case study](../SHOWCASE.md), then [recording script](DEMO-SCRIPT.md) |
 | Engineer, twenty minutes | [Release handover](../release-2026-11-01/FINAL-HANDOVER.md), [prior technical walkthrough](../release-2026-10-31/HANDOVER.md), [current baseline](evidence/baseline.json) |

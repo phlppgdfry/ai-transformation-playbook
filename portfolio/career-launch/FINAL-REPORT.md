@@ -49,10 +49,16 @@ Vercel production deployment `dpl_AbwWH3fiNGzDiZNrzpWFYAnFqcz6` is READY at [the
 
 **OPTIONAL:** eight Fast Refresh warnings, large bundle warning, broader accessibility and browser coverage. No feature expansion is required to finish this release.
 
-**FUTURE LEARNING / human tasks:** complete ownership exercises, personally review career claims, record an actual video, update CV/LinkedIn and apply to real roles. These were prepared, not performed on the author's behalf. Azure inference/OCR, complete Copilot Studio runtime and personal mastery remain unverified; no customer savings or deployments are invented.
+**FUTURE LEARNING / human tasks:** complete ownership exercises, personally review career claims, optionally record a personal spoken walkthrough, update CV/LinkedIn and apply to real roles. These were prepared, not performed on the author's behalf. Azure inference/OCR, complete Copilot Studio runtime and personal mastery remain unverified; no customer savings or deployments are invented.
 
 ## Operations and freeze
 
 Previous known-good deployment: `dpl_B1DssNkGShTgvuuEdW17BL7Z762V`. If a confirmed production regression occurs, use the existing authorized Vercel rollback mechanism with that exact target, then verify the domain. Rollback was not needed or executed.
 
 The code release can now be frozen. Preserve existing branches and milestone tags. Further work is personal learning, recording and external review, or a concrete new defect—not another portfolio feature cycle. Final report publication is documentation-only and must retain passing CI. The final merged report revision is visible in GitHub history and recorded in the delivery response.
+
+## Presentation completion — 23 November 2026
+
+Added a [Dutch start guide](START-HIER-NL.md) and a [2:20 captioned tour](video/README.md) with authentic new recordings of all six public showcases. It is silent, contains a complete transcript and provenance, and explicitly distinguishes interactive browser logic from replayed Qwen/API/evaluation evidence. No new cloud/model call, client result, personal testimony or runtime feature is implied. The tour is embedded in the existing public playbook showcase; the private website source is untouched.
+
+The current playbook passed 11 tests and all 45 browser/Python business-case parity fixtures. Earlier release counts above remain historical, not a new test run of the other five backends. Media/browser verification and final publication references are retained in [the dated follow-up evidence](evidence/presentation-2026-11-23.json). Personal exercises, CV/LinkedIn posting, outreach and applications remain human actions. No new feature cycle is needed.

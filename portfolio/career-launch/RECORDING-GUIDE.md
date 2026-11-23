@@ -1,5 +1,7 @@
 # Recording guide
 
+A separate [2:20 browser-tour video](video/README.md) is available with Dutch captions and transcript. The instructions below remain for personally recording the full local API demonstration.
+
 ## Prepare the existing demonstration
 
 Clone/install the six repositories as sibling directories, with a separate locked `.venv` for each API; follow their READMEs or clean-install guide. The playbook needs only Python. Use synthetic data and fixture mode. No cloud credential, new model or video-generation pipeline is required.
