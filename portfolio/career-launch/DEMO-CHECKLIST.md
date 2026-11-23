@@ -29,4 +29,4 @@
 - [ ] Publication destination/link works; website/LinkedIn copy points to an actual video.
 - [ ] Runner and calculator stopped normally; session file removed.
 
-Current task status: recording package prepared; video recording and publication NOT PERFORMED. The checklist is for the author, not pre-ticked proof of independent execution.
+Current status: a separate [captioned public-showcase tour](video/README.md) has been recorded and verified. It is not a recording of the full local API scenario described above. This checklist remains for that future personal take; it is not pre-ticked proof of the author’s independent execution.

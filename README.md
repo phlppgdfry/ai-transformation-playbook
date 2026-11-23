@@ -10,6 +10,8 @@
 
 One fictional accounting practice, six independently runnable engineering components. Follow the case from process discovery and a transparent business case to invoice review, controlled AI tool proposals, authorized knowledge access, evaluation and a restricted Microsoft connector artifact.
 
+**Nederlandstalig beginnen:** [startgids](portfolio/career-launch/START-HIER-NL.md) · [video van 2:20](portfolio/career-launch/video/README.md).
+
 **Career launch:** [recruiter brief](portfolio/career-launch/RECRUITER-BRIEF.md) · [career materials and ownership plan](portfolio/career-launch/README.md).
 
 **Start here:** [case study and architecture](portfolio/SHOWCASE.md) · [v1.0 publication and final handover](portfolio/release-2026-11-01/FINAL-HANDOVER.md) · [recruiter and interview handover](portfolio/release-2026-10-31/HANDOVER.md) · [hands-on ownership exercises](portfolio/release-2026-10-30/LEARNING.md).
